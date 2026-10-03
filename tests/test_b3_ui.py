@@ -23,10 +23,12 @@ class UIIntegrationTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):cls.app=QApplication.instance() or QApplication([])
     def setUp(self):
-        self.temp=tempfile.TemporaryDirectory();self.root=Path(self.temp.name)
+        self.temp=tempfile.TemporaryDirectory();self.root=Path(self.temp.name).resolve()
         self.settings=AppSettings(str(self.root/'settings.json'));self.settings.set('download_path',str(self.root))
         self.history=HistoryService(str(self.root/'history.json'))
         self.patches=[patch('gui.main_window.AppSettings',return_value=self.settings),patch('gui.main_window.DownloadHistory',return_value=self.history),patch('gui.main_window.show_error')]
+        # UI queue tests do not execute media tools; runtime checks have their own suite.
+        self.patches.append(patch('core.runtime_manager.tool_path',side_effect=lambda name,*args,**kwargs:'fixture-ffmpeg' if name=='ffmpeg' else None))
         for p in self.patches:p.start()
         self.window=MainWindow();self.d=self.window._downloader
         self.d.urls._text_edit.setPlainText('https://www.youtube.com/watch?v=test')
