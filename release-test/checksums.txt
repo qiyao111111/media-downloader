@@ -1,0 +1,2 @@
+722a7363bbec652ff9164185cd64d5de22dd243beae466cf675a9e0597ed6425  MediaDownloader-Portable.zip
+be9e04cc7569643c94f64e08a309f8090e9feec415e8b5c1cbb36577bff5a29d  MediaDownloader-Setup.exe

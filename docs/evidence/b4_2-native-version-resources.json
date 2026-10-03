@@ -1,0 +1,722 @@
+[
+  {
+    "version_info": {
+      "LegalCopyright": "Original project © 2023 Gaius Pluto; contributors",
+      "ProductVersion": "0.9.0rc1",
+      "FileVersion": "0.9.0rc1",
+      "CompanyName": "Media Downloader Contributors"
+    },
+    "path": "MediaDownloader.exe"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) 2000-2026 FFmpeg Project",
+      "ProductVersion": "n8.1.3-14-g330caae0c1-20261001",
+      "FileVersion": "62.28.103",
+      "CompanyName": "FFmpeg Project"
+    },
+    "path": "bin/avcodec-62.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) 2000-2026 FFmpeg Project",
+      "ProductVersion": "n8.1.3-14-g330caae0c1-20261001",
+      "FileVersion": "62.3.103",
+      "CompanyName": "FFmpeg Project"
+    },
+    "path": "bin/avdevice-62.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) 2000-2026 FFmpeg Project",
+      "ProductVersion": "n8.1.3-14-g330caae0c1-20261001",
+      "FileVersion": "11.14.103",
+      "CompanyName": "FFmpeg Project"
+    },
+    "path": "bin/avfilter-11.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) 2000-2026 FFmpeg Project",
+      "ProductVersion": "n8.1.3-14-g330caae0c1-20261001",
+      "FileVersion": "62.12.103",
+      "CompanyName": "FFmpeg Project"
+    },
+    "path": "bin/avformat-62.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) 2000-2026 FFmpeg Project",
+      "ProductVersion": "n8.1.3-14-g330caae0c1-20261001",
+      "FileVersion": "60.26.103",
+      "CompanyName": "FFmpeg Project"
+    },
+    "path": "bin/avutil-60.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "bin/ffmpeg.exe"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "bin/ffplay.exe"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "bin/ffprobe.exe"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) 2000-2026 FFmpeg Project",
+      "ProductVersion": "n8.1.3-14-g330caae0c1-20261001",
+      "FileVersion": "6.3.103",
+      "CompanyName": "FFmpeg Project"
+    },
+    "path": "bin/swresample-6.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) 2000-2026 FFmpeg Project",
+      "ProductVersion": "n8.1.3-14-g330caae0c1-20261001",
+      "FileVersion": "9.5.103",
+      "CompanyName": "FFmpeg Project"
+    },
+    "path": "bin/swscale-9.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "© Deno contributors & Deno Land Inc. MIT licensed.",
+      "ProductVersion": "2.9.7",
+      "FileVersion": "2.9.7",
+      "CompanyName": ""
+    },
+    "path": "bin/runtime/deno.exe"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_asyncio.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_bz2.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_ctypes.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_decimal.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_elementtree.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_hashlib.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_lzma.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_multiprocessing.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_overlapped.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_queue.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_socket.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_sqlite3.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_ssl.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_uuid.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/_wmi.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright 1998-2026 The OpenSSL Authors. All rights reserved.",
+      "ProductVersion": "3.0.19",
+      "FileVersion": "3.0.19",
+      "CompanyName": "The OpenSSL Project, https://www.openssl.org/"
+    },
+    "path": "_internal/libcrypto-3.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "_internal/libffi-8.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright 1998-2026 The OpenSSL Authors. All rights reserved.",
+      "ProductVersion": "3.0.19",
+      "FileVersion": "3.0.19",
+      "CompanyName": "The OpenSSL Project, https://www.openssl.org/"
+    },
+    "path": "_internal/libssl-3.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/pyexpat.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/python3.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/python313.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/select.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Unspecified",
+      "ProductVersion": "3.50.4.0",
+      "FileVersion": "3.50.4.0",
+      "CompanyName": "SQLite3"
+    },
+    "path": "_internal/sqlite3.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright © 2001-2024 Python Software Foundation. Copyright © 2000 BeOpen.com. Copyright © 1995-2001 CNRI. Copyright © 1991-1995 SMC.",
+      "ProductVersion": "3.13.13",
+      "FileVersion": "3.13.13",
+      "CompanyName": "Python Software Foundation"
+    },
+    "path": "_internal/unicodedata.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+      "ProductVersion": "14.42.34438.0",
+      "FileVersion": "14.42.34438.0",
+      "CompanyName": "Microsoft Corporation"
+    },
+    "path": "_internal/VCRUNTIME140_1.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+      "ProductVersion": "14.42.34438.0",
+      "FileVersion": "14.42.34438.0",
+      "CompanyName": "Microsoft Corporation"
+    },
+    "path": "_internal/VCRUNTIME140.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+      "ProductVersion": "14.44.35211.0",
+      "FileVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation"
+    },
+    "path": "_internal/PySide6/MSVCP140_1.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+      "ProductVersion": "14.44.35211.0",
+      "FileVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation"
+    },
+    "path": "_internal/PySide6/MSVCP140_2.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+      "ProductVersion": "14.44.35211.0",
+      "FileVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation"
+    },
+    "path": "_internal/PySide6/MSVCP140.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "_internal/PySide6/pyside6.abi3.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/Qt6Core.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/Qt6Gui.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/Qt6Network.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/Qt6OpenGL.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/Qt6Svg.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/Qt6Widgets.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "_internal/PySide6/QtCore.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "_internal/PySide6/QtGui.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "_internal/PySide6/QtNetwork.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "_internal/PySide6/QtWidgets.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+      "ProductVersion": "14.44.35211.0",
+      "FileVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation"
+    },
+    "path": "_internal/PySide6/VCRUNTIME140_1.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+      "ProductVersion": "14.44.35211.0",
+      "FileVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation"
+    },
+    "path": "_internal/PySide6/VCRUNTIME140.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/generic/qtuiotouchplugin.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/iconengines/qsvgicon.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/imageformats/qgif.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/imageformats/qicns.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/imageformats/qico.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/imageformats/qjpeg.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/imageformats/qsvg.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/imageformats/qtga.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/imageformats/qtiff.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/imageformats/qwbmp.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/imageformats/qwebp.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/networkinformation/qnetworklistmanager.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/platforms/qdirect2d.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/platforms/qminimal.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/platforms/qoffscreen.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/platforms/qwindows.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/styles/qmodernwindowsstyle.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/tls/qcertonlybackend.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/tls/qopensslbackend.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "ProductVersion": "6.11.2.0",
+      "FileVersion": "6.11.2.0",
+      "CompanyName": "The Qt Company Ltd."
+    },
+    "path": "_internal/PySide6/plugins/tls/qschannelbackend.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+      "ProductVersion": "14.44.35211.0",
+      "FileVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation"
+    },
+    "path": "_internal/shiboken6/MSVCP140.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "_internal/shiboken6/Shiboken.pyd"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "_internal/shiboken6/shiboken6.abi3.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+      "ProductVersion": "14.44.35211.0",
+      "FileVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation"
+    },
+    "path": "_internal/shiboken6/VCRUNTIME140_1.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+      "ProductVersion": "14.44.35211.0",
+      "FileVersion": "14.44.35211.0",
+      "CompanyName": "Microsoft Corporation"
+    },
+    "path": "_internal/shiboken6/VCRUNTIME140.dll"
+  },
+  {
+    "version_info": {
+      "LegalCopyright": null,
+      "ProductVersion": null,
+      "FileVersion": null,
+      "CompanyName": null
+    },
+    "path": "_internal/yaml/_yaml.cp313-win_amd64.pyd"
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "name": "1080",
+    "url": "https://www.youtube.com/watch?v=E86EwGT_c2M",
+    "title": "Xiaomi 11T Pro 5G 8K Sample Video ( 7680 × 4320)",
+    "uploader": "Tech Travel Geeks",
+    "duration": 155,
+    "formats": 53,
+    "height": 4320,
+    "fps": 30.0,
+    "dynamic_range": "SDR",
+    "chips": [
+      "8K",
+      "4320P",
+      "30 FPS",
+      "AV1",
+      "SDR"
+    ],
+    "selection": "571+251",
+    "thumbnail_loaded": true
+  },
+  {
+    "name": "4k",
+    "url": "https://www.youtube.com/watch?v=E86EwGT_c2M",
+    "title": "Xiaomi 11T Pro 5G 8K Sample Video ( 7680 × 4320)",
+    "uploader": "Tech Travel Geeks",
+    "duration": 155,
+    "formats": 53,
+    "height": 4320,
+    "fps": 30.0,
+    "dynamic_range": "SDR",
+    "chips": [
+      "8K",
+      "4320P",
+      "30 FPS",
+      "AV1",
+      "SDR"
+    ],
+    "selection": "571+251"
+  },
+  {
+    "name": "8k",
+    "url": "https://www.youtube.com/watch?v=E86EwGT_c2M",
+    "title": "Xiaomi 11T Pro 5G 8K Sample Video ( 7680 × 4320)",
+    "uploader": "Tech Travel Geeks",
+    "duration": 155,
+    "formats": 53,
+    "height": 4320,
+    "fps": 30.0,
+    "dynamic_range": "SDR",
+    "chips": [
+      "8K",
+      "4320P",
+      "30 FPS",
+      "AV1",
+      "SDR"
+    ],
+    "selection": "571+251"
+  },
+  {
+    "name": "8k60-hdr",
+    "url": "https://www.youtube.com/watch?v=hVvEISFw9w0",
+    "title": "Morocco 8K HDR 60FPS (FUHD)",
+    "uploader": "Jacob + Katie Schwarz",
+    "duration": 296,
+    "formats": 70,
+    "height": 4320,
+    "fps": 60.0,
+    "dynamic_range": "HDR10",
+    "chips": [
+      "8K",
+      "4320P",
+      "60 FPS",
+      "AV1",
+      "HDR10"
+    ],
+    "selection": "702+140"
+  },
+  {
+    "name": "audio",
+    "url": "https://www.youtube.com/watch?v=E86EwGT_c2M",
+    "title": "Xiaomi 11T Pro 5G 8K Sample Video ( 7680 × 4320)",
+    "uploader": "Tech Travel Geeks",
+    "duration": 155,
+    "formats": 53,
+    "height": 4320,
+    "fps": 30.0,
+    "dynamic_range": "SDR",
+    "chips": [
+      "8K",
+      "4320P",
+      "30 FPS",
+      "AV1",
+      "SDR"
+    ],
+    "selection": "571+251"
+  },
+  {
+    "name": "cancel-retry",
+    "url": "https://www.youtube.com/watch?v=E86EwGT_c2M",
+    "title": "Xiaomi 11T Pro 5G 8K Sample Video ( 7680 × 4320)",
+    "uploader": "Tech Travel Geeks",
+    "duration": 155,
+    "formats": 53,
+    "height": 4320,
+    "fps": 30.0,
+    "dynamic_range": "SDR",
+    "chips": [
+      "8K",
+      "4320P",
+      "30 FPS",
+      "AV1",
+      "SDR"
+    ],
+    "selection": "571+251"
+  }
+]

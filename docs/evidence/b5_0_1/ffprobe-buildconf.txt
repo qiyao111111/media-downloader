@@ -1,0 +1,64 @@
+ffprobe version 8.1.3-g330caae0c1-md-b43-r2 Copyright (c) 2007-2026 the FFmpeg developers
+  built with clang version 23.1.2 (https://github.com/llvm/llvm-project.git 85ac560262434c9ccfc0c183ec22d4138ed647fb)
+  configuration: --prefix='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/native-build/prefix' --target-os=mingw32 --arch=x86_64 --cc='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/x86_64-w64-mingw32-clang.exe' --ld='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/x86_64-w64-mingw32-clang.exe' --ar='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/llvm-ar.exe' --ranlib='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/llvm-ranlib.exe' --nm='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/llvm-nm.exe' --strip='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/llvm-strip.exe' --pkg-config=/usr/bin/pkgconf.exe --pkg-config-flags=--static --extra-cflags='-I/d/YOUTUB~1/YT-DLP~1/TOOLS~1/b43/NATIVE~2/prefix/include' --extra-ldflags='-L/d/YOUTUB~1/YT-DLP~1/TOOLS~1/b43/NATIVE~2/prefix/lib' --extra-version=g330caae0c1-md-b43-r2 --disable-everything --disable-autodetect --disable-gpl --disable-nonfree --disable-version3 --disable-avdevice --disable-doc --disable-debug --disable-ffplay --disable-network --enable-shared --disable-static --enable-w32threads --disable-pthreads --enable-ffmpeg --enable-ffprobe --enable-libdav1d --enable-libopus --enable-libmp3lame --enable-zlib --enable-libwebp --enable-libvpx --enable-libopenh264 --enable-decoder='h264,vp9,libdav1d,opus,aac,mp3,flac,vorbis,mpeg4,pcm_s16le,pcm_s16be,pcm_f32le,pcm_f64le,alac,mjpeg,png,webp,subrip,webvtt,ass,mov_text' --enable-encoder='libmp3lame,libopus,aac,flac,pcm_s16le,wrapped_avframe,mjpeg,png,mov_text,subrip,webvtt,ass,libwebp,libvpx_vp9,libopenh264,flv' --enable-demuxer='mov,matroska,ogg,mp3,aac,flac,wav,mjpeg,image2,image2pipe,srt,webvtt,ass,concat,avi,flv,lrc,ffmetadata' --enable-muxer='mp4,mov,ipod,matroska,webm,webp,ogg,mp3,adts,flac,wav,null,image2,image2pipe,srt,webvtt,ass,avi,flv,lrc' --enable-parser='aac,h264,vp9,av1,mpegaudio,flac,opus,mpeg4video,vorbis' --enable-bsf='aac_adtstoasc,extract_extradata,h264_mp4toannexb,av1_frame_merge,av1_frame_split,vp9_superframe,vp9_superframe_split,vp9_metadata,dump_extra,mjpeg2jpeg' --enable-filter='aformat,aresample,anull,null,format,scale' --enable-protocol='file,pipe,concat'
+  libavutil      60. 26.103 / 60. 26.103
+  libavcodec     62. 28.103 / 62. 28.103
+  libavformat    62. 12.103 / 62. 12.103
+  libavfilter    11. 14.103 / 11. 14.103
+  libswscale      9.  5.103 /  9.  5.103
+  libswresample   6.  3.103 /  6.  3.103
+
+  configuration:
+    --prefix='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/native-build/prefix'
+    --target-os=mingw32
+    --arch=x86_64
+    --cc='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/x86_64-w64-mingw32-clang.exe'
+    --ld='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/x86_64-w64-mingw32-clang.exe'
+    --ar='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/llvm-ar.exe'
+    --ranlib='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/llvm-ranlib.exe'
+    --nm='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/llvm-nm.exe'
+    --strip='/d/YouTube视频下载/yt-dlp-gui/.tools/b43/toolchains/llvm-mingw-20260922-ucrt-x86_64/bin/llvm-strip.exe'
+    --pkg-config=/usr/bin/pkgconf.exe
+    --pkg-config-flags=--static
+    --extra-cflags='-I/d/YOUTUB
+    1/YT-DLP
+    1/TOOLS
+    1/b43/NATIVE
+    2/prefix/include'
+    --extra-ldflags='-L/d/YOUTUB
+    1/YT-DLP
+    1/TOOLS
+    1/b43/NATIVE
+    2/prefix/lib'
+    --extra-version=g330caae0c1-md-b43-r2
+    --disable-everything
+    --disable-autodetect
+    --disable-gpl
+    --disable-nonfree
+    --disable-version3
+    --disable-avdevice
+    --disable-doc
+    --disable-debug
+    --disable-ffplay
+    --disable-network
+    --enable-shared
+    --disable-static
+    --enable-w32threads
+    --disable-pthreads
+    --enable-ffmpeg
+    --enable-ffprobe
+    --enable-libdav1d
+    --enable-libopus
+    --enable-libmp3lame
+    --enable-zlib
+    --enable-libwebp
+    --enable-libvpx
+    --enable-libopenh264
+    --enable-decoder='h264,vp9,libdav1d,opus,aac,mp3,flac,vorbis,mpeg4,pcm_s16le,pcm_s16be,pcm_f32le,pcm_f64le,alac,mjpeg,png,webp,subrip,webvtt,ass,mov_text'
+    --enable-encoder='libmp3lame,libopus,aac,flac,pcm_s16le,wrapped_avframe,mjpeg,png,mov_text,subrip,webvtt,ass,libwebp,libvpx_vp9,libopenh264,flv'
+    --enable-demuxer='mov,matroska,ogg,mp3,aac,flac,wav,mjpeg,image2,image2pipe,srt,webvtt,ass,concat,avi,flv,lrc,ffmetadata'
+    --enable-muxer='mp4,mov,ipod,matroska,webm,webp,ogg,mp3,adts,flac,wav,null,image2,image2pipe,srt,webvtt,ass,avi,flv,lrc'
+    --enable-parser='aac,h264,vp9,av1,mpegaudio,flac,opus,mpeg4video,vorbis'
+    --enable-bsf='aac_adtstoasc,extract_extradata,h264_mp4toannexb,av1_frame_merge,av1_frame_split,vp9_superframe,vp9_superframe_split,vp9_metadata,dump_extra,mjpeg2jpeg'
+    --enable-filter='aformat,aresample,anull,null,format,scale'
+    --enable-protocol='file,pipe,concat'

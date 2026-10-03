@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+!build/
+build/*
+!build/MediaDownloader.spec
+!build/installer.iss
+!build/runtime-lock.json
+!build/README.txt
+!build/runtime_hook.py
+!build/license-sources.json
+!build/native-runtime-lock.json
+!build/ChineseSimplified.isl
+!build/installer-language-source.json
+.tools/
+release-test/*.zip
+release-test/*.exe
+release-test/reports/
+bin/
+temp/
+data/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# uv
+uv.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+!docs/evidence/b4_3/*-decode-errors.log
+!docs/evidence/b4_3/*-decode-progress.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Download output
+video/
+*.part
+
+# App runtime data
+configs/app_settings.json
+configs/download_history.json
+configs/user_presets.json
+
+# Synthetic Qt layout fixtures, not acceptance evidence.
+docs/evidence/b5/layout-*/settings.json*
+docs/evidence/b5/layout-*/history.json*
+
+# AI
+.claude/
+
+# Private runtime files
+logs/
+**/cookies.txt
+**/cookies*.txt
+.env
+.env.*
+*.pem
+*.key

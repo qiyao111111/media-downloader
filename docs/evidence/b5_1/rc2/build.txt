@@ -1,0 +1,1507 @@
+143 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+143 INFO: Python: 3.13.13
+165 INFO: Platform: Windows-11-10.0.26200-SP0
+165 INFO: Python environment: D:\YouTube��Ƶ����\yt-dlp-gui\.venv
+167 INFO: Removing temporary files and cleaning cache in C:\Users\thang\AppData\Local\pyinstaller
+1661 INFO: Module search paths (PYTHONPATH):
+['D:\\YouTube��Ƶ����\\yt-dlp-gui',
+ 'C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip',
+ 'C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs',
+ 'C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\Lib',
+ 'C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313',
+ 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv',
+ 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages',
+ 'D:\\YouTube��Ƶ����\\yt-dlp-gui']
+2045 INFO: Appending 'datas' from .spec
+2065 INFO: checking Analysis
+2065 INFO: Building Analysis because Analysis-00.toc is non existent
+2065 INFO: Looking for Python shared library...
+2065 INFO: Using Python shared library: C:\Users\thang\AppData\Local\Programs\Python\Python313\python313.dll
+2065 INFO: Running Analysis Analysis-00.toc
+2065 INFO: Target bytecode optimization level: 0
+2065 INFO: Initializing module dependency graph...
+2067 INFO: Initializing module graph hook caches...
+2100 INFO: Analyzing modules for base_library.zip ...
+2953 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3738 INFO: Processing standard module hook 'hook-math.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3980 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5135 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7381 INFO: Caching module dependency graph...
+7416 INFO: Analyzing D:\YouTube��Ƶ����\yt-dlp-gui\main.py
+7471 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7662 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7999 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8022 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8071 INFO: Processing standard module hook 'hook-PySide6.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8264 INFO: Processing standard module hook 'hook-shiboken6.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8456 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+10254 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12596 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15053 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+31725 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+31781 INFO: Processing standard module hook 'hook-yt_dlp.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\yt_dlp\\__pyinstaller'
+31965 WARNING: collect_data_files - skipping data collection for module 'curl_cffi' as it is not a package.
+32380 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+32768 INFO: Processing standard module hook 'hook-sqlite3.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+47662 INFO: Processing standard module hook 'hook-PySide6.QtSvg.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+48294 INFO: Analyzing hidden import 'yt_dlp.__main__'
+48304 INFO: Analyzing hidden import 'yt_dlp.compat._deprecated'
+48310 INFO: Analyzing hidden import 'yt_dlp.compat._legacy'
+48395 INFO: Analyzing hidden import 'yt_dlp.utils._deprecated'
+48404 INFO: Analyzing hidden import 'yt_dlp.utils._legacy'
+48419 INFO: Processing module hooks (post-graph stage)...
+48582 INFO: Performing binary vs. data reclassification (1191 entries)
+49413 INFO: Looking for ctypes DLLs
+49504 INFO: Analyzing run-time hooks ...
+49504 INFO: Including custom run-time hook 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\build\\runtime_hook.py'
+49517 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+49531 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+49544 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+49554 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+49570 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+49588 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+49629 INFO: Creating base_library.zip...
+49651 INFO: Looking for dynamic libraries
+50223 INFO: Extra DLL search directories (AddDllDirectory): ['D:\\YouTube��Ƶ����\\yt-dlp-gui\\.venv\\Lib\\site-packages\\shiboken6']
+50223 INFO: Extra DLL search directories (PATH): []
+51306 INFO: Warnings written to D:\YouTube��Ƶ����\yt-dlp-gui\build\work\MediaDownloader\warn-MediaDownloader.txt
+51378 INFO: Graph cross-reference written to D:\YouTube��Ƶ����\yt-dlp-gui\build\work\MediaDownloader\xref-MediaDownloader.html
+51465 INFO: checking PYZ
+51465 INFO: Building PYZ because PYZ-00.toc is non existent
+51465 INFO: Building PYZ (ZlibArchive) D:\YouTube��Ƶ����\yt-dlp-gui\build\work\MediaDownloader\PYZ-00.pyz
+52188 INFO: Building PYZ (ZlibArchive) D:\YouTube��Ƶ����\yt-dlp-gui\build\work\MediaDownloader\PYZ-00.pyz completed successfully.
+52247 INFO: checking PKG
+52247 INFO: Building PKG because PKG-00.toc is non existent
+52247 INFO: Building PKG (CArchive) MediaDownloader.pkg
+52311 INFO: Building PKG (CArchive) MediaDownloader.pkg completed successfully.
+52312 INFO: Bootloader D:\YouTube��Ƶ����\yt-dlp-gui\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+52312 INFO: checking EXE
+52312 INFO: Building EXE because EXE-00.toc is non existent
+52312 INFO: Building EXE from EXE-00.toc
+52312 INFO: Copying bootloader EXE to D:\YouTube��Ƶ����\yt-dlp-gui\build\work\MediaDownloader\MediaDownloader.exe
+52378 INFO: Copying icon to EXE
+52411 INFO: Copying version information to EXE
+52451 INFO: Copying 0 resources to EXE
+52451 INFO: Embedding manifest in EXE
+52487 INFO: Appending PKG archive to EXE
+52639 INFO: Fixing EXE headers
+52936 INFO: Building EXE from EXE-00.toc completed successfully.
+52951 INFO: checking COLLECT
+52951 INFO: Building COLLECT because COLLECT-00.toc is non existent
+52951 INFO: Building COLLECT COLLECT-00.toc
+53582 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+53596 INFO: Build complete! The results are available in: D:\YouTube��Ƶ����\yt-dlp-gui\dist
+Adding imports: ['yt_dlp.compat._legacy', 'yt_dlp.compat._deprecated', 'yt_dlp.utils._legacy', 'yt_dlp.utils._deprecated', 'Cryptodome', 'mutagen', 'brotli', 'certifi', 'secretstorage', 'curl_cffi']
+Inno Setup 6 Command-Line Compiler
+Copyright (C) 1997-2026 Jordan Russell. All rights reserved.
+Portions Copyright (C) 2000-2026 Martijn Laan. All rights reserved.
+Portions Copyright (C) 2001-2004 Alex Yackimoff. All rights reserved.
+https://www.innosetup.com
+
+Compiler engine version: Inno Setup 6.7.3
+Non-commercial use only
+
+Preprocessing
+   Reading file: D:\YouTube视频下载\yt-dlp-gui\.tools\inno\ISPPBuiltins.iss
+Parsing [Setup] section, line 8
+Parsing [Setup] section, line 9
+Parsing [Setup] section, line 10
+Parsing [Setup] section, line 11
+Parsing [Setup] section, line 12
+Parsing [Setup] section, line 13
+Parsing [Setup] section, line 14
+Parsing [Setup] section, line 15
+Parsing [Setup] section, line 16
+Parsing [Setup] section, line 17
+Parsing [Setup] section, line 18
+Parsing [Setup] section, line 19
+Parsing [Setup] section, line 20
+Parsing [Setup] section, line 21
+Parsing [Setup] section, line 22
+Parsing [Setup] section, line 23
+Parsing [Setup] section, line 24
+Parsing [Setup] section, line 25
+Parsing [Setup] section, line 26
+Parsing [Setup] section, line 27
+Parsing [Setup] section, line 28
+Parsing [Setup] section, line 29
+Parsing [Setup] section, line 30
+Parsing [Setup] section, line 31
+Reading file (LicenseFile)
+Reading file (WizardImageFile)
+Reading file (WizardSmallImageFile)
+Preparing Setup program executable
+   Verification successful
+   Updating icons (Setup.e32)
+   Updating version info (Setup.e32)
+Determining language code pages
+Parsing [Languages] section, line 33
+   Reading file: D:\YouTube视频下载\yt-dlp-gui\.tools\inno\Default.isl
+Parsing [Languages] section, line 34
+   Reading file: D:\YouTube视频下载\yt-dlp-gui\build\ChineseSimplified.isl
+   Messages in script file
+Reading default messages from Default.isl
+Parsing [Languages] section, line 33
+   Reading file: D:\YouTube视频下载\yt-dlp-gui\.tools\inno\Default.isl
+Parsing [Languages] section, line 34
+   Reading file: D:\YouTube视频下载\yt-dlp-gui\build\ChineseSimplified.isl
+Parsing [LangOptions], [Messages], and [CustomMessages] sections
+   Messages in script file
+Reading [Code] section
+Parsing [Tasks] section, line 41
+Parsing [Icons] section, line 45
+Parsing [Icons] section, line 46
+Parsing [Run] section, line 48
+Parsing [Files] section, line 43
+Creating setup files
+   Verification successful
+   Updating icons (Setup.exe)
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\MediaDownloader.exe
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\README.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\THIRD_PARTY_NOTICES.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\bin\avcodec-62.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\bin\avfilter-11.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\bin\avformat-62.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\bin\avutil-60.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\bin\ffmpeg.exe
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\bin\ffprobe.exe
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\bin\swresample-6.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\bin\swscale-9.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\bin\runtime\qjs.exe
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\Apache-2.0.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\bundle-file-inventory.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\bundled-package-versions.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\dav1d-COPYING.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\dav1d-x86inc-NOTICE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\EJS-Meriyah-Astring-NOTICES.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\FFmpeg-buildconf.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\ffmpeg-COPYING-GPLv2.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\ffmpeg-COPYING-LGPLv2-1.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\ffmpeg-LICENSE-md.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\ffmpeg-SOURCE-NOTICES.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\ffmpeg-x86inc-NOTICE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\Inno-Setup-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\lame-COPYING.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\lame-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\lame-README.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\lame-SOURCE-NOTICES.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\LibYAML-0.2.5-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\LLVM-compiler-rt-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\LLVM-libcxx-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\LLVM-libcxxabi-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\LLVM-libunwind-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\LLVM-runtime-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\MinGW-w64-runtime-NOTICES.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\native-source-provenance.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\openh264-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\OpenSSL-3.0.19-ACKNOWLEDGEMENTS.md
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\OpenSSL-3.0.19-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\opus-COPYING.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\Original-Project-MIT.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\Python-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\Qt-source-attributions.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\quickjs-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\quickjs-SOURCE-NOTICES.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\runtime-provenance.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-provenance.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\vpx-AUTHORS.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\vpx-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\vpx-PATENTS.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\vpx-x86inc-NOTICE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\webp-AUTHORS.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\webp-COPYING.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\webp-PATENTS.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\Winpthreads-LICENSE.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\zlib-README.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\zlib-SOURCE-NOTICES.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\PyInstaller\pyinstaller-6.22.3.dist-info\licenses\COPYING.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\PyInstaller-runtime\pyi_rth_inspect.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\PyInstaller-runtime\pyi_rth_multiprocessing.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\PyInstaller-runtime\pyi_rth_pkgutil.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\PyInstaller-runtime\pyi_rth_pyside6.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\PyInstaller-runtime\_pyi_rth_utils\qt.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\PyInstaller-runtime\_pyi_rth_utils\tempfile.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\PyInstaller-runtime\_pyi_rth_utils\_win32.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\PyInstaller-runtime\_pyi_rth_utils\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\PyYAML\pyyaml-6.0.3.dist-info\licenses\LICENSE
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-code\pyside-setup-everywhere-src-6.11.2.tar.xz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-code\Python-3.13.13.tar.xz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-code\qtbase-everywhere-src-6.11.2.tar.xz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-code\qtimageformats-everywhere-src-6.11.2.tar.xz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-code\qtsvg-everywhere-src-6.11.2.tar.xz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-code\qttranslations-everywhere-src-6.11.2.tar.xz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\pyside\Apache-2.0.txt-6b133d369ba8.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\pyside\bufferprocs_py37.h-66708a4cf730.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\pyside\GPL-3.0-only.txt-5693b956e17a.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\pyside\LGPL-3.0-only.txt-3c2f49eb5899.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\pyside\PSF-3.7.0.txt-e3be00ea367b.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\pyside\qt_attribution.json-0784bfe95a0c.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\pyside\qt_attribution.json-a54f5dae7c06.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\Python\COPYING-1d3dd86f9f83.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\Python\LICENSE-74d81d667bc6.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\Python\license.rst-299687c0b4f7.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\Apache-2.0.txt-41602299885a.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\BDF-LICENSE.txt-87e696a7bcfb.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\BRG_ENDIAN_LICENSE-8062fa1afddd.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\CC0_LICENSE-6c8b2c792f9e.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\COPYING-001098443d7d.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\COPYING-e5b76f4c4720.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\COPYRIGHT.txt-2704aa15ed0e.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\DEJAVU-LICENSE-1f8f9bbfeef3.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\FTL.TXT-00ed1575f20b.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\GPL-3.0-only.txt-59dbbc387704.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\GPLv2.TXT-eeb2a2d7098e.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\ijg-license.txt-804a82e118bc.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LGPL-3.0-only.txt-6575fd4d06f4.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENCE.md-a9f823e6870c.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE-180d31229274.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE-2c5bb8314fe0.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE-42301cdd756f.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE-559dad7de1a5.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE-5e9d5baf1863.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE-783a520ffc18.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE-b5654ed6d6e4.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE-b9ce1789a62a.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE-e598fffe61f6.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE-e98427b00cc0.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE-SLJIT-0c906469b950.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.AGLFN.txt-ddf46a72a20f.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.chromium-9712ac6c1390.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.KHRONOS.txt-14b38bb78ef1.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.md-ed3c8b7a2fc0.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.MiniEngine.txt-7c4d7128473e.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.QEVENTDISPATCHER_CF.txt-a8b36d5d2afd.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.QIMAGETRANSFORM.txt-5ee79b049d0b.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.txt-3bc480cab207.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.txt-3c5dd4a8cdcb.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.txt-8c04bffd6f06.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.txt-a2e7f7e7dc32.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.txt-b855159162aa.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\LICENSE.XCONSORTIUM.txt-b5f5d1916f8f.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\PCF-LICENSE.txt-5d870809e0e8.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\PSL-LICENSE.txt-167ec0fc289f.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-02a3cf9847d7.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-071c1b7e5b2e.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-15d3d99f8cd9.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-1bc0529cbb40.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-250b2e033f0e.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-287b1bbf663f.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-2f8521712a84.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-45a35e2fb9a3.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-471742d31a60.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-4fe3eb6ff8fa.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-5597fb521624.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-56d9dae7afaf.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-5a6cf7870f79.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-5e5636041b68.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-6066ba903b8d.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-61f0b1ebbc3d.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-63f89db66baf.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-6cc41b2c37fa.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-7654d9317637.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-7a4e6bc4d82e.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-7d4f85b4c3f9.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-81b035467ef3.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-8b21064e7f79.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-92b7bc6a00f6.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-97b8f6576019.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-a0da83f09d37.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-ac81f0535f44.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-b5a6713b52fb.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-bb082b8f11f9.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-d0147b2d5c8f.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-d555fafef6cb.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-da3da4d32209.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-eeef019c49cd.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-f33eaf2f70ec.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-fc729d37217f.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\qt_attribution.json-fde66b31ef2e.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtbase\ZLIB-LICENSE.txt-01d4b6fb835b.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtimageformats\COPYING-a96477125991.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtimageformats\COPYRIGHT-448428d3aab6.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtimageformats\GPL-3.0-only.txt-9e3b367e0b5d.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtimageformats\LGPL-3.0-only.txt-5e0979159578.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtimageformats\qt_attribution.json-08bc1709b71c.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtimageformats\qt_attribution.json-814cbbb807d5.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtsvg\GPL-3.0-only.txt-c928c3134e54.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtsvg\LGPL-3.0-only.txt-f9102838d7af.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtsvg\LICENSE.XSVG.txt-b2c14b0a3141.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qtsvg\qt_attribution.json-45026fb07e61.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\source-notices\qttranslations\GPL-3.0-only.txt-c46286a65f7a.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\yt-dlp\yt_dlp-2026.8.19.dist-info\licenses\LICENSE
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\licenses\yt-dlp-ejs\yt_dlp_ejs-0.8.0.dist-info\licenses\LICENSE
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\source-offer\README.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\BUILD_INSTRUCTIONS.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\build_native_runtime.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\commands.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\config.h
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\config.log
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\config.mak
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\config_components.h
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\dav1d.tar.gz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\FFmpeg-330caae0c1acccd2222edc52a05940c574561ce5.tar.gz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\ffversion.h
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\lame-3.100.tar.gz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\meson.ini
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\native-relink-materials.zip
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\native-runtime-lock.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\openh264-2.6.0.tar.gz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\opus.tar.gz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\PATCHES.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\quickjs-ng-0.17.0.tar.gz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\receipt.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\vpx-1.15.2.tar.gz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\webp-1.6.0.tar.gz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\zlib.tar.gz
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\Installer\ChineseSimplified.isl
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\SOURCES\Installer\installer-language-source.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\app.ico
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\base_library.zip
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\libcrypto-3.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\libffi-8.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\libssl-3.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\pyexpat.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\python3.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\python313.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\select.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\sqlite3.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\unicodedata.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\VCRUNTIME140.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\VCRUNTIME140_1.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_asyncio.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_bz2.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_ctypes.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_decimal.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_elementtree.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_hashlib.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_lzma.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_multiprocessing.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_overlapped.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_queue.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_socket.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_sqlite3.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_ssl.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_uuid.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\_wmi.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\configs\yt-dlp.yml
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\gui\styles\base.qss
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\i18n\en_US.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\i18n\zh_CN.json
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\MSVCP140.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\MSVCP140_1.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\MSVCP140_2.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\pyside6.abi3.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\Qt6Core.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\Qt6Gui.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\Qt6Network.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\Qt6OpenGL.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\Qt6Svg.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\Qt6Widgets.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\QtCore.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\QtGui.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\QtNetwork.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\QtSvg.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\QtWidgets.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\VCRUNTIME140.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\VCRUNTIME140_1.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\generic\qtuiotouchplugin.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\iconengines\qsvgicon.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\imageformats\qgif.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\imageformats\qicns.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\imageformats\qico.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\imageformats\qjpeg.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\imageformats\qsvg.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\imageformats\qtga.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\imageformats\qtiff.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\imageformats\qwbmp.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\imageformats\qwebp.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\networkinformation\qnetworklistmanager.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\platforms\qdirect2d.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\platforms\qminimal.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\platforms\qoffscreen.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\platforms\qwindows.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\styles\qmodernwindowsstyle.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\tls\qcertonlybackend.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\tls\qopensslbackend.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\plugins\tls\qschannelbackend.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\PySide6\translations\qtbase_zh_CN.qm
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\shiboken6\MSVCP140.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\shiboken6\Shiboken.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\shiboken6\shiboken6.abi3.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\shiboken6\VCRUNTIME140.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\shiboken6\VCRUNTIME140_1.dll
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yaml\_yaml.cp313-win_amd64.pyd
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\aes.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\cache.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\cookies.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\globals.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\jsinterp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\minicurses.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\options.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\plugins.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\socks.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\update.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\version.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\webvtt.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\YoutubeDL.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\__main__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\compat\compat_utils.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\compat\imghdr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\compat\shutil.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\compat\_deprecated.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\compat\_legacy.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\compat\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\compat\urllib\request.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\compat\urllib\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\dependencies\Cryptodome.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\dependencies\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\bunnycdn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\common.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\dash.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\external.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\f4m.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\fc2.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\fragment.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\hls.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\http.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\ism.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\mhtml.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\niconico.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\rtmp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\soop.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\websocket.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\youtube_live_chat.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\downloader\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\abc.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\abcnews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\abcotvs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\abematv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\academicearth.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\acast.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\acfun.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\adn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\adobeconnect.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\adobepass.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\adobetv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\adultswim.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\aenetworks.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\aeonco.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\afreecatv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\agalega.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\agora.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\aitube.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\alibaba.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\aliexpress.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\aljazeera.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\allocine.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\allstar.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\alphaporno.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\altcensored.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\alura.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\amadeustv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\amara.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\amazon.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\amazonminitv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\amcnetworks.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\americastestkitchen.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\amp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\angel.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\antenna.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\anvato.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\aol.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\apa.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\aparat.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\appleconnect.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\applepodcasts.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\archiveorg.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\arcpublishing.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ard.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\arnes.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\art19.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\arte.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\asobichannel.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\asobistage.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\atresplayer.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\atscaleconf.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\audimedia.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\audioboom.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\audiodraft.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\audiomack.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\audius.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\aws.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\azmedien.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\baidu.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\banbye.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bandcamp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bandlab.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bannedvideo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bbc.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\beacon.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\beatport.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\beeg.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\behindkink.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\berufetv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bet.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bfi.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bfmtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bibeltv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bigo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bild.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bilibili.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\biobiochiletv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bitchute.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bitmovin.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\blackboardcollaborate.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bleacherreport.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\blerp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\blogger.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bloomberg.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bluesky.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bongacams.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\boosty.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bostonglobe.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\box.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\boxcast.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bpb.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\br.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\brainpop.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\breitbart.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\brightcove.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\brilliantpala.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\btvplus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bundesliga.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bundestag.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\bunnycdn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\businessinsider.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\buzzfeed.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\byutv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\c56.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\caltrans.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cam4.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\camfm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cammodels.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\camsoda.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\camtasia.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\canal1.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\canalalpha.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\canalc2.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\canalplus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\canalsurmas.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\caracoltv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cbc.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cbs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cbsnews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cbssports.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ccc.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ccma.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cctv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cda.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cellebrite.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ceskatelevize.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cgtn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\charlierose.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\chaturbate.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\chilloutzone.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\chzzk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cinemax.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cinetecamilano.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cineverse.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ciscolive.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ciscowebex.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cjsw.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\clipchamp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cliprs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\closertotruth.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cloudflarestream.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cloudycdn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\clubic.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\clyp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cnbc.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cnn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\comedycentral.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\common.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\commonmistakes.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\commonprotocols.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\condenast.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\corus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\coub.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cozytv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cpac.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cracked.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\craftsy.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\croatianfilm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\crooksandliars.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\crowdbunker.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\crtvg.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cspan.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ctsnews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ctvnews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cultureunplugged.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\curiositystream.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\cybrary.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dacast.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dailymail.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dailymotion.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dailywire.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\damtomo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dangalplay.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\daum.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\daystar.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dbtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dctp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\democracynow.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\detik.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\deuxm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dfb.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dhm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\digitalconcerthall.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\digiteka.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\digiview.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\discogs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\disney.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dispeak.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dlf.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dlive.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\douyutv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dplay.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\drbonanza.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dreisat.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dropbox.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dropout.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\drtalks.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\drtuber.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\drtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dtube.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dumpert.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\duoplay.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dvtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\dw.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ebaumsworld.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ebay.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\egghead.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\eggs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\elementorembed.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\elonet.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\elpais.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\eltrecetv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\embedly.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\epicon.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\epidemicsound.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\eplus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\epoch.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\eporner.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\erocast.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\eroprofile.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\err.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ertgr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\espn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ettutv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\europa.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\europeantour.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\eurosport.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\euscreen.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\expressen.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\extractors.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\facebook.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\fancode.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\fathom.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\faulio.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\faz.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\fc2.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\fczenit.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\fifa.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\filmarchiv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\filmon.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\filmweb.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\firsttv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\fivetv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\flextv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\flickr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\floatplane.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\folketinget.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\footyroom.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\formula1.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\fourtube.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\fox.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\fox9.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\foxnews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\foxsports.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\fptplay.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\francaisfacile.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\francetv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\freesound.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\freespeech.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\freetv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\frontendmasters.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\frontro.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\funk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\funker530.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\fuyintv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gab.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gaia.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gamedevtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gamejolt.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gamespot.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gamestar.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gaskrank.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gazeta.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gbnews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gdcvault.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gedidigital.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\generic.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\genericembeds.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\genius.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\germanupa.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\getcourseru.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gettr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\giantbomb.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\glide.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\globalplayer.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\globo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\glomex.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gmanetwork.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\go.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\godresource.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\godtube.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\golem.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\goodgame.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\googledrive.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\googlesearch.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\goplay.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gopro.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gotostage.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\graspop.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\gronkh.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\groupon.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\harpodeon.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hbo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hearthisat.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\heise.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hellporno.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hgtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hidive.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\historicfilms.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hitrecord.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hollywoodreporter.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\holodex.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hotnewhiphop.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hotstar.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hrefli.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hrfensehen.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hrti.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hse.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\huajiao.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\huffpost.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hungama.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\huya.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hypem.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hypergryph.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\hytale.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\icareus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ichinanalive.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\idagio.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ign.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\iheart.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ilpost.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\iltalehti.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\imdb.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\imggaming.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\imgur.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ina.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\inc.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\indavideo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\infoq.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\instagram.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\internazionale.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\iprima.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\iqiyi.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\islamchannel.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\israelnationalnews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\itprotv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\itv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ivi.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ivideon.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ivoox.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\iwara.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ixigua.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\jamendo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\japandiet.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\jeuxvideo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\jiosaavn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\jixie.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\joj.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\jove.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\jstream.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\jtbc.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\jwplatform.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kakao.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kaltura.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kankanews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\karaoketv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kelbyone.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kenh14.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\khanacademy.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kick.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kicker.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kickstarter.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kika.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kinopoisk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kommunetv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kompas.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\krasview.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kth.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ku6.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kukululive.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\kuwo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\la7.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\laracasts.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lastfm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\laxarxames.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lazy_extractors.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lbry.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lci.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lcp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\learningonscreen.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lecture2go.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lecturio.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\leeco.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lefigaro.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lego.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lemonde.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lenta.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\libraryofcongress.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\libsyn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lifenews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\likee.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\linkedin.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\liputan6.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\listennotes.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\litv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\livejournal.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\livestreamfails.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lnk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\locipo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\loco.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\loom.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lovehomeporn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lrt.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lsm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\lumni.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\maariv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\magellantv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\magentamusik.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mailru.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mainstreaming.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mangomolo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\manyvids.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\maoritv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\markiza.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\massengeschmacktv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\masters.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\matchitv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\matchtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mave.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mbn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mdr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\medaltv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mediaite.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mediaklikk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\medialaan.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mediaset.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mediasite.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mediastream.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mediaworksnz.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\medici.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\megaphone.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\megatvcom.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\meipai.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\melonvod.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\metacritic.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mgtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\microsoftembed.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\minds.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mir24tv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mirrativ.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mirrorcouk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mit.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mixch.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mixcloud.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mixlr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mlb.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mlssoccer.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mocha.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mojevideo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\monstercat.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\motorsport.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\moviepilot.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\movingimage.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\msn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\muenchentv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\murrtube.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\museai.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\musescore.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mux.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mx3.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mxplayer.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\myspace.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\myspass.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\myvideoge.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\myvidster.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\mzaalo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\n1.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nascar.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nate.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nationalgeographic.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\naver.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nba.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nbc.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ndr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ndtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nebula.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nekohacker.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nest.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\netapp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\neteasemusic.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\netzkino.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\newgrounds.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\newspicks.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\newsy.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nexx.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nfb.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nfhsnetwork.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nfl.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nhk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nhl.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nick.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\niconico.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\niconicochannelplus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ninaprotocol.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ninecninemedia.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ninegag.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ninenews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ninenow.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nintendo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nitter.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nobelprize.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\noice.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nonktube.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\noodlemagazine.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nosnl.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nova.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\novaplay.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nowcanal.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nowness.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\noz.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\npo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\npr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nrk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nrl.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nts.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ntvcojp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ntvde.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ntvru.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nubilesporn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nuevo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nuvid.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nytimes.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nzherald.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nzonscreen.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\nzz.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\odkmedia.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\odnoklassniki.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\oftv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\oktoberfesttv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\olympics.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\omnyfm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\on24.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ondemandkorea.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\onefootball.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\onenewsnz.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\oneplace.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\onet.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\onsen.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\opencast.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\openload.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\openrec.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\orf.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\outsidetv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\owncloud.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\packtpub.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\palcomp3.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pandatv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\panopto.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\parler.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\parlview.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\parti.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\patreon.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pbs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pearvideo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\peekvids.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\peertube.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\peertv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\peloton.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\performgroup.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\periscope.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pgatour.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\philharmoniedeparis.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\phoenix.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\photobucket.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pialive.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\piapro.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\picarto.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\piksel.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pinkbike.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pinterest.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\platzi.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\playerfm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\playsuisse.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\playtvak.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pluralsight.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\plutotv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\plyr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\podbayfm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\podchaser.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\podomatic.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pokergo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\polsatgo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\polskieradio.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\popcorntimes.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\popcorntv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pornbox.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pornflip.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pornhub.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pornotube.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pornovoisines.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pornoxo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pr0gramm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\prankcast.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\premiershiprugby.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\presstv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\projectveritas.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\prx.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\puhutv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\pyvideo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\qdance.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\qingting.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\qqmusic.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\r7.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\radiko.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\radiocanada.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\radiode.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\radiofrance.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\radiojavan.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\radiokapital.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\radioradicale.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\radiozet.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\radlive.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rai.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\raywenderlich.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rbgtum.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rcs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rcti.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rds.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\redbee.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\redbulltv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\reddit.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\redgifs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\redtube.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rentv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\restudy.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\reuters.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\reverbnation.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ridehome.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rinsefm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rockstargames.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rokfin.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\roosterteeth.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rottentomatoes.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\roya.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rozhlas.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rte.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rtl2.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rtlnl.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rtnews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rtp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rtrfm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rts.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rtvcplay.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rtve.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rtvs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rtvslo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rudovideo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rule34video.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rumble.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\rutube.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ruutu.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ruv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\s4c.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\safari.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\saitosan.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\samplefocus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sapo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sauceplus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sbs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sbscokr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\screen9.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\screencast.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\screencastify.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\screencastomatic.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\screenrec.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\scrippsnetworks.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\scrolller.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sejmpl.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sen.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\senalcolombia.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\senategov.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\servus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sevenplus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sexu.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\seznamzpravy.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\shahid.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sharepoint.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\shemaroome.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\shiey.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\showroomlive.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sibnet.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\simplecast.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sina.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\skeb.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sky.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\skyit.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\skylinewebcams.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\skynewsarabia.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\skynewsau.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\slideshare.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\slideslive.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\slutload.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\smotrim.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\snapchat.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\softwhiteunderbelly.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sohu.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sonyliv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\soundcloud.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\soundgasm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\southpark.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sovietscloset.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\spankbang.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\spiegel.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sport5.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sportbox.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sportdeutschland.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\spreaker.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sproutvideo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\srgssr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\srmediathek.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\stacommu.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\stageplus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\startrek.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\startv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\steam.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\storyfire.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\streaks.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\streamable.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\streamcz.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\streetvoice.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\stripchat.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\stv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\subsplash.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\substack.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sunporno.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sverigesradio.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\svt.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\sztvhu.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tagesschau.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\taptap.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tarangplus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tass.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tbs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tbsjp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\teachable.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\teachertube.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\teachingchannel.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\teamcoco.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\teamtreehouse.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ted.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tele13.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tele5.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\telebruxelles.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\telecaribe.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\telecinco.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\telegraaf.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\telegram.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\telemb.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\telemundo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\telequebec.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\teletask.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\telewebion.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tencent.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tennistv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tenplay.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\testurl.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tf1.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tfo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\thechosen.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\theguardian.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\thehighwire.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\theintercept.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\theplatform.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\thestar.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\thesun.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\theweatherchannel.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\thisamericanlife.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\thisoldhouse.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\thisvid.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\threeqsdn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\threespeak.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tiktok.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tmz.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tnaflix.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\toggle.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\toggo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tonline.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\toongoggles.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\toutiao.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\toutv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\toypics.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\trtcocuk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\trtworld.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\trueid.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\trunews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\truth.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tube8.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tubetugraz.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tubitv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tumblr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tunein.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\turner.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tv2.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tv24ua.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tv2dk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tv2hu.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tv4.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tv5mondeplus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tv5unis.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tva.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tvanouvelles.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tvc.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tver.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tvigle.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tviplayer.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tvn24.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tvnoe.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tvo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tvopengr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tvp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tvplay.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tvw.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\tweakers.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\twentymin.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\twentythreevideo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\twitcasting.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\twitch.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\twitter.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\txxx.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\udemy.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\udn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ufctv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ukcolumn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\uliza.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\umg.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\unistra.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\unitednations.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\unity.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\unsupported.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\uol.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\uplynk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\urort.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\urplay.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\usanetwork.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\usatoday.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ustream.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ustudio.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\varzesh3.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vbox7.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\veo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vevo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vgtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vh1.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vice.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\viddler.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\videa.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\videocampus_sachsen.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\videoken.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\videopress.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vidflex.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vidio.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vidlii.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vidly.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vidyard.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\viewlift.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\viidea.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vimeo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\viously.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\viqeo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\visir.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\viu.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vocaroo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vodplatform.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\voicy.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\volejtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\voxmedia.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vrsquare.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vrt.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vtm.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\vtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\walla.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\washingtonpost.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wat.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wdr.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\webcamerapl.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\webcaster.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\webofstories.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\weibo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\weiqitv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\weverse.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wevidi.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\whowatch.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\whyp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wikimedia.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wimbledon.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wimtv.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wistia.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wordpress.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\worldstarhiphop.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wppilot.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wrestleuniverse.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wsj.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wwe.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\wykop.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\xboxclips.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\xhamster.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\xiaohongshu.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\ximalaya.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\xinpianchang.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\xminus.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\xnxx.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\xvideos.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\xxxymovies.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\yahoo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\yandexdisk.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\yandexmusic.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\yandexvideo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\yapfiles.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\yappy.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\yfanefa.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\yle_areena.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youjizz.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youku.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\younow.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youporn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zaiko.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zan.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zapiks.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zattoo.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zdf.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zeenews.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zenporn.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zetland.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zhihu.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zingmp3.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zoom.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\zype.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\_extractors.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\_base.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\_clip.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\_mistakes.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\_notifications.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\_redirect.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\_search.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\_tab.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\_video.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\provider.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_director.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_registry.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_builtin\bun.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_builtin\deno.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_builtin\ejs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_builtin\node.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_builtin\quickjs.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_builtin\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_builtin\vendor\yt.solver.bun.lib.js
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_builtin\vendor\yt.solver.core.js
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_builtin\vendor\yt.solver.deno.lib.js
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_builtin\vendor\_info.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\jsc\_builtin\vendor\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\pot\cache.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\pot\provider.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\pot\utils.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\pot\_director.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\pot\_provider.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\pot\_registry.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\pot\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\pot\_builtin\memory_cache.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\pot\_builtin\webpo_cachespec.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\extractor\youtube\pot\_builtin\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\networking\common.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\networking\exceptions.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\networking\impersonate.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\networking\websocket.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\networking\_curlcffi.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\networking\_helper.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\networking\_requests.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\networking\_urllib.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\networking\_websockets.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\networking\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\postprocessor\common.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\postprocessor\embedthumbnail.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\postprocessor\exec.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\postprocessor\ffmpeg.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\postprocessor\metadataparser.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\postprocessor\modify_chapters.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\postprocessor\movefilesafterdownload.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\postprocessor\sponsorblock.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\postprocessor\xattrpp.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\postprocessor\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\utils\networking.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\utils\progress.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\utils\traversal.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\utils\_deprecated.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\utils\_jsruntime.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\utils\_legacy.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\utils\_utils.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\utils\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\utils\jslib\devalue.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp\utils\jslib\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp-2026.8.19.dist-info\entry_points.txt
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp-2026.8.19.dist-info\INSTALLER
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp-2026.8.19.dist-info\METADATA
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp-2026.8.19.dist-info\RECORD
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp-2026.8.19.dist-info\REQUESTED
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp-2026.8.19.dist-info\WHEEL
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp-2026.8.19.dist-info\licenses\LICENSE
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs\_version.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs\yt\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs\yt\solver\core.min.js
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs\yt\solver\lib.min.js
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs\yt\solver\__init__.py
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs-0.8.0.dist-info\INSTALLER
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs-0.8.0.dist-info\METADATA
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs-0.8.0.dist-info\RECORD
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs-0.8.0.dist-info\REQUESTED
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs-0.8.0.dist-info\WHEEL
+   Compressing: D:\YouTube视频下载\yt-dlp-gui\build\..\dist\MediaDownloader\_internal\yt_dlp_ejs-0.8.0.dist-info\licenses\LICENSE
+   Compressing Setup program executable
+   Updating version info (Setup.exe)
+   Updating manifest (Setup.exe)
+
+
+Successful compile (43.297 sec). Resulting Setup program filename is:
+D:\YouTube视频下载\yt-dlp-gui\dist\release\MediaDownloader-Setup.exe
+D:\YouTube��Ƶ����\yt-dlp-gui\dist\release

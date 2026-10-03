@@ -1,0 +1,135 @@
+{
+  "scope": "KIT AND COLLECTOR VALIDATION ON DEVELOPMENT HOST; NOT INDEPENDENT WINDOWS ACCEPTANCE",
+  "release_base_commit": "fc4b99977b01effcd9d79c8b3a1101b6e2c7cabf",
+  "artifacts": [
+    {
+      "file": "MediaDownloader-Portable.zip",
+      "expected_sha256": "fd722b494469e4ddda7c3b604759e09599e6b8e14d4ead1fe12033f976c5c415",
+      "release-test": {
+        "bytes": 249637159,
+        "sha256": "fd722b494469e4ddda7c3b604759e09599e6b8e14d4ead1fe12033f976c5c415",
+        "matches": true
+      },
+      "dist/release": {
+        "bytes": 249637159,
+        "sha256": "fd722b494469e4ddda7c3b604759e09599e6b8e14d4ead1fe12033f976c5c415",
+        "matches": true
+      }
+    },
+    {
+      "file": "MediaDownloader-Setup.exe",
+      "expected_sha256": "aa34f3fba9eddbd6b6662f34f2c773072039db6375d2c3edefe8a5bf341be8d7",
+      "release-test": {
+        "bytes": 237696616,
+        "sha256": "aa34f3fba9eddbd6b6662f34f2c773072039db6375d2c3edefe8a5bf341be8d7",
+        "matches": true
+      },
+      "dist/release": {
+        "bytes": 237696616,
+        "sha256": "aa34f3fba9eddbd6b6662f34f2c773072039db6375d2c3edefe8a5bf341be8d7",
+        "matches": true
+      }
+    }
+  ],
+  "portable_runtime_members": {
+    "MediaDownloader.exe": "MediaDownloader-Portable/MediaDownloader.exe",
+    "portable.flag": "MediaDownloader-Portable/portable.flag",
+    "bin/ffmpeg.exe": "MediaDownloader-Portable/bin/ffmpeg.exe",
+    "bin/ffprobe.exe": "MediaDownloader-Portable/bin/ffprobe.exe",
+    "bin/runtime/qjs.exe": "MediaDownloader-Portable/bin/runtime/qjs.exe",
+    "_internal/python313.dll": "MediaDownloader-Portable/_internal/python313.dll",
+    "_internal/python3.dll": "MediaDownloader-Portable/_internal/python3.dll",
+    "_internal/base_library.zip": "MediaDownloader-Portable/_internal/base_library.zip",
+    "_internal/PySide6/Qt6Core.dll": "MediaDownloader-Portable/_internal/PySide6/Qt6Core.dll",
+    "_internal/PySide6/plugins/platforms/qwindows.dll": "MediaDownloader-Portable/_internal/PySide6/plugins/platforms/qwindows.dll",
+    "_internal/yt_dlp_ejs/yt/solver/core.min.js": "MediaDownloader-Portable/_internal/yt_dlp_ejs/yt/solver/core.min.js",
+    "_internal/yt_dlp_ejs/yt/solver/lib.min.js": "MediaDownloader-Portable/_internal/yt_dlp_ejs/yt/solver/lib.min.js"
+  },
+  "sandbox_mapping": {
+    "host_folder": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\release-test",
+    "guest_folder": "C:\\ReleaseTest",
+    "read_only": true
+  },
+  "collector_self_test": {
+    "Stage": "development-host-collector-self-test",
+    "Windows": "Microsoft Windows 11 \u4e13\u4e1a\u7248",
+    "Version": "10.0.26200",
+    "Architecture": "64 \u4f4d",
+    "IndependentEnvironment": "NOT VERIFIED - tester must establish independent guest/PC",
+    "CleanMachine": "NOT TESTED - functional checklist is separate",
+    "SystemChanges": "NONE",
+    "Dependencies": {
+      "python": {
+        "Command": "where.exe python",
+        "ExitCode": 0,
+        "Result": "PATH ENTRY FOUND - not executed; may be an alias",
+        "Paths": [
+          "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+          "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\thang\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
+          "C:\\Users\\thang\\AppData\\Local\\Python\\bin\\python.exe",
+          "C:\\Users\\thang\\.agent-reach-venv\\Scripts\\python.exe"
+        ]
+      },
+      "py": {
+        "Command": "where.exe py",
+        "ExitCode": 0,
+        "Result": "PATH ENTRY FOUND - not executed; may be an alias",
+        "Paths": [
+          "C:\\Windows\\py.exe",
+          "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Launcher\\py.exe",
+          "C:\\Users\\thang\\AppData\\Local\\Microsoft\\WindowsApps\\py.exe"
+        ]
+      },
+      "yt-dlp": {
+        "Command": "where.exe yt-dlp",
+        "ExitCode": 0,
+        "Result": "PATH ENTRY FOUND - not executed; may be an alias",
+        "Paths": [
+          "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\yt-dlp.exe",
+          "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\yt-dlp.exe",
+          "C:\\Users\\thang\\.agent-reach-venv\\Scripts\\yt-dlp.exe"
+        ]
+      },
+      "ffmpeg": {
+        "Command": "where.exe ffmpeg",
+        "ExitCode": 0,
+        "Result": "PATH ENTRY FOUND - not executed; may be an alias",
+        "Paths": [
+          "D:\\DouK-Downloader_V5.7_Windows_X64\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin\\ffmpeg.exe",
+          "D:\\ffmpeg\\bin\\ffmpeg.exe"
+        ]
+      },
+      "ffprobe": {
+        "Command": "where.exe ffprobe",
+        "ExitCode": 0,
+        "Result": "PATH ENTRY FOUND - not executed; may be an alias",
+        "Paths": [
+          "D:\\DouK-Downloader_V5.7_Windows_X64\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin\\ffprobe.exe",
+          "D:\\ffmpeg\\bin\\ffprobe.exe"
+        ]
+      },
+      "qjs": {
+        "Command": "where.exe qjs",
+        "ExitCode": 1,
+        "Result": "NOT FOUND",
+        "Paths": []
+      }
+    },
+    "ArtifactChecksums": [
+      {
+        "File": "MediaDownloader-Portable.zip",
+        "Expected": "fd722b494469e4ddda7c3b604759e09599e6b8e14d4ead1fe12033f976c5c415",
+        "Actual": "FD722B494469E4DDDA7C3B604759E09599E6B8E14D4EAD1FE12033F976C5C415",
+        "Match": true
+      },
+      {
+        "File": "MediaDownloader-Setup.exe",
+        "Expected": "aa34f3fba9eddbd6b6662f34f2c773072039db6375d2c3edefe8a5bf341be8d7",
+        "Actual": "AA34F3FBA9EDDBD6B6662F34F2C773072039DB6375D2C3EDEFE8A5BF341BE8D7",
+        "Match": true
+      }
+    ]
+  },
+  "public_distribution_gate": "NEEDS LEGAL REVIEW - unchanged"
+}

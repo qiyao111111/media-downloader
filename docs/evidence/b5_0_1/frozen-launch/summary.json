@@ -1,0 +1,58 @@
+{
+  "health": {
+    "application": {
+      "status": "READY",
+      "version": "0.9.0-rc1",
+      "mode": "portable",
+      "os": "Windows-11-10.0.26200-SP0",
+      "architecture": "AMD64"
+    },
+    "yt-dlp": {
+      "status": "READY",
+      "version": "2026.8.19",
+      "strategy": "bundled Python package"
+    },
+    "ffmpeg": {
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\dist\\MediaDownloader\\bin\\ffmpeg.exe",
+      "status": "READY",
+      "version": "8.1.3-g330caae0c1-md-b43-r2"
+    },
+    "ffprobe": {
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\dist\\MediaDownloader\\bin\\ffprobe.exe",
+      "status": "READY",
+      "version": "8.1.3-g330caae0c1-md-b43-r2"
+    },
+    "quickjs": {
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\dist\\MediaDownloader\\bin\\runtime\\qjs.exe",
+      "status": "READY",
+      "version": "0.17.0"
+    },
+    "config": {
+      "status": "READY",
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b501-frozen\\config"
+    },
+    "download": {
+      "status": "READY",
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b501-frozen-downloads"
+    },
+    "temp": {
+      "status": "READY",
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b501-frozen\\temp"
+    }
+  },
+  "paths": {
+    "mode": "portable",
+    "application_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b501-frozen",
+    "resources_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b501-frozen\\_internal",
+    "runtime_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b501-frozen\\bin",
+    "config_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b501-frozen\\config",
+    "data_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b501-frozen\\data",
+    "logs_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b501-frozen\\logs",
+    "download_dir": "C:\\Users\\thang\\Downloads\\MediaDownloader",
+    "temp_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b501-frozen\\temp"
+  },
+  "children": 0,
+  "max_tick_gap": 0.0,
+  "cases": 0,
+  "history": 0
+}

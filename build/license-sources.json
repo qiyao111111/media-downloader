@@ -1,0 +1,73 @@
+[
+  {
+    "name": "qtbase-everywhere-src-6.11.2.tar.xz",
+    "url": "https://download.qt.io/archive/qt/6.11/6.11.2/submodules/qtbase-everywhere-src-6.11.2.tar.xz",
+    "sha256": "5b2e00eccaf5a4d8c14134ffa0ea8dfd0a35ae1ffc7f8d87fa4305a1ed23cf22",
+    "source_archive": true
+  },
+  {
+    "name": "qtsvg-everywhere-src-6.11.2.tar.xz",
+    "url": "https://download.qt.io/archive/qt/6.11/6.11.2/submodules/qtsvg-everywhere-src-6.11.2.tar.xz",
+    "sha256": "d594337feca84c26fb67fe87b85e6a5c12fda404b611d905f9d138210c311876",
+    "source_archive": true
+  },
+  {
+    "name": "qtimageformats-everywhere-src-6.11.2.tar.xz",
+    "url": "https://download.qt.io/archive/qt/6.11/6.11.2/submodules/qtimageformats-everywhere-src-6.11.2.tar.xz",
+    "sha256": "cecd8900f34b6550076309bc94f62f828008b633a4239e0a08c86788f41001f8",
+    "source_archive": true
+  },
+  {
+    "name": "pyside-setup-everywhere-src-6.11.2.tar.xz",
+    "url": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.11.2-src/pyside-setup-everywhere-src-6.11.2.tar.xz",
+    "sha256": "cba47efbaad1bedd529725cbc14e21f156c7a19366f07b3edfbb076ffd7afdf8",
+    "source_archive": true
+  },
+  {
+    "name": "Python-3.13.13.tar.xz",
+    "url": "https://www.python.org/ftp/python/3.13.13/Python-3.13.13.tar.xz",
+    "sha256": "2ab91ff401783ccca64f75d10c882e957bdfd60e2bf5a72f8421793729b78a71",
+    "source_archive": true
+  },
+  {
+    "name": "OpenSSL-3.0.19-LICENSE.txt",
+    "url": "https://api.github.com/repos/openssl/openssl/contents/LICENSE.txt?ref=openssl-3.0.19",
+    "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+  },
+  {
+    "name": "OpenSSL-3.0.19-ACKNOWLEDGEMENTS.md",
+    "url": "https://api.github.com/repos/openssl/openssl/contents/ACKNOWLEDGEMENTS.md?ref=openssl-3.0.19",
+    "sha256": "58dee45791f007ced048114717f86672778fe75c551827c57e760861446ce3c3"
+  },
+  {
+    "name": "LibYAML-0.2.5-LICENSE.txt",
+    "url": "https://api.github.com/repos/yaml/libyaml/contents/License?ref=0.2.5",
+    "sha256": "c40112449f254b9753045925248313e9270efa36d226b22d82d4cc6c43c57f29"
+  },
+  {
+    "name": "LLVM-libcxx-LICENSE.txt",
+    "url": "https://api.github.com/repos/llvm/llvm-project/contents/libcxx/LICENSE.TXT?ref=85ac560262434c9ccfc0c183ec22d4138ed647fb",
+    "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+  },
+  {
+    "name": "LLVM-libcxxabi-LICENSE.txt",
+    "url": "https://api.github.com/repos/llvm/llvm-project/contents/libcxxabi/LICENSE.TXT?ref=85ac560262434c9ccfc0c183ec22d4138ed647fb",
+    "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+  },
+  {
+    "name": "LLVM-libunwind-LICENSE.txt",
+    "url": "https://api.github.com/repos/llvm/llvm-project/contents/libunwind/LICENSE.TXT?ref=85ac560262434c9ccfc0c183ec22d4138ed647fb",
+    "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d"
+  },
+  {
+    "name": "LLVM-compiler-rt-LICENSE.txt",
+    "url": "https://api.github.com/repos/llvm/llvm-project/contents/compiler-rt/LICENSE.TXT?ref=85ac560262434c9ccfc0c183ec22d4138ed647fb",
+    "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+  },
+  {
+    "name": "qttranslations-everywhere-src-6.11.2.tar.xz",
+    "url": "https://download.qt.io/archive/qt/6.11/6.11.2/submodules/qttranslations-everywhere-src-6.11.2.tar.xz",
+    "sha256": "021684c1a7937a9fabc3b056a6698ad5978794caf9ac190fd6cc11399e67c014",
+    "source_archive": true
+  }
+]

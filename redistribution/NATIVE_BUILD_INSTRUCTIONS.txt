@@ -1,0 +1,77 @@
+MediaDownloader native runtime build — Windows x64 / UCRT
+
+FFmpeg source revision: 330caae0c1acccd2222edc52a05940c574561ce5
+QuickJS-NG source revision: 6d46d07d04041b40f4f49eaa7fdebe44c314c699
+All nine exact source archives and SHA256 pins accompany this file. There are
+no local FFmpeg/dependency source patches. Generated headers/configuration,
+actual commands, compiled FFmpeg objects and static dependency archives are
+included. The FFmpeg build is shared, without GPL/nonfree/version3 features.
+
+The compiler is LLVM-MinGW 20260922 UCRT, Clang 23.1.2, LLVM revision
+85ac560262434c9ccfc0c183ec22d4138ed647fb; the publisher's matching MinGW-w64
+recipe pins 57b595039040eaa15bece85b7cc71d952281b269.
+Compiler and MSYS2 source/origin URLs and downloaded archive checksums are in
+native-runtime-lock.json. Build-only tools are not application dependencies.
+
+Rebuild on a Windows development machine, not the clean acceptance machine:
+1. Create an ASCII work directory, for example C:\runtime-rebuild. Copy the
+   supplied build_native_runtime.py there and native-runtime-lock.json into
+   its build subdirectory. Copy the supplied source tarballs into
+   .tools\b43\native-sources. Preserve their names and checksums.
+2. Install/use Python 3.13 on that build machine. Create .venv with
+   python -m venv .venv. In it install the pinned development tools:
+   .venv\Scripts\python -m pip install cmake==4.4.3 meson==1.12.1 ninja==1.13.2
+3. Obtain the two SHA256-pinned toolchain archives from their official URLs
+   in the lock. Unpack them into .tools\b43\toolchains, retaining the
+   llvm-mingw-20260922-ucrt-x86_64 and msys64 directory names. The build script
+   also verifies/downloads these archives when missing. Initialize the isolated
+   MSYS2 root, and install only its build tools with its own bash:
+   .tools\b43\toolchains\msys64\usr\bin\bash.exe -lc
+   "pacman -Sy --noconfirm --needed make nasm pkgconf diffutils perl"
+   Actual validated versions: make 4.4.1-3, nasm 3.02-1, pkgconf 3.0.7-1,
+   diffutils 3.12-1, perl 5.42.3-2.
+   Keep these versions for build correspondence; later repository versions
+   are a different build environment requiring fresh evidence.
+4. Execute .venv\Scripts\python build_native_runtime.py. The script verifies
+   all source/toolchain digests, unpacks sources, builds QuickJS without
+   mimalloc, and builds static zlib, Opus, dav1d, libmp3lame, libwebp/SharpYUV,
+   libvpx and OpenH264. The latter three preserve existing WebP conversion
+   and explicitly requested video conversion, not default video re-encoding.
+   OpenH264 is built from source under its original source license; it is
+   not a Cisco-supplied binary and no Cisco binary patent coverage is claimed.
+   It then
+   configures and builds FFmpeg/FFprobe plus six shared FFmpeg DLLs.
+5. Native FFmpeg output: .tools\b43\native-build\prefix\bin. QuickJS output:
+   .tools\b43\quickjs\build\qjs.exe. Import .lib files are build materials,
+   not application runtime files. commands.json/receipt.json record the new
+   build's commands and output checksums. Rebuilding in a different absolute
+   directory can change hashes because build configuration embeds paths.
+
+FFmpeg config.h/config_components.h/config.mak/config.log and its complete
+configure argv accompany this copy. The script regenerates them from the
+same pinned inputs. MSYS pkgconf requires ASCII prefixes; the tested Chinese
+checkout used Windows 8.3 short filenames for build-only pkg-config paths.
+Use an ASCII checkout when short filenames are disabled. No global PATH or
+Windows security change is required; PATH/cache settings affect child builds.
+
+Library replacement/relink:
+Close the application and its workers. Back up bin. Replace compatible
+ffmpeg.exe, ffprobe.exe and their six FFmpeg DLLs in bin, keeping the DLL
+names/import ABI consistent. Rebuild modified LGPL libraries using the
+provided complete sources/build script, or use the actual object/static
+archive inputs in native-relink-materials.zip with the recorded configuration
+and target linker. No signature/key enforcement prevents replacement.
+Windows installation-directory permissions apply. Normal app execution does
+not require elevation. Reverse engineering for debugging library changes is
+not prohibited by this application. Preserve original grants and mark any
+source modifications when redistributing your modified build.
+
+FFmpeg's incorporated JPEG code: this software is based in part on the work
+of the Independent JPEG Group. No local changes to the incorporated IJG
+source files are made; upstream source headers/documentation are preserved.
+LAME MP3 encoder: https://lame.sourceforge.io/ (original project attribution).
+
+Source provision is direct, accompanying these binaries. This document does
+not invent a three-year written offer, an offeror or an unverified source
+service. Professional review of final distribution terms remains separate
+from the recorded build/source/replacement technical evidence.

@@ -1,0 +1,28 @@
+{
+  "scope": "Developer-host frozen Portable and installed-mode payload; Setup was built but not reinstalled. Independent clean Windows NOT TESTED.",
+  "mode": "installed",
+  "version": "0.9.0-rc2",
+  "cases": 5,
+  "exitcode": 0,
+  "missing_keys": 0,
+  "children": 0,
+  "runtime_paths_within_bundle": true,
+  "decode": [
+    {
+      "case": "1080",
+      "file": "installed-1080_E86EwGT_c2M.mp4",
+      "bytes": 47913472,
+      "sha256": "0d45a417c2c283d8199eaacbf2563c5e5903fc7b047403e5066b2795c91b1719",
+      "full_decode_exit": 0,
+      "stderr": ""
+    },
+    {
+      "case": "audio",
+      "file": "installed-audio_E86EwGT_c2M.mp3",
+      "bytes": 2590629,
+      "sha256": "6d1fce4f07861726f5137b593bf91c43701cff3013d68c609a287d4a64301606",
+      "full_decode_exit": 0,
+      "stderr": ""
+    }
+  ]
+}

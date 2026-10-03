@@ -1,0 +1,26 @@
+name: Source regression
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: windows-latest
+    env:
+      QT_QPA_PLATFORM: offscreen
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -e .
+      - name: Offline source tests
+        shell: pwsh
+        run: |
+          foreach ($suite in @('test_core_runtime.py', 'test_format_selector.py', 'test_b1_architecture.py', 'test_b3_ui.py', 'test_b4_runtime.py', 'test_b5_1_visual.py')) {
+            python -m unittest discover -s tests -p $suite
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+      - name: Verify wheel contents
+        run: |
+          python -m pip wheel --no-deps . -w dist
+          python tests/check_wheel.py

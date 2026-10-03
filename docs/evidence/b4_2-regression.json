@@ -1,0 +1,680 @@
+{
+  "portable-runtime-final": {
+    "cases": [
+      {
+        "name": "b42portablefinal-1080",
+        "status": "completed",
+        "selection": "399+251",
+        "height": 1080,
+        "formats": 53,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42portablefinal-1080_E86EwGT_c2M.mp4"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "video",
+              "codec_name": "av1",
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "avg_frame_rate": "5991/200",
+              "duration": "154.732098"
+            },
+            {
+              "codec_type": "audio",
+              "codec_name": "opus",
+              "avg_frame_rate": "0/0",
+              "duration": "154.774000"
+            }
+          ],
+          "format": {
+            "duration": "154.774000",
+            "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+            "size": "47913472"
+          }
+        }
+      },
+      {
+        "name": "b42portablefinal-4k",
+        "status": "metadata-pass",
+        "selection": "401+251",
+        "height": 2160,
+        "formats": 53
+      },
+      {
+        "name": "b42portablefinal-8k",
+        "status": "metadata-pass",
+        "selection": "571+251",
+        "height": 4320,
+        "formats": 53
+      },
+      {
+        "name": "b42portablefinal-audio",
+        "status": "completed",
+        "selection": "251",
+        "height": null,
+        "formats": 53,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42portablefinal-audio_E86EwGT_c2M.mp3"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "audio",
+              "codec_name": "mp3",
+              "avg_frame_rate": "0/0",
+              "duration": "154.761000"
+            }
+          ],
+          "format": {
+            "duration": "154.761000",
+            "format_name": "mp3",
+            "size": "2590773"
+          }
+        }
+      },
+      {
+        "name": "b42portablefinal-cookie",
+        "status": "completed",
+        "selection": "custom",
+        "height": null,
+        "formats": 1,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42portablefinal-cookie_fixture.mp4"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "video",
+              "codec_name": "mpeg4",
+              "width": 1280,
+              "height": 720,
+              "pix_fmt": "yuv420p",
+              "avg_frame_rate": "25/1",
+              "duration": "12.000000"
+            },
+            {
+              "codec_type": "audio",
+              "codec_name": "aac",
+              "avg_frame_rate": "0/0",
+              "duration": "12.000000"
+            }
+          ],
+          "format": {
+            "duration": "12.000000",
+            "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+            "size": "17241501"
+          }
+        }
+      },
+      {
+        "name": "b42portablefinal-http",
+        "status": "completed",
+        "selection": "251",
+        "height": null,
+        "formats": 53,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42portablefinal-http_E86EwGT_c2M.webm"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "audio",
+              "codec_name": "opus",
+              "avg_frame_rate": "0/0"
+            }
+          ],
+          "format": {
+            "duration": "154.781000",
+            "format_name": "matroska,webm",
+            "size": "2524258"
+          }
+        }
+      },
+      {
+        "name": "b42portablefinal-socks5",
+        "status": "completed",
+        "selection": "251",
+        "height": null,
+        "formats": 53,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42portablefinal-socks5_E86EwGT_c2M.webm"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "audio",
+              "codec_name": "opus",
+              "avg_frame_rate": "0/0"
+            }
+          ],
+          "format": {
+            "duration": "154.781000",
+            "format_name": "matroska,webm",
+            "size": "2524258"
+          }
+        }
+      },
+      {
+        "name": "b42portablefinal-socks5h",
+        "status": "completed",
+        "selection": "251",
+        "height": null,
+        "formats": 53,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42portablefinal-socks5h_E86EwGT_c2M.webm"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "audio",
+              "codec_name": "opus",
+              "avg_frame_rate": "0/0"
+            }
+          ],
+          "format": {
+            "duration": "154.781000",
+            "format_name": "matroska,webm",
+            "size": "2524258"
+          }
+        }
+      },
+      {
+        "name": "b42portablefinal-cancel",
+        "status": "cancelled",
+        "selection": "399+251",
+        "height": 1080,
+        "formats": 53,
+        "error": "",
+        "outputs": []
+      },
+      {
+        "name": "b42portablefinal-exit",
+        "status": "cancelled",
+        "selection": "399+251",
+        "height": 1080,
+        "formats": 53
+      }
+    ],
+    "summary": {
+      "health": {
+        "application": {
+          "status": "READY",
+          "version": "0.9.0rc1",
+          "mode": "portable",
+          "os": "Windows-11-10.0.26200-SP0",
+          "architecture": "AMD64"
+        },
+        "yt-dlp": {
+          "status": "READY",
+          "version": "2026.8.19",
+          "strategy": "bundled Python package"
+        },
+        "ffmpeg": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\bin\\ffmpeg.exe",
+          "status": "READY",
+          "version": "n8.1.3-14-g330caae0c1-20261001"
+        },
+        "ffprobe": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\bin\\ffprobe.exe",
+          "status": "READY",
+          "version": "n8.1.3-14-g330caae0c1-20261001"
+        },
+        "deno": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\bin\\runtime\\deno.exe",
+          "status": "READY",
+          "version": "2.9.7"
+        },
+        "config": {
+          "status": "READY",
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\config"
+        },
+        "download": {
+          "status": "READY",
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1"
+        },
+        "temp": {
+          "status": "READY",
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\temp"
+        }
+      },
+      "paths": {
+        "mode": "portable",
+        "application_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable",
+        "resources_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\_internal",
+        "runtime_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\bin",
+        "config_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\config",
+        "data_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\data",
+        "logs_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\logs",
+        "download_dir": "C:\\Users\\thang\\Downloads\\MediaDownloader",
+        "temp_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\temp"
+      },
+      "children": 0,
+      "max_tick_gap": 0.06665999999677297,
+      "cases": 10,
+      "history": 19
+    },
+    "host_fixture_metrics": {
+      "exitcode": 0,
+      "isolated_PATH": "C:\\WINDOWS\\System32;C:\\WINDOWS",
+      "cookie_authenticated": true,
+      "proxy_requests": {
+        "http": 7,
+        "socks5": 7,
+        "socks5h": 7
+      },
+      "proxy_auth": {
+        "http": true,
+        "socks5": true,
+        "socks5h": true
+      }
+    }
+  },
+  "installed-runtime-final": {
+    "cases": [
+      {
+        "name": "b42installedfinal-1080",
+        "status": "completed",
+        "selection": "399+251",
+        "height": 1080,
+        "formats": 53,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42installedfinal-1080_E86EwGT_c2M.mp4"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "video",
+              "codec_name": "av1",
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "avg_frame_rate": "5991/200",
+              "duration": "154.732098"
+            },
+            {
+              "codec_type": "audio",
+              "codec_name": "opus",
+              "avg_frame_rate": "0/0",
+              "duration": "154.774000"
+            }
+          ],
+          "format": {
+            "duration": "154.774000",
+            "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+            "size": "47913472"
+          }
+        }
+      },
+      {
+        "name": "b42installedfinal-4k",
+        "status": "metadata-pass",
+        "selection": "401+251",
+        "height": 2160,
+        "formats": 53
+      },
+      {
+        "name": "b42installedfinal-8k",
+        "status": "metadata-pass",
+        "selection": "571+251",
+        "height": 4320,
+        "formats": 53
+      },
+      {
+        "name": "b42installedfinal-audio",
+        "status": "completed",
+        "selection": "251",
+        "height": null,
+        "formats": 53,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42installedfinal-audio_E86EwGT_c2M.mp3"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "audio",
+              "codec_name": "mp3",
+              "avg_frame_rate": "0/0",
+              "duration": "154.761000"
+            }
+          ],
+          "format": {
+            "duration": "154.761000",
+            "format_name": "mp3",
+            "size": "2590773"
+          }
+        }
+      },
+      {
+        "name": "b42installedfinal-cookie",
+        "status": "completed",
+        "selection": "custom",
+        "height": null,
+        "formats": 1,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42installedfinal-cookie_fixture.mp4"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "video",
+              "codec_name": "mpeg4",
+              "width": 1280,
+              "height": 720,
+              "pix_fmt": "yuv420p",
+              "avg_frame_rate": "25/1",
+              "duration": "12.000000"
+            },
+            {
+              "codec_type": "audio",
+              "codec_name": "aac",
+              "avg_frame_rate": "0/0",
+              "duration": "12.000000"
+            }
+          ],
+          "format": {
+            "duration": "12.000000",
+            "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+            "size": "17241501"
+          }
+        }
+      },
+      {
+        "name": "b42installedfinal-http",
+        "status": "completed",
+        "selection": "251",
+        "height": null,
+        "formats": 53,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42installedfinal-http_E86EwGT_c2M.webm"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "audio",
+              "codec_name": "opus",
+              "avg_frame_rate": "0/0"
+            }
+          ],
+          "format": {
+            "duration": "154.781000",
+            "format_name": "matroska,webm",
+            "size": "2524258"
+          }
+        }
+      },
+      {
+        "name": "b42installedfinal-socks5",
+        "status": "completed",
+        "selection": "251",
+        "height": null,
+        "formats": 53,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42installedfinal-socks5_E86EwGT_c2M.webm"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "audio",
+              "codec_name": "opus",
+              "avg_frame_rate": "0/0"
+            }
+          ],
+          "format": {
+            "duration": "154.781000",
+            "format_name": "matroska,webm",
+            "size": "2524258"
+          }
+        }
+      },
+      {
+        "name": "b42installedfinal-socks5h",
+        "status": "completed",
+        "selection": "251",
+        "height": null,
+        "formats": 53,
+        "error": "",
+        "outputs": [
+          "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42installedfinal-socks5h_E86EwGT_c2M.webm"
+        ],
+        "ffprobe": {
+          "streams": [
+            {
+              "codec_type": "audio",
+              "codec_name": "opus",
+              "avg_frame_rate": "0/0"
+            }
+          ],
+          "format": {
+            "duration": "154.781000",
+            "format_name": "matroska,webm",
+            "size": "2524258"
+          }
+        }
+      },
+      {
+        "name": "b42installedfinal-cancel",
+        "status": "cancelled",
+        "selection": "399+251",
+        "height": 1080,
+        "formats": 53,
+        "error": "",
+        "outputs": []
+      },
+      {
+        "name": "b42installedfinal-exit",
+        "status": "cancelled",
+        "selection": "399+251",
+        "height": 1080,
+        "formats": 53
+      }
+    ],
+    "summary": {
+      "health": {
+        "application": {
+          "status": "READY",
+          "version": "0.9.0rc1",
+          "mode": "installed",
+          "os": "Windows-11-10.0.26200-SP0",
+          "architecture": "AMD64"
+        },
+        "yt-dlp": {
+          "status": "READY",
+          "version": "2026.8.19",
+          "strategy": "bundled Python package"
+        },
+        "ffmpeg": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\bin\\ffmpeg.exe",
+          "status": "READY",
+          "version": "n8.1.3-14-g330caae0c1-20261001"
+        },
+        "ffprobe": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\bin\\ffprobe.exe",
+          "status": "READY",
+          "version": "n8.1.3-14-g330caae0c1-20261001"
+        },
+        "deno": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\bin\\runtime\\deno.exe",
+          "status": "READY",
+          "version": "2.9.7"
+        },
+        "config": {
+          "status": "READY",
+          "path": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\config"
+        },
+        "download": {
+          "status": "READY",
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1"
+        },
+        "temp": {
+          "status": "READY",
+          "path": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\temp"
+        }
+      },
+      "paths": {
+        "mode": "installed",
+        "application_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1",
+        "resources_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\_internal",
+        "runtime_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\bin",
+        "config_dir": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\config",
+        "data_dir": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\data",
+        "logs_dir": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\logs",
+        "download_dir": "C:\\Users\\thang\\Downloads\\MediaDownloader",
+        "temp_dir": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\temp"
+      },
+      "children": 0,
+      "max_tick_gap": 0.06691970000974834,
+      "cases": 10,
+      "history": 35
+    },
+    "host_fixture_metrics": {
+      "exitcode": 0,
+      "isolated_PATH": "C:\\WINDOWS\\System32;C:\\WINDOWS",
+      "cookie_authenticated": true,
+      "proxy_requests": {
+        "http": 7,
+        "socks5": 7,
+        "socks5h": 7
+      },
+      "proxy_auth": {
+        "http": true,
+        "socks5": true,
+        "socks5h": true
+      }
+    }
+  },
+  "crash": {
+    "scope": "local frozen Portable; clean Windows NOT TESTED",
+    "forced_active_process_tree": {
+      "pid": 8392,
+      "part_bytes": 2096128,
+      "active_history": true
+    },
+    "settings_readable_and_preserved": true,
+    "history_readable_and_recovered": true,
+    "runtime_health": true,
+    "cancel_retry": true,
+    "original_history_records": 19,
+    "recovered_history_records": 20,
+    "termination_method": "taskkill /PID observed_main_pid /T /F"
+  },
+  "installer_persistence": {
+    "settings_preserved": true,
+    "history_preserved": true,
+    "history_count": 35,
+    "scope": "local Windows only"
+  },
+  "uninstall": {
+    "UserFilesSHA256Before": {
+      "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\config\\app_settings.json": "1B58126544B77050A075A7318B30B24F25E145BCAC02BFEA4C0D6F220C08C627",
+      "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\data\\download_history.json": "6D3236AB0EB1700758535A032A58D7B776487A808D7A25A329B3C345FE5E33AB",
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42installedfinal-1080_E86EwGT_c2M.mp4": "0D45A417C2C283D8199EAACBF2563C5E5903FC7B047403E5066B2795C91B1719"
+    },
+    "ShortcutsRemoved": [
+      true,
+      true
+    ],
+    "InstallerVersionResources": [
+      {
+        "Copyright": "",
+        "File": "dist\\release\\MediaDownloader-Setup.exe",
+        "Company": "Media Downloader Contributors",
+        "Version": "0.9.0.1"
+      },
+      {
+        "Copyright": "",
+        "File": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\unins000.exe",
+        "Company": "Media Downloader Contributors",
+        "Version": "51.1054.0.0"
+      }
+    ],
+    "UninstallEntryBefore": {
+      "DisplayName": "Media Downloader version 0.9.0rc1",
+      "DisplayVersion": "0.9.0rc1",
+      "InstallLocation": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\",
+      "UninstallString": "\"D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\unins000.exe\""
+    },
+    "ConfigurationPolicy": "User configuration intentionally preserved",
+    "SetupSHA256": "7F2331714B7D352ABAEDDEE585587D4B7A7D26C9F80845014C8ECC5BEF679CCC",
+    "UninstallKeyRemoved": true,
+    "ExitCode": 0,
+    "RemainingNamedProcesses": [],
+    "ShortcutsBefore": [
+      {
+        "Target": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\MediaDownloader.exe",
+        "Shortcut": "C:\\Users\\thang\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Media Downloader.lnk"
+      },
+      {
+        "Target": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\MediaDownloader.exe",
+        "Shortcut": "C:\\Users\\thang\\Desktop\\Media Downloader.lnk"
+      }
+    ],
+    "NormalUser": true,
+    "DirectoryRemoved": true,
+    "InstallRoot": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1",
+    "UserFilesPreserved": {
+      "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\config\\app_settings.json": true,
+      "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\data\\download_history.json": true,
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4\u4e0b\u8f7d\u9a8c\u8bc1\\b42installedfinal-1080_E86EwGT_c2M.mp4": true
+    },
+    "Scope": "local Windows only; final Setup payload"
+  },
+  "artifact_validation": {
+    "scope": "local installed bundle and actual Portable ZIP; clean Windows NOT TESTED",
+    "payload_files_identical": 1301,
+    "embedded_modules": 1347,
+    "GPL_analysis_modules_absent": true,
+    "compiled_translations_absent": true,
+    "verified_source_files": [
+      "qtbase-everywhere-src-6.11.2.tar.xz",
+      "qtsvg-everywhere-src-6.11.2.tar.xz",
+      "qtimageformats-everywhere-src-6.11.2.tar.xz",
+      "pyside-setup-everywhere-src-6.11.2.tar.xz",
+      "Python-3.13.13.tar.xz",
+      "FFmpeg-330caae0c1acccd2222edc52a05940c574561ce5.tar.gz",
+      "BtbN-autobuild-2026-10-01-13-06.tar.gz",
+      "OpenSSL-3.0.19-LICENSE.txt",
+      "OpenSSL-3.0.19-ACKNOWLEDGEMENTS.md",
+      "Deno-2.9.7-Cargo.lock",
+      "Deno-node-types-LICENSE.txt",
+      "Deno-undici-types-LICENSE.txt",
+      "TypeScript-6.0.3-LICENSE.txt",
+      "LibYAML-0.2.5-LICENSE.txt",
+      "fftw3-93ed4c786934aec9946f8dda4b4e3eb08f8be41c.tar.gz",
+      "chromaprint-aed8eba2202dd9d7b3b0a56c77904cc805490d72.tar.gz"
+    ],
+    "runtime_hook_copyright_files": 8,
+    "checksums": {
+      "MediaDownloader-Portable.zip": "a85cc87f55149ed112aa6a974e48e2e8f0f2e85046f238f95b3e8ebec96a12c9",
+      "MediaDownloader-Setup.exe": "7f2331714b7d352abaeddee585587d4b7a7d26c9f80845014c8ecc5bef679ccc"
+    },
+    "maximum_bundle_relative_path": 80
+  },
+  "log_scan": {
+    "scope": "controlled fixture values in final app logs only; no personal browser session test",
+    "log_files_scanned": 3,
+    "controlled_cookie_or_proxy_secret_found": false
+  },
+  "test_log": {
+    "path": "D:/YouTube\u89c6\u9891\u4e0b\u8f7d/B4_2-tests-retest.log",
+    "previous": 138,
+    "new": 3,
+    "total": 141,
+    "result": "PASS",
+    "seconds": 18.516,
+    "skipped": 0
+  },
+  "scope": "Final artifacts on existing developer Windows only; clean Windows NOT TESTED"
+}

@@ -1,0 +1,368 @@
+[
+  {
+    "case": "1080p",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "399",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "vcodec": "av01.0.08M.08",
+        "acodec": "none",
+        "dynamic_range": "SDR"
+      },
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\1080p_E86EwGT_c2M.mp4"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 47913472,
+    "duration": "154.774000",
+    "seconds": 24.122
+  },
+  {
+    "case": "4k",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "401",
+        "width": 3840,
+        "height": 2160,
+        "fps": 30,
+        "vcodec": "av01.0.12M.08",
+        "acodec": "none",
+        "dynamic_range": "SDR"
+      },
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\4k_E86EwGT_c2M.mp4"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 324633315,
+    "duration": "154.774000",
+    "seconds": 113.44
+  },
+  {
+    "case": "8k",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "571",
+        "width": 7680,
+        "height": 4320,
+        "fps": 30,
+        "vcodec": "av01.0.16M.08",
+        "acodec": "none",
+        "dynamic_range": "SDR"
+      },
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\8k_E86EwGT_c2M.mp4"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 614003521,
+    "duration": "154.774000",
+    "seconds": 263.627
+  },
+  {
+    "case": "vp9-webm",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "313",
+        "width": 3840,
+        "height": 2160,
+        "fps": 30,
+        "vcodec": "vp9",
+        "acodec": "none",
+        "dynamic_range": "SDR"
+      },
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\vp9-webm_E86EwGT_c2M.webm"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 405228246,
+    "duration": "154.781000",
+    "seconds": 156.584
+  },
+  {
+    "case": "h264-mp4",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "137",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "vcodec": "avc1.640028",
+        "acodec": "none",
+        "dynamic_range": "SDR"
+      },
+      {
+        "format_id": "140",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "mp4a.40.2",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\h264-mp4_E86EwGT_c2M.mp4"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 86148483,
+    "duration": "154.807438",
+    "seconds": 37.016
+  },
+  {
+    "case": "av1-opus-mkv",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "399",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "vcodec": "av01.0.08M.08",
+        "acodec": "none",
+        "dynamic_range": "SDR"
+      },
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\av1-opus-mkv_E86EwGT_c2M.mkv"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 47875965,
+    "duration": "154.781000",
+    "seconds": 24.27
+  },
+  {
+    "case": "audio-mp3",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\audio-mp3_E86EwGT_c2M.mp3"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 2590629,
+    "duration": "154.761000",
+    "seconds": 10.134
+  },
+  {
+    "case": "audio-m4a",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\audio-m4a_E86EwGT_c2M.m4a"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 6870017,
+    "duration": "154.761000",
+    "seconds": 11.069
+  },
+  {
+    "case": "audio-opus",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\audio-opus_E86EwGT_c2M.opus"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 2489026,
+    "duration": "154.780500",
+    "seconds": 9.444
+  },
+  {
+    "case": "audio-flac",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\audio-flac_E86EwGT_c2M.flac"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 27017760,
+    "duration": "154.761000",
+    "seconds": 9.481
+  },
+  {
+    "case": "audio-wav",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\audio-wav_E86EwGT_c2M.wav"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 29714190,
+    "duration": "154.761000",
+    "seconds": 9.753
+  },
+  {
+    "case": "audio-best",
+    "runtime": "quickjs",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.tools\\b43\\native-build\\prefix\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Final Runtime Verified\\audio-best_E86EwGT_c2M.opus"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 2489026,
+    "duration": "154.780500",
+    "seconds": 9.495
+  }
+]

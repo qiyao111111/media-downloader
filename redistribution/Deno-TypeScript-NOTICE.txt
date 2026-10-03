@@ -1,0 +1,17 @@
+TypeScript 6.0.3 compiler included in Deno 2.9.7.
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under Apache License, Version 2.0.
+The complete grant accompanies this copy in TypeScript-6.0.3-LICENSE.txt.
+
+Original compiler notice from the exact Deno v2.9.7 source:
+https://github.com/denoland/deno/blob/v2.9.7/cli/tsc/00_typescript.js
+The Deno executable reports typescript 6.0.3. This notice is not a complete
+inventory of the Deno executable's Rust/V8/ICU and other linked dependencies.
+
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABILITY OR NON-INFRINGEMENT.
+
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.

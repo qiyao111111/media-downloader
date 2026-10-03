@@ -1,0 +1,22 @@
+{
+  "artifacts": {
+    "MediaDownloader-Portable.zip": {
+      "sha256": "fd722b494469e4ddda7c3b604759e09599e6b8e14d4ead1fe12033f976c5c415",
+      "bytes": 249637159
+    },
+    "MediaDownloader-Setup.exe": {
+      "sha256": "aa34f3fba9eddbd6b6662f34f2c773072039db6375d2c3edefe8a5bf341be8d7",
+      "bytes": 237696616
+    }
+  },
+  "kit_sha256_equal": true,
+  "release_materials_byte_identical": true,
+  "native_receipt_matches_packaged_binaries": true,
+  "native_sources_verified": 9,
+  "bundled_js": "QuickJS-NG 0.17.0",
+  "old_deno_ffplay_mesa_absent": true,
+  "portable_local_paths_within_release": true,
+  "installed_local_paths_within_release": true,
+  "clean_machine": "NOT TESTED",
+  "public_distribution": "NEEDS LEGAL REVIEW"
+}

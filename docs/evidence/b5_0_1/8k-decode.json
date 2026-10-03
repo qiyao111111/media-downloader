@@ -1,0 +1,12 @@
+{
+  "exit_code": 0,
+  "error_bytes": 0,
+  "output": "temp\\b501-downloads\\8k-complete_E86EwGT_c2M.mp4",
+  "bytes": 614003521,
+  "width": 7680,
+  "height": 4320,
+  "video_codec": "av1",
+  "audio_codec": "opus",
+  "duration": "154.774000",
+  "progress_end": true
+}

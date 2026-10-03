@@ -1,0 +1,341 @@
+{
+  "scope": "Actual shown Qt widgets in separate processes using QT_SCALE_FACTOR. Physical desktop minus 20px frame/60px taskbar allowance. Native Windows DPI settings and DWM chrome were not changed.",
+  "cases": [
+    {
+      "case": "en-light-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        1346,
+        708
+      ],
+      "scale": 1.0,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "en-light-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1900,
+        1020
+      ],
+      "scale": 1.0,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "en-dark-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        1346,
+        708
+      ],
+      "scale": 1.0,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "en-dark-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1900,
+        1020
+      ],
+      "scale": 1.0,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-light-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        1346,
+        708
+      ],
+      "scale": 1.0,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-light-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1900,
+        1020
+      ],
+      "scale": 1.0,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-dark-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        1346,
+        708
+      ],
+      "scale": 1.0,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-dark-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1900,
+        1020
+      ],
+      "scale": 1.0,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "en-light-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        1076,
+        566
+      ],
+      "scale": 1.25,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "en-light-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1520,
+        816
+      ],
+      "scale": 1.25,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "en-dark-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        1076,
+        566
+      ],
+      "scale": 1.25,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "en-dark-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1520,
+        816
+      ],
+      "scale": 1.25,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-light-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        1076,
+        566
+      ],
+      "scale": 1.25,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-light-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1520,
+        816
+      ],
+      "scale": 1.25,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-dark-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        1076,
+        566
+      ],
+      "scale": 1.25,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-dark-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1520,
+        816
+      ],
+      "scale": 1.25,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "en-light-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        897,
+        472
+      ],
+      "scale": 1.5,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "en-light-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1266,
+        680
+      ],
+      "scale": 1.5,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "en-dark-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        897,
+        472
+      ],
+      "scale": 1.5,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "en-dark-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1266,
+        680
+      ],
+      "scale": 1.5,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-light-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        897,
+        472
+      ],
+      "scale": 1.5,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-light-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1266,
+        680
+      ],
+      "scale": 1.5,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-dark-1366",
+      "physical_desktop": [
+        1366,
+        768
+      ],
+      "logical_client": [
+        897,
+        472
+      ],
+      "scale": 1.5,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    },
+    {
+      "case": "zh-dark-1920",
+      "physical_desktop": [
+        1920,
+        1080
+      ],
+      "logical_client": [
+        1266,
+        680
+      ],
+      "scale": 1.5,
+      "download_button_height": 44,
+      "horizontal_overflow": 0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "local frozen installed; clean Windows NOT TESTED",
+  "forced_active_process_tree": {
+    "pid": 2188,
+    "part_bytes": 2096128,
+    "active_history": true
+  },
+  "settings_readable_and_preserved": true,
+  "history_readable_and_recovered": true,
+  "runtime_health": true,
+  "cancel_retry": true,
+  "original_history_records": 51,
+  "recovered_history_records": 52,
+  "termination_method": "taskkill /PID observed_main_pid /T /F"
+}

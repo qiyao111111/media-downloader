@@ -1,0 +1,52 @@
+{
+  "stash": "d25e88f3bfae0e4dfc06996c5ce160a2ab19021d",
+  "message": "b5.1 ui polish draft before runtime baseline reconciliation",
+  "tracked": [
+    "gui/downloader_page.py",
+    "gui/history_page.py",
+    "gui/main_window.py",
+    "gui/product_dialogs.py",
+    "gui/theme_manager.py",
+    "gui/widgets/log_viewer.py",
+    "gui/widgets/settings_panel.py",
+    "gui/widgets/task_table.py",
+    "gui/widgets/url_input.py",
+    "i18n/en_US.json",
+    "i18n/zh_CN.json"
+  ],
+  "untracked": [
+    "docs/B5_1_DESIGN_SYSTEM.md",
+    "docs/B5_1_REGRESSION.md",
+    "docs/B5_1_UI_COMPONENTS.md",
+    "docs/B5_1_VISUAL_VALIDATION.md",
+    "docs/evidence/b5_1/baseline-runtime.txt",
+    "docs/evidence/b5_1/tests.txt",
+    "docs/screenshots/b5_1/README.md",
+    "gui/design_tokens.py",
+    "gui/styles/base.qss",
+    "gui/widgets/presentation.py"
+  ],
+  "blobs": {
+    "gui/downloader_page.py": "494d7edca62b5c7dba71552895636b8ce7a2c514",
+    "gui/history_page.py": "2536f1556248577d1a6b1f3ff1a57f8ac7385963",
+    "gui/main_window.py": "afb94cd97a1d398a2e859f634194a513f4265e95",
+    "gui/product_dialogs.py": "b0cb9eb2276fbd6b40350c21a81868d4a5f39a60",
+    "gui/theme_manager.py": "986e62290b8fae1ebf2cd3e2991296c961371eac",
+    "gui/widgets/log_viewer.py": "df5522dd20a968d525fd5fdc61b34985a28c474e",
+    "gui/widgets/settings_panel.py": "cddd2d39fbde9105b2b38ff7b0f653b23890ec48",
+    "gui/widgets/task_table.py": "2d0da5a72260c07a8db53cc8685c2c39d75fe204",
+    "gui/widgets/url_input.py": "1e10ba8afa7cb746d08e2da04115a092fb414880",
+    "i18n/en_US.json": "21c70d0b290e3dfcd29e40d0638bbd0749ac3e00",
+    "i18n/zh_CN.json": "ee297e076f177f724b36c8db14a1754573eb7469",
+    "docs/B5_1_DESIGN_SYSTEM.md": "bc56c2f6023e3105ae34a7c682a95879508a21bc",
+    "docs/B5_1_REGRESSION.md": "ab73fc5fb1c527643dd44287364900151912390d",
+    "docs/B5_1_UI_COMPONENTS.md": "5e284a826d18da32dda139cf7d393ac85cad8faa",
+    "docs/B5_1_VISUAL_VALIDATION.md": "8d9ba28fa68e9975bafb448e819d11af2846d905",
+    "docs/evidence/b5_1/baseline-runtime.txt": "907767dfab907618eb01de6b2ae0d14972cb45e6",
+    "docs/evidence/b5_1/tests.txt": "9dab531660062ce752a296d2aa3bee8677432e2e",
+    "docs/screenshots/b5_1/README.md": "eb879e95e4352982f16bb0ba6995eac58e55f23c",
+    "gui/design_tokens.py": "500960be8635af1f564b37f8d67222220f4dd44e",
+    "gui/styles/base.qss": "b700a5688bfaf9822c4f047652265263d9389ead",
+    "gui/widgets/presentation.py": "a1b8b1049114be01cd84b6dc5ac32ddf93a8c011"
+  }
+}

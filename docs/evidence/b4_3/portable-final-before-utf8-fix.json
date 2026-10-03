@@ -1,0 +1,129 @@
+{
+  "scope": "Preserved failed frozen run: final Runtime Health raised TypeError after default Windows decoding failed; no PASS assigned to this run",
+  "rows": [
+    {
+      "name": "portable-1080",
+      "formats": 53,
+      "selection": "399+251",
+      "height": 1080,
+      "first_bytes": 1024,
+      "status": "completed",
+      "error": "",
+      "outputs": [
+        "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\portable-final\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\portable-1080_E86EwGT_c2M.mp4"
+      ]
+    },
+    {
+      "name": "portable-4k",
+      "formats": 53,
+      "selection": "401+251",
+      "height": 2160,
+      "first_bytes": 1024,
+      "status": "completed",
+      "error": "",
+      "outputs": [
+        "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\portable-final\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\portable-4k_E86EwGT_c2M.mp4"
+      ],
+      "retried": true,
+      "resume_first_bytes": 2097152
+    },
+    {
+      "name": "portable-8k",
+      "formats": 53,
+      "selection": "571+251",
+      "height": 4320,
+      "first_bytes": 1024,
+      "status": "completed",
+      "error": "",
+      "outputs": [
+        "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\portable-final\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\portable-8k_E86EwGT_c2M.mp4"
+      ]
+    },
+    {
+      "name": "portable-8k60-hdr",
+      "formats": 70,
+      "selection": "702+140",
+      "height": 4320,
+      "status": "metadata-pass"
+    },
+    {
+      "name": "portable-audio",
+      "formats": 53,
+      "selection": "251",
+      "height": null,
+      "first_bytes": 1024,
+      "status": "completed",
+      "error": "",
+      "outputs": [
+        "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\portable-final\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\portable-audio_E86EwGT_c2M.mp3"
+      ]
+    },
+    {
+      "name": "portable-cookie",
+      "formats": 1,
+      "selection": "custom",
+      "height": null,
+      "first_bytes": 1024,
+      "status": "completed",
+      "error": "",
+      "outputs": [
+        "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\portable-final\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\portable-cookie_fixture.mp4"
+      ]
+    },
+    {
+      "name": "portable-http",
+      "formats": 53,
+      "selection": "251",
+      "height": null,
+      "first_bytes": 1024,
+      "status": "completed",
+      "error": "",
+      "outputs": [
+        "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\portable-final\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\portable-http_E86EwGT_c2M.webm"
+      ]
+    },
+    {
+      "name": "portable-socks5",
+      "formats": 53,
+      "selection": "251",
+      "height": null,
+      "first_bytes": 1024,
+      "status": "completed",
+      "error": "",
+      "outputs": [
+        "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\portable-final\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\portable-socks5_E86EwGT_c2M.webm"
+      ]
+    },
+    {
+      "name": "portable-socks5h",
+      "formats": 53,
+      "selection": "251",
+      "height": null,
+      "first_bytes": 1024,
+      "status": "completed",
+      "error": "",
+      "outputs": [
+        "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\portable-final\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\portable-socks5h_E86EwGT_c2M.webm"
+      ]
+    },
+    {
+      "name": "portable-cancel",
+      "formats": 53,
+      "selection": "399+251",
+      "height": 1080,
+      "first_bytes": 1024,
+      "status": "cancelled",
+      "error": "",
+      "outputs": []
+    },
+    {
+      "name": "portable-exit",
+      "formats": 53,
+      "selection": "399+251",
+      "height": 1080,
+      "first_bytes": 1024,
+      "status": "cancelled",
+      "active_exit": true
+    }
+  ]
+}

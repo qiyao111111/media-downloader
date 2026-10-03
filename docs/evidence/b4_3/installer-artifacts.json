@@ -1,0 +1,27 @@
+{
+  "scope": "local installed bundle and actual Portable ZIP; clean Windows NOT TESTED",
+  "payload_files_identical": 1334,
+  "embedded_modules": 1347,
+  "GPL_analysis_modules_absent": true,
+  "compiled_translations_absent": true,
+  "verified_source_files": [
+    "qtbase-everywhere-src-6.11.2.tar.xz",
+    "qtsvg-everywhere-src-6.11.2.tar.xz",
+    "qtimageformats-everywhere-src-6.11.2.tar.xz",
+    "pyside-setup-everywhere-src-6.11.2.tar.xz",
+    "Python-3.13.13.tar.xz",
+    "OpenSSL-3.0.19-LICENSE.txt",
+    "OpenSSL-3.0.19-ACKNOWLEDGEMENTS.md",
+    "LibYAML-0.2.5-LICENSE.txt",
+    "LLVM-libcxx-LICENSE.txt",
+    "LLVM-libcxxabi-LICENSE.txt",
+    "LLVM-libunwind-LICENSE.txt",
+    "LLVM-compiler-rt-LICENSE.txt"
+  ],
+  "runtime_hook_copyright_files": 8,
+  "checksums": {
+    "MediaDownloader-Portable.zip": "fd722b494469e4ddda7c3b604759e09599e6b8e14d4ead1fe12033f976c5c415",
+    "MediaDownloader-Setup.exe": "aa34f3fba9eddbd6b6662f34f2c773072039db6375d2c3edefe8a5bf341be8d7"
+  },
+  "maximum_bundle_relative_path": 79
+}

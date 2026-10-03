@@ -1,0 +1,58 @@
+{
+  "health": {
+    "application": {
+      "status": "READY",
+      "version": "0.9.0-rc1",
+      "mode": "installed",
+      "os": "Windows-11-10.0.26200-SP0",
+      "architecture": "AMD64"
+    },
+    "yt-dlp": {
+      "status": "READY",
+      "version": "2026.8.19",
+      "strategy": "bundled Python package"
+    },
+    "ffmpeg": {
+      "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Installed \u9a8c\u8bc1\\bin\\ffmpeg.exe",
+      "status": "READY",
+      "version": "8.1.3-g330caae0c1-md-b43-r1"
+    },
+    "ffprobe": {
+      "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Installed \u9a8c\u8bc1\\bin\\ffprobe.exe",
+      "status": "READY",
+      "version": "8.1.3-g330caae0c1-md-b43-r1"
+    },
+    "quickjs": {
+      "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Installed \u9a8c\u8bc1\\bin\\runtime\\qjs.exe",
+      "status": "READY",
+      "version": "0.17.0"
+    },
+    "config": {
+      "status": "READY",
+      "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Shipping Acceptance\\installed\\isolated-user-data\\MediaDownloader\\config"
+    },
+    "download": {
+      "status": "READY",
+      "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Shipping Acceptance\\installed\\\u4e0b\u8f7d\u8f93\u51fa Chinese spaces"
+    },
+    "temp": {
+      "status": "READY",
+      "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Shipping Acceptance\\installed\\isolated-user-data\\MediaDownloader\\temp"
+    }
+  },
+  "paths": {
+    "mode": "installed",
+    "application_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Installed \u9a8c\u8bc1",
+    "resources_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Installed \u9a8c\u8bc1\\_internal",
+    "runtime_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Installed \u9a8c\u8bc1\\bin",
+    "config_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Shipping Acceptance\\installed\\isolated-user-data\\MediaDownloader\\config",
+    "data_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Shipping Acceptance\\installed\\isolated-user-data\\MediaDownloader\\data",
+    "logs_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Shipping Acceptance\\installed\\isolated-user-data\\MediaDownloader\\logs",
+    "download_dir": "C:\\Users\\thang\\Downloads\\MediaDownloader",
+    "temp_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B5 RC1 Shipping Acceptance\\installed\\isolated-user-data\\MediaDownloader\\temp"
+  },
+  "children": 0,
+  "max_tick_gap": 0.0,
+  "cases": 0,
+  "history": 2
+}

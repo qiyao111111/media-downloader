@@ -1,0 +1,58 @@
+{
+  "health": {
+    "application": {
+      "status": "READY",
+      "version": "0.9.0rc1",
+      "mode": "installed",
+      "os": "Windows-11-10.0.26200-SP0",
+      "architecture": "AMD64"
+    },
+    "yt-dlp": {
+      "status": "READY",
+      "version": "2026.8.19",
+      "strategy": "bundled Python package"
+    },
+    "ffmpeg": {
+      "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 \u5b89\u88c5\u76ee\u5f55\\bin\\ffmpeg.exe",
+      "status": "READY",
+      "version": "8.1.3-g330caae0c1-md-b43-r1"
+    },
+    "ffprobe": {
+      "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 \u5b89\u88c5\u76ee\u5f55\\bin\\ffprobe.exe",
+      "status": "READY",
+      "version": "8.1.3-g330caae0c1-md-b43-r1"
+    },
+    "quickjs": {
+      "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 \u5b89\u88c5\u76ee\u5f55\\bin\\runtime\\qjs.exe",
+      "status": "READY",
+      "version": "0.17.0"
+    },
+    "config": {
+      "status": "READY",
+      "path": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\config"
+    },
+    "download": {
+      "status": "READY",
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\installer-verified\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces"
+    },
+    "temp": {
+      "status": "READY",
+      "path": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\temp"
+    }
+  },
+  "paths": {
+    "mode": "installed",
+    "application_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 \u5b89\u88c5\u76ee\u5f55",
+    "resources_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 \u5b89\u88c5\u76ee\u5f55\\_internal",
+    "runtime_dir": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 \u5b89\u88c5\u76ee\u5f55\\bin",
+    "config_dir": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\config",
+    "data_dir": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\data",
+    "logs_dir": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\logs",
+    "download_dir": "C:\\Users\\thang\\Downloads\\MediaDownloader",
+    "temp_dir": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\temp"
+  },
+  "children": 0,
+  "max_tick_gap": 0.13512259999697562,
+  "cases": 11,
+  "history": 51
+}

@@ -1,0 +1,193 @@
+test_cookie_proxy_boundaries (test_b1_architecture.ArchitectureChecks.test_cookie_proxy_boundaries) ... ok
+test_history_serialization_and_legacy (test_b1_architecture.ArchitectureChecks.test_history_serialization_and_legacy) ... ok
+test_manager_events_retry_and_queue (test_b1_architecture.ArchitectureChecks.test_manager_events_retry_and_queue) ... ok
+test_rotating_logs_are_masked (test_b1_architecture.ArchitectureChecks.test_rotating_logs_are_masked) ... ok
+test_settings_preset_separation (test_b1_architecture.ArchitectureChecks.test_settings_preset_separation) ... ok
+test_state_model_terminal_guards (test_b1_architecture.ArchitectureChecks.test_state_model_terminal_guards) ... ok
+test_8k_render (test_b3_ui.UIIntegrationTests.test_8k_render) ... ok
+test_above_8k_render (test_b3_ui.UIIntegrationTests.test_above_8k_render) ... ok
+test_analyze_duplicate (test_b3_ui.UIIntegrationTests.test_analyze_duplicate) ... ok
+test_analyze_failure (test_b3_ui.UIIntegrationTests.test_analyze_failure) ... ok
+test_analyze_success (test_b3_ui.UIIntegrationTests.test_analyze_success) ... ok
+test_audio_only (test_b3_ui.UIIntegrationTests.test_audio_only) ... ok
+test_auth_change_invalidates (test_b3_ui.UIIntegrationTests.test_auth_change_invalidates) ... ok
+test_batch_urls (test_b3_ui.UIIntegrationTests.test_batch_urls) ... ok
+test_best_binding (test_b3_ui.UIIntegrationTests.test_best_binding) ... ok
+test_cancelled_event (test_b3_ui.UIIntegrationTests.test_cancelled_event) ... ok
+test_clear_history_preserves_active (test_b3_ui.UIIntegrationTests.test_clear_history_preserves_active) ... ok
+test_close_decline (test_b3_ui.UIIntegrationTests.test_close_decline) ... ok
+test_completed_event (test_b3_ui.UIIntegrationTests.test_completed_event) ... ok
+test_container_override (test_b3_ui.UIIntegrationTests.test_container_override) ... ok
+test_cookie_path_ui (test_b3_ui.UIIntegrationTests.test_cookie_path_ui) ... ok
+test_custom_format (test_b3_ui.UIIntegrationTests.test_custom_format) ... ok
+test_download_state (test_b3_ui.UIIntegrationTests.test_download_state) ... ok
+test_duplicate_click (test_b3_ui.UIIntegrationTests.test_duplicate_click) ... ok
+test_empty_queue_cancel_disabled (test_b3_ui.UIIntegrationTests.test_empty_queue_cancel_disabled) ... ok
+test_error_mapping (test_b3_ui.UIIntegrationTests.test_error_mapping) ... ok
+test_experimental_cookie_policy (test_b3_ui.UIIntegrationTests.test_experimental_cookie_policy) ... ok
+test_failed_event (test_b3_ui.UIIntegrationTests.test_failed_event) ... ok
+test_fps_render (test_b3_ui.UIIntegrationTests.test_fps_render) ... ok
+test_hdr_render (test_b3_ui.UIIntegrationTests.test_hdr_render) ... ok
+test_history_open_safe (test_b3_ui.UIIntegrationTests.test_history_open_safe) ... ok
+test_history_render (test_b3_ui.UIIntegrationTests.test_history_render) ... ok
+test_indeterminate (test_b3_ui.UIIntegrationTests.test_indeterminate) ... ok
+test_long_title_and_special (test_b3_ui.UIIntegrationTests.test_long_title_and_special) ... ok
+test_model_signal_from_worker (test_b3_ui.UIIntegrationTests.test_model_signal_from_worker) ... ok
+test_netrc_change_invalidates (test_b3_ui.UIIntegrationTests.test_netrc_change_invalidates) ... ok
+test_no_fake_quality (test_b3_ui.UIIntegrationTests.test_no_fake_quality) ... ok
+test_page_navigation_and_ownership (test_b3_ui.UIIntegrationTests.test_page_navigation_and_ownership) ... ok
+test_playlist_binding (test_b3_ui.UIIntegrationTests.test_playlist_binding) ... ok
+test_postprocessing_view (test_b3_ui.UIIntegrationTests.test_postprocessing_view) ... ok
+test_profile_parameter (test_b3_ui.UIIntegrationTests.test_profile_parameter) ... ok
+test_progress_event (test_b3_ui.UIIntegrationTests.test_progress_event) ... ok
+test_proxy_masking (test_b3_ui.UIIntegrationTests.test_proxy_masking) ... ok
+test_quality_source (test_b3_ui.UIIntegrationTests.test_quality_source) ... ok
+test_queue_add_remove (test_b3_ui.UIIntegrationTests.test_queue_add_remove) ... ok
+test_retry (test_b3_ui.UIIntegrationTests.test_retry) ... ok
+test_settings_save_load (test_b3_ui.UIIntegrationTests.test_settings_save_load) ... ok
+test_stale_preview (test_b3_ui.UIIntegrationTests.test_stale_preview) ... ok
+test_task_receives_selection (test_b3_ui.UIIntegrationTests.test_task_receives_selection) ... ok
+test_unknown_hdr (test_b3_ui.UIIntegrationTests.test_unknown_hdr) ... ok
+test_bad_cache_replaced_only_after_verification (test_b4_1_licenses.LicenseSourcesTests.test_bad_cache_replaced_only_after_verification) ... ok
+test_bad_download_preserves_cache_and_removes_temporary (test_b4_1_licenses.LicenseSourcesTests.test_bad_download_preserves_cache_and_removes_temporary) ... ok
+test_verified_cache_needs_no_network (test_b4_1_licenses.LicenseSourcesTests.test_verified_cache_needs_no_network) ... ok
+test_checksum_collection_detects_a_changed_artifact (test_b4_2_release_kit.ReleaseKitTests.test_checksum_collection_detects_a_changed_artifact) ... ok
+test_missing_application_is_reported_without_crashing (test_b4_2_release_kit.ReleaseKitTests.test_missing_application_is_reported_without_crashing) ... ok
+test_preflight_never_claims_functional_or_independent_pass (test_b4_2_release_kit.ReleaseKitTests.test_preflight_never_claims_functional_or_independent_pass) ... ok
+test_actual_ffmpeg_license_and_required_capabilities (test_b4_3_distribution.DistributionSimplificationTests.test_actual_ffmpeg_license_and_required_capabilities) ... ok
+test_actual_health_with_utf8_build_configuration (test_b4_3_distribution.DistributionSimplificationTests.test_actual_health_with_utf8_build_configuration) ... FAIL
+test_actual_portable_contains_sources_and_notices (test_b4_3_distribution.DistributionSimplificationTests.test_actual_portable_contains_sources_and_notices) ... ok
+test_actual_quickjs_executes_javascript (test_b4_3_distribution.DistributionSimplificationTests.test_actual_quickjs_executes_javascript) ... ok
+test_existing_explicit_video_and_webp_encoders_work (test_b4_3_distribution.DistributionSimplificationTests.test_existing_explicit_video_and_webp_encoders_work) ... ok
+test_missing_quickjs_never_uses_system_or_bundled_deno (test_b4_3_distribution.DistributionSimplificationTests.test_missing_quickjs_never_uses_system_or_bundled_deno) ... ok
+test_native_runtime_and_sources_match_pins (test_b4_3_distribution.DistributionSimplificationTests.test_native_runtime_and_sources_match_pins) ... FAIL
+test_quickjs_default_and_explicit_override (test_b4_3_distribution.DistributionSimplificationTests.test_quickjs_default_and_explicit_override) ... ok
+test_removed_binaries_notices_and_replaceable_qt (test_b4_3_distribution.DistributionSimplificationTests.test_removed_binaries_notices_and_replaceable_qt) ... ok
+test_sandbox_maps_only_test_kit (test_b4_3_distribution.DistributionSimplificationTests.test_sandbox_maps_only_test_kit) ... ok
+test_atomic_history (test_b4_runtime.RuntimePackagingTests.test_atomic_history) ... ok
+test_atomic_presets (test_b4_runtime.RuntimePackagingTests.test_atomic_presets) ... ok
+test_atomic_settings (test_b4_runtime.RuntimePackagingTests.test_atomic_settings) ... ok
+test_backup_without_main (test_b4_runtime.RuntimePackagingTests.test_backup_without_main) ... ok
+test_corrupt_history_recovery (test_b4_runtime.RuntimePackagingTests.test_corrupt_history_recovery) ... ok
+test_corrupt_main_does_not_overwrite_valid_backup (test_b4_runtime.RuntimePackagingTests.test_corrupt_main_does_not_overwrite_valid_backup) ... ok
+test_corrupt_settings_recovery (test_b4_runtime.RuntimePackagingTests.test_corrupt_settings_recovery) ... ok
+test_credential_safe_diagnostics (test_b4_runtime.RuntimePackagingTests.test_credential_safe_diagnostics) ... ok
+test_disk_space_known (test_b4_runtime.RuntimePackagingTests.test_disk_space_known) ... ok
+test_disk_space_unknown (test_b4_runtime.RuntimePackagingTests.test_disk_space_unknown) ... ok
+test_empty_file_defaults (test_b4_runtime.RuntimePackagingTests.test_empty_file_defaults) ... ok
+test_ffmpeg_version_parsing (test_b4_runtime.RuntimePackagingTests.test_ffmpeg_version_parsing) ... ok
+test_frozen_resources (test_b4_runtime.RuntimePackagingTests.test_frozen_resources) ... ok
+test_fsync_failure_preserves_old (test_b4_runtime.RuntimePackagingTests.test_fsync_failure_preserves_old) ... ok
+test_installed_paths (test_b4_runtime.RuntimePackagingTests.test_installed_paths) ... ok
+test_legacy_backup_credentials_removed (test_b4_runtime.RuntimePackagingTests.test_legacy_backup_credentials_removed) ... ok
+test_missing_ffmpeg (test_b4_runtime.RuntimePackagingTests.test_missing_ffmpeg) ... ok
+test_missing_ffprobe (test_b4_runtime.RuntimePackagingTests.test_missing_ffprobe) ... ok
+test_missing_js_optional (test_b4_runtime.RuntimePackagingTests.test_missing_js_optional) ... ok
+test_missing_ytdlp (test_b4_runtime.RuntimePackagingTests.test_missing_ytdlp) ... ok
+test_mode_isolation (test_b4_runtime.RuntimePackagingTests.test_mode_isolation) ... ok
+test_no_frozen_path_fallback (test_b4_runtime.RuntimePackagingTests.test_no_frozen_path_fallback) ... ok
+test_portable_paths (test_b4_runtime.RuntimePackagingTests.test_portable_paths) ... ok
+test_replace_failure_preserves_old (test_b4_runtime.RuntimePackagingTests.test_replace_failure_preserves_old) ... ok
+test_runtime_health (test_b4_runtime.RuntimePackagingTests.test_runtime_health) ... ok
+test_serialization_failure_preserves_old (test_b4_runtime.RuntimePackagingTests.test_serialization_failure_preserves_old) ... ok
+test_source_paths (test_b4_runtime.RuntimePackagingTests.test_source_paths) ... ok
+test_temp_ignored (test_b4_runtime.RuntimePackagingTests.test_temp_ignored) ... ok
+test_unicode (test_b4_runtime.RuntimePackagingTests.test_unicode) ... ok
+test_version_parsing (test_b4_runtime.RuntimePackagingTests.test_version_parsing) ... ok
+test_catalog_keys_and_placeholders_complete (test_b5_product.ProductPolishTests.test_catalog_keys_and_placeholders_complete) ... ok
+test_codec_hint_uses_core_family_without_changing_selection (test_b5_product.ProductPolishTests.test_codec_hint_uses_core_family_without_changing_selection) ... ok
+test_error_messages_and_details_are_safe (test_b5_product.ProductPolishTests.test_error_messages_and_details_are_safe) ... ok
+test_experimental_cookie_labels_preserve_browser_values (test_b5_product.ProductPolishTests.test_experimental_cookie_labels_preserve_browser_values) ... ok
+test_first_launch_saves_language_and_folder (test_b5_product.ProductPolishTests.test_first_launch_saves_language_and_folder) ... ok
+test_history_confirmation_and_log_view_clear (test_b5_product.ProductPolishTests.test_history_confirmation_and_log_view_clear) ... ok
+test_language_switch_covers_bound_pages_and_controls (test_b5_product.ProductPolishTests.test_language_switch_covers_bound_pages_and_controls) ... ok
+test_license_entry_opens_local_notices (test_b5_product.ProductPolishTests.test_license_entry_opens_local_notices) ... ok
+test_missing_key_never_reaches_user (test_b5_product.ProductPolishTests.test_missing_key_never_reaches_user) ... ok
+test_portable_readme_notices_sources_and_translations_packaged (test_b5_product.ProductPolishTests.test_portable_readme_notices_sources_and_translations_packaged) ... ok
+test_rc_status_and_local_help (test_b5_product.ProductPolishTests.test_rc_status_and_local_help) ... ok
+test_release_manifest_identity_and_hashes (test_b5_product.ProductPolishTests.test_release_manifest_identity_and_hashes) ... ok
+test_runtime_labels_and_actual_version (test_b5_product.ProductPolishTests.test_runtime_labels_and_actual_version) ... ok
+test_status_labels_and_merge_progress (test_b5_product.ProductPolishTests.test_status_labels_and_merge_progress) ... ok
+test_translation_does_not_change_core_inputs (test_b5_product.ProductPolishTests.test_translation_does_not_change_core_inputs) ... ok
+test_version_single_source_and_about (test_b5_product.ProductPolishTests.test_version_single_source_and_about) ... ok
+test_cookie_source_and_safe_file_validation (test_core_runtime.CoreChecks.test_cookie_source_and_safe_file_validation) ... ok
+test_credentials (test_core_runtime.CoreChecks.test_credentials) ... ok
+test_duplicate_queue_and_bad_config (test_core_runtime.CoreChecks.test_duplicate_queue_and_bad_config) ... ok
+test_invalid_types (test_core_runtime.CoreChecks.test_invalid_types) ... ok
+test_nonzero_download_is_error (test_core_runtime.CoreChecks.test_nonzero_download_is_error) ... ok
+test_option_types_and_api (test_core_runtime.CoreChecks.test_option_types_and_api) ... ok
+test_postprocessors (test_core_runtime.CoreChecks.test_postprocessors) ... ok
+test_preset_and_gui_option_flow (test_core_runtime.CoreChecks.test_preset_and_gui_option_flow) ... ok
+test_preview_preserves_network_options (test_core_runtime.CoreChecks.test_preview_preserves_network_options) ... ok
+test_state_transitions_and_duplicate_run (test_core_runtime.CoreChecks.test_state_transitions_and_duplicate_run) ... ok
+test_1080_over_720 (test_format_selector.FormatSelectorTests.test_1080_over_720) ... ok
+test_4k_over_1080 (test_format_selector.FormatSelectorTests.test_4k_over_1080) ... ok
+test_8k_over_4k (test_format_selector.FormatSelectorTests.test_8k_over_4k) ... ok
+test_above_8k (test_format_selector.FormatSelectorTests.test_above_8k) ... ok
+test_audio_kind (test_format_selector.FormatSelectorTests.test_audio_kind) ... ok
+test_audio_only (test_format_selector.FormatSelectorTests.test_audio_only) ... ok
+test_audio_ranking (test_format_selector.FormatSelectorTests.test_audio_ranking) ... ok
+test_av1_over_vp9 (test_format_selector.FormatSelectorTests.test_av1_over_vp9) ... ok
+test_callback_native (test_format_selector.FormatSelectorTests.test_callback_native) ... ok
+test_codec_variants (test_format_selector.FormatSelectorTests.test_codec_variants) ... ok
+test_container (test_format_selector.FormatSelectorTests.test_container) ... ok
+test_container_override_and_no_transcode (test_format_selector.FormatSelectorTests.test_container_override_and_no_transcode) ... ok
+test_custom_unchanged (test_format_selector.FormatSelectorTests.test_custom_unchanged) ... ok
+test_damaged_and_upscaled_rejected (test_format_selector.FormatSelectorTests.test_damaged_and_upscaled_rejected) ... ok
+test_deduplication (test_format_selector.FormatSelectorTests.test_deduplication) ... ok
+test_drm_and_storyboard (test_format_selector.FormatSelectorTests.test_drm_and_storyboard) ... ok
+test_error_categories (test_format_selector.FormatSelectorTests.test_error_categories) ... ok
+test_fps (test_format_selector.FormatSelectorTests.test_fps) ... ok
+test_hdr (test_format_selector.FormatSelectorTests.test_hdr) ... ok
+test_identifier_validation (test_format_selector.FormatSelectorTests.test_identifier_validation) ... ok
+test_language_preference (test_format_selector.FormatSelectorTests.test_language_preference) ... ok
+test_malformed (test_format_selector.FormatSelectorTests.test_malformed) ... ok
+test_missing_bitrate (test_format_selector.FormatSelectorTests.test_missing_bitrate) ... ok
+test_missing_filesize (test_format_selector.FormatSelectorTests.test_missing_filesize) ... ok
+test_missing_fps (test_format_selector.FormatSelectorTests.test_missing_fps) ... ok
+test_missing_height (test_format_selector.FormatSelectorTests.test_missing_height) ... ok
+test_missing_width (test_format_selector.FormatSelectorTests.test_missing_width) ... ok
+test_muxed_fallback (test_format_selector.FormatSelectorTests.test_muxed_fallback) ... ok
+test_muxed_kind (test_format_selector.FormatSelectorTests.test_muxed_kind) ... ok
+test_no_formats (test_format_selector.FormatSelectorTests.test_no_formats) ... ok
+test_no_invented_options (test_format_selector.FormatSelectorTests.test_no_invented_options) ... ok
+test_original_audio_preferred (test_format_selector.FormatSelectorTests.test_original_audio_preferred) ... ok
+test_preset_clears_quality (test_format_selector.FormatSelectorTests.test_preset_clears_quality) ... ok
+test_preview_quality_to_builder (test_format_selector.FormatSelectorTests.test_preview_quality_to_builder) ... ok
+test_private_metadata (test_format_selector.FormatSelectorTests.test_private_metadata) ... ok
+test_ranges (test_format_selector.FormatSelectorTests.test_ranges) ... ok
+test_rank_priority (test_format_selector.FormatSelectorTests.test_rank_priority) ... ok
+test_selection_builder (test_format_selector.FormatSelectorTests.test_selection_builder) ... ok
+test_size_precedence (test_format_selector.FormatSelectorTests.test_size_precedence) ... ok
+test_split (test_format_selector.FormatSelectorTests.test_split) ... ok
+test_stable_order (test_format_selector.FormatSelectorTests.test_stable_order) ... ok
+test_target (test_format_selector.FormatSelectorTests.test_target) ... ok
+test_unknown_codec (test_format_selector.FormatSelectorTests.test_unknown_codec) ... ok
+test_video_kind (test_format_selector.FormatSelectorTests.test_video_kind) ... ok
+test_vp9_over_h264 (test_format_selector.FormatSelectorTests.test_vp9_over_h264) ... ok
+
+======================================================================
+FAIL: test_actual_health_with_utf8_build_configuration (test_b4_3_distribution.DistributionSimplificationTests.test_actual_health_with_utf8_build_configuration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\YouTube��Ƶ����\yt-dlp-gui\tests\test_b4_3_distribution.py", line 48, in test_actual_health_with_utf8_build_configuration
+    self.assertIn('8.1.3-g330caae0c1-md-b43-r1',version('ffmpeg',str(BUNDLE/'bin')))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '8.1.3-g330caae0c1-md-b43-r1' not found in 'ffmpeg version 8.1.3-g330caae0c1-md-b43-r2 Copyright (c) 2000-2026 the FFmpeg developers'
+
+======================================================================
+FAIL: test_native_runtime_and_sources_match_pins (test_b4_3_distribution.DistributionSimplificationTests.test_native_runtime_and_sources_match_pins)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\YouTube��Ƶ����\yt-dlp-gui\tests\test_b4_3_distribution.py", line 68, in test_native_runtime_and_sources_match_pins
+    self.assertEqual(hashlib.file_digest(stream, 'sha256').hexdigest(), expected, name)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'ed2983fbeed3925b69181692c574dbe386f21ae403dac1ae57ec47f3d2f26937' != 'c0ef153d97aae81b06f0506e6781c9e8b73cef07ef3a7d62714961f81334828b'
+- ed2983fbeed3925b69181692c574dbe386f21ae403dac1ae57ec47f3d2f26937
++ c0ef153d97aae81b06f0506e6781c9e8b73cef07ef3a7d62714961f81334828b
+ : avcodec-62.dll
+
+----------------------------------------------------------------------
+Ran 167 tests in 62.944s
+
+FAILED (failures=2)

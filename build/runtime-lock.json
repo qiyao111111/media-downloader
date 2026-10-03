@@ -1,0 +1,28 @@
+{
+  "inno": {
+    "version": "6.7.3",
+    "url": "https://github.com/jrsoftware/issrc/releases/download/is-6_7_3/innosetup-6.7.3.exe",
+    "sha256": "9c73c3bae7ed48d44112a0f48e66742c00090bdb5bef71d9d3c056c66e97b732"
+  },
+  "quickjs": {
+    "version": "0.17.0",
+    "revision": "6d46d07d04041b40f4f49eaa7fdebe44c314c699",
+    "origin": "Locally built official QuickJS-NG source; static CLI, mimalloc disabled",
+    "sha256": "c6f2427ca3f9f1b45cd616ab92f6c49036957590a793afc1fa7526bd441bcddb"
+  },
+  "ffmpeg": {
+    "version": "8.1.3-g330caae0c1-md-b43-r2",
+    "revision": "330caae0c1acccd2222edc52a05940c574561ce5",
+    "origin": "Locally built official FFmpeg source; build_native_runtime.py",
+    "files": {
+      "avcodec-62.dll": "ed2983fbeed3925b69181692c574dbe386f21ae403dac1ae57ec47f3d2f26937",
+      "avfilter-11.dll": "4abc7e97cd2174900060ddb97583a0adf837c5aa98a94f13da2084ce6a13a341",
+      "avformat-62.dll": "f2fcecc42add0aaaa00784b530dd69a7b3c1bce5a11905ba53de501b3440ec6c",
+      "avutil-60.dll": "934fd0afb66382b2eda11ca6f5d09bdad8f27a05096d9ab22914653f7328f1b6",
+      "ffmpeg.exe": "6f7016342cc4a9bd965fe0efbd254b7dd2ac8eb62e02fbf349952000196ea521",
+      "ffprobe.exe": "a6376f09b16d79b76ca84daf5bb1a9d2c1d2cf8261070c7891984620542c33ad",
+      "swresample-6.dll": "9e1afc7e0295b59d9959470e1641fc6663764b48ee4f3ad17b4102720d90b1f4",
+      "swscale-9.dll": "564156a06f91ba06d9fb2947437fb0b4127d1686e90c48e9d78e04627121b1bc"
+    }
+  }
+}

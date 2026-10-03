@@ -1,0 +1,416 @@
+[
+  {
+    "distributed_file": "MediaDownloader.exe",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\build\\work\\MediaDownloader\\MediaDownloader.exe",
+    "sha256": "f12e65cf088596a2273f489a407aaec17d1391ae1ad2d9118a758e69b5e93434",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/MSVCP140.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140.dll",
+    "sha256": "4c667b706893593812cd111b369ba6a77f54d1f1b1ae87cf3bf37692663cfba2",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/MSVCP140_1.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140_1.dll",
+    "sha256": "d419d24b0a76366f5c9d908b0e45fe70e9e9154bb8ad5f3de42070f2337f857b",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/MSVCP140_2.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140_2.dll",
+    "sha256": "89917964abb6ca16a260cab258e180c3abc239b5af00eed659d0edf0efdd339c",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/Qt6Core.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\Qt6Core.dll",
+    "sha256": "d6a3c37c5263c5d418fc0e80b722bc9fca7c0859e6f635f9624a2fde00bdc653",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/Qt6Gui.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\Qt6Gui.dll",
+    "sha256": "ae29b005f51b6850bf57fa06fced0dc8c7039fd6fafc3bfbcfe76e38adc7abf1",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/Qt6Network.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\Qt6Network.dll",
+    "sha256": "dd3512d1c5ed062d30c98426cd0a850f13e0cf31437afb5b0b474132b9c52922",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/Qt6OpenGL.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\Qt6OpenGL.dll",
+    "sha256": "d51088f16db8c96dba7ef3c1474e611adb3ebdb211fea35b8e755d2a7407f7ad",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/Qt6Svg.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\Qt6Svg.dll",
+    "sha256": "1eac8f7415b311a88cb3cb4e25c3098d0e059c24c831fbbb13f43a80f0df06b7",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/Qt6Widgets.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll",
+    "sha256": "ff0df9e2e6827e035f0731a4cedfc6333f4602bca00775e56346f27032406b74",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/QtCore.pyd",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\QtCore.pyd",
+    "sha256": "74f96322c5e9cea73aefd2ed5870e5275336b31f552fcd32f12fc81d23f1bc6f",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/QtGui.pyd",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\QtGui.pyd",
+    "sha256": "7bef20046045199c037b7cbfedaa1c5464730fa948b2c9ec8afbf718e63774d4",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/QtNetwork.pyd",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\QtNetwork.pyd",
+    "sha256": "c5038bb71fc9d57330fa2d8eeec65aab69fcf02687cc8f54dbfb5995cfec6a71",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/QtWidgets.pyd",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\QtWidgets.pyd",
+    "sha256": "f12f4ca641998e5706d5f7b0023147d573f0f2d2361e26dadf31bdbf05fbfd1d",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/VCRUNTIME140.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140.dll",
+    "sha256": "f893ae75a1a24eea174d982f94bc80ce2448201eaa919a73c0653a5657685de4",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/VCRUNTIME140_1.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll",
+    "sha256": "48aa2783793ea18ab3c2c71d420d4fff9814e662a1ff810053c6e5250061a716",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/generic/qtuiotouchplugin.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll",
+    "sha256": "aa9080fa8b1c3cf4d3790c1eecf4a1f5c796ce58f31f80910357578f20fd80ac",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/iconengines/qsvgicon.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll",
+    "sha256": "5bb97b6f114682ae0b5f42b23b6818aece6499bad88dac80a138efa8a88c12bc",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/imageformats/qgif.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll",
+    "sha256": "d301d7e9a68327692e4c76faa6b125517730b22c68f4de7f09fda9d4ac0ddee1",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/imageformats/qicns.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll",
+    "sha256": "49db148fea9f01e9953fd0a771d16cfaf364599f07aab3634d4f5c7c25abd78a",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/imageformats/qico.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll",
+    "sha256": "1684fd56f1758167f7b3ac011264ae5859b3cf6113e381626ec3dc1d3122fe52",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/imageformats/qjpeg.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll",
+    "sha256": "6517345ac19f5c489daeadc029d0018bbdc09d8e1031c60d714557972f22c6d4",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/imageformats/qsvg.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll",
+    "sha256": "4b7d65ba39be58cb469b54b5fdee2987871d67e5050cd70724016e09966e54f6",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/imageformats/qtga.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll",
+    "sha256": "6b0381150070fcd4224597fe73c68b47055b30b418aa14794c94c5007d14ca5d",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/imageformats/qtiff.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll",
+    "sha256": "3d6ea04da215ee2a9459399fb9f6d73cad8787944b9d450399025bcd39d020b5",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/imageformats/qwbmp.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll",
+    "sha256": "1a4596509987e9557edda69ed13cdd0d33f4ebda72e464ddc00a566bec05f151",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/imageformats/qwebp.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll",
+    "sha256": "6b2c53cc4423140c29a6a1eb6dd908016e09d794b5739a05a3a39c8c49a0df8a",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/networkinformation/qnetworklistmanager.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll",
+    "sha256": "e571a4b4e582738cd1bc4889cb2896635c2543baff408442701b6706a1b4a86e",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/platforms/qdirect2d.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll",
+    "sha256": "56f41ad523d016fe2cf2c90fae158e21766d1fcd021bced1a3704c6da0f00c98",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/platforms/qminimal.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll",
+    "sha256": "768a9c6dbb1c86abbefa2ff9d7e98cdfb4fdc9292eb8d64195bb6d23939a5344",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/platforms/qoffscreen.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll",
+    "sha256": "e776251668440169ed18a2fe1b236762d514ef5244639cbb559b5a77ddd38954",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/platforms/qwindows.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll",
+    "sha256": "bf6dbc3009f386fa22f0ced560bea6bbf3e0e0b4442d2fb855db67cffce49dbf",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/styles/qmodernwindowsstyle.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\styles\\qmodernwindowsstyle.dll",
+    "sha256": "a7a6424c23bf371bd28a404a196b210971726f6f2a87b63aac185a5e6e40da71",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/tls/qcertonlybackend.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll",
+    "sha256": "67be4d333a0f489d02714169a6ec54eaa80efa649d733fcbeb81881ecb02b4f3",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/tls/qopensslbackend.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll",
+    "sha256": "7a0727417b8e21e64d9a7cf0f390bc85b3e337b4eef5ac977f49659d97e6b552",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/plugins/tls/qschannelbackend.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll",
+    "sha256": "14abc5b245c0f2e03f7bc0b474a8db2ecb441c7300a8a8b16fb865eaf2674619",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/PySide6/pyside6.abi3.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\pyside6.abi3.dll",
+    "sha256": "d0b5c701fb3a8ea839e72b602058f3960935156ebeca084893c54c99e54dd707",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/VCRUNTIME140.dll",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll",
+    "sha256": "052ad6a20d375957e82aa6a3c441ea548d89be0981516ca7eb306e063d5027f4",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/VCRUNTIME140_1.dll",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll",
+    "sha256": "6a99bc0128e0c7d6cbbf615fcc26909565e17d4ca3451b97f8987f9c6acbc6c8",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_asyncio.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_asyncio.pyd",
+    "sha256": "423007b8c7d63b4cb5f23665a761dd5de1c7e15a65c8013391de0d18c89ce417",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_bz2.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd",
+    "sha256": "1bf985b54f529a3cbb3e52532791cc4d4c64009142d37b54eb3521adec203d5c",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_ctypes.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd",
+    "sha256": "96b07339d52c74f2a1dd043df5eb931e4072eed90a3a8715ffec751d818e4117",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_decimal.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd",
+    "sha256": "398117a6af493e34f56ec0d78ced9901b20b8e895686ce5966edeadb23507056",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_elementtree.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_elementtree.pyd",
+    "sha256": "fbce9a1190a228c59767bde785c27cc4d18ee3a1f6b46e9da042fc86f8d0def7",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_hashlib.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd",
+    "sha256": "50f3ce7a2281fd32f378f3ba5067bdd13e18ee95877db5199c6a0babdc9c516a",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_lzma.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd",
+    "sha256": "51815b6474d4216c6a2aeaffdae5d2ff4acb7a0236254f2cfe43247022f3d781",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_multiprocessing.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_multiprocessing.pyd",
+    "sha256": "4df0d8f9da454831e96389c145ac9ea0093e09749627a3717ff60d21218670c8",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_overlapped.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_overlapped.pyd",
+    "sha256": "53fe68819f23fea7f6deb0054623e936cc2500241061f29bd5288cf4a511278f",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_queue.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_queue.pyd",
+    "sha256": "b5b5368026c33ade7651fb4cf4c6c1ca7eecc9c8cdad0af007da8a3ac0e067f7",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_socket.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd",
+    "sha256": "8676f3cebd9d01c7ad51a29b3f7ff429c0a8f6bc564cab21eb6cdaa2e26fd259",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_sqlite3.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_sqlite3.pyd",
+    "sha256": "bb80e54f2de8aa3cddc00a2a2f893c432d45ecd64a5c55758a4eb6d2e3007127",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_ssl.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd",
+    "sha256": "b8118580b461801df12ec12d3d666aa0ebc2b3750bcf92b90b92789b152bf856",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_uuid.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_uuid.pyd",
+    "sha256": "0116497261edadfe42ba7daf367c8a9ea27a1db210c8384943c890f532e3ce72",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/_wmi.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd",
+    "sha256": "9a7255064ea143895b28efea6d78e9e518bac290900aec52a6a0435c36a172fb",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/libcrypto-3.dll",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll",
+    "sha256": "eaf6d613b95b61a39558d84c50e72630a66c99914292df88e7b54ebd60c5bd34",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/libffi-8.dll",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll",
+    "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/libssl-3.dll",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll",
+    "sha256": "cf1a5fdcefa3daf69041f31f98ece1d7911ca4fcb8e9f1043b4d0f459ae4c936",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/pyexpat.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\pyexpat.pyd",
+    "sha256": "b5f57327418750229656c30a809308669797cf30d7da3705f8cd584c2b8a038b",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/python3.dll",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\python3.dll",
+    "sha256": "cbc4876275178244905ee45a9ee6ec9fa4bfb9aad6209a03b756d38a186f80d1",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/python313.dll",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+    "sha256": "6964e590037c41d631fd1215f05af154f7fa68105993c6f573a20689b473f1ac",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/select.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd",
+    "sha256": "ddf1221851814943a82ed8a986d228463404da2ada969661bdd69223f14fc050",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/shiboken6/MSVCP140.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\shiboken6\\MSVCP140.dll",
+    "sha256": "fd4a8c046fa3fea9ca6132f50cf8a56cf1e783b2d3093ba5c85fa063bc6b3845",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/shiboken6/Shiboken.pyd",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\shiboken6\\Shiboken.pyd",
+    "sha256": "2f6f3a694f675b1dafdae26903191613c02866ab48e02591ae34ca1a3b1284f1",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/shiboken6/VCRUNTIME140.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\shiboken6\\VCRUNTIME140.dll",
+    "sha256": "de617641d82eac15595d2e39394163ac33e49bb032cf2c2ea0044ed39d3675e9",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/shiboken6/VCRUNTIME140_1.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\shiboken6\\VCRUNTIME140_1.dll",
+    "sha256": "fa577d54bd10a91e52472da784a619da6cf241af45f0a0c48b27e91fa0fe6104",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/shiboken6/shiboken6.abi3.dll",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll",
+    "sha256": "de3c6b2ed5f75c9ac0de4a6844b653b3b9d09263ce68c2b5fc25a96c5c3e8469",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/sqlite3.dll",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\sqlite3.dll",
+    "sha256": "5932500d09fbd72559173b5abb7f5174d400f968f08680a1090e75b75bb03bc9",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/unicodedata.pyd",
+    "build_input": "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd",
+    "sha256": "b965a80346ee95dbec0b147faab329f3276ba24fceb8df5df171367649f116f3",
+    "source_bytes_identical": true
+  },
+  {
+    "distributed_file": "_internal/yaml/_yaml.cp313-win_amd64.pyd",
+    "build_input": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\yaml\\_yaml.cp313-win_amd64.pyd",
+    "sha256": "8a747bb4bb166b3caf53c5ee91931eb1317cc3ad617f18dcd12dd8c181ced226",
+    "source_bytes_identical": true
+  }
+]

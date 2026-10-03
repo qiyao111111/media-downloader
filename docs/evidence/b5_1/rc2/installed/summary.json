@@ -1,0 +1,58 @@
+{
+  "health": {
+    "application": {
+      "status": "READY",
+      "version": "0.9.0-rc2",
+      "mode": "installed",
+      "os": "Windows-11-10.0.26200-SP0",
+      "architecture": "AMD64"
+    },
+    "yt-dlp": {
+      "status": "READY",
+      "version": "2026.8.19",
+      "strategy": "bundled Python package"
+    },
+    "ffmpeg": {
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\dist\\MediaDownloader\\bin\\ffmpeg.exe",
+      "status": "READY",
+      "version": "8.1.3-g330caae0c1-md-b43-r2"
+    },
+    "ffprobe": {
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\dist\\MediaDownloader\\bin\\ffprobe.exe",
+      "status": "READY",
+      "version": "8.1.3-g330caae0c1-md-b43-r2"
+    },
+    "quickjs": {
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\dist\\MediaDownloader\\bin\\runtime\\qjs.exe",
+      "status": "READY",
+      "version": "0.17.0"
+    },
+    "config": {
+      "status": "READY",
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b51-rc2-installed-profile\\MediaDownloader\\config"
+    },
+    "download": {
+      "status": "READY",
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b51 RC2 downloads\\installed"
+    },
+    "temp": {
+      "status": "READY",
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b51-rc2-installed-profile\\MediaDownloader\\temp"
+    }
+  },
+  "paths": {
+    "mode": "installed",
+    "application_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\dist\\MediaDownloader",
+    "resources_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\dist\\MediaDownloader\\_internal",
+    "runtime_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\dist\\MediaDownloader\\bin",
+    "config_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b51-rc2-installed-profile\\MediaDownloader\\config",
+    "data_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b51-rc2-installed-profile\\MediaDownloader\\data",
+    "logs_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b51-rc2-installed-profile\\MediaDownloader\\logs",
+    "download_dir": "C:\\Users\\thang\\Downloads\\MediaDownloader",
+    "temp_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b51-rc2-installed-profile\\MediaDownloader\\temp"
+  },
+  "children": 0,
+  "max_tick_gap": 0.07495259999996051,
+  "cases": 5,
+  "history": 2
+}

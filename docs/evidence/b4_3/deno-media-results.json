@@ -1,0 +1,72 @@
+[
+  {
+    "case": "1080p",
+    "runtime": "deno",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "399",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "vcodec": "av01.0.08M.08",
+        "acodec": "none",
+        "dynamic_range": "SDR"
+      },
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Deno A\\1080p_E86EwGT_c2M.mp4"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 47913472,
+    "duration": "154.774000",
+    "seconds": 25.716
+  },
+  {
+    "case": "4k",
+    "runtime": "deno",
+    "ffmpeg": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\bin\\ffmpeg.exe",
+    "result": "PASS",
+    "selected": [
+      {
+        "format_id": "401",
+        "width": 3840,
+        "height": 2160,
+        "fps": 30,
+        "vcodec": "av01.0.12M.08",
+        "acodec": "none",
+        "dynamic_range": "SDR"
+      },
+      {
+        "format_id": "251",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "dynamic_range": null
+      }
+    ],
+    "status": "completed",
+    "outputs": [
+      "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 Deno A\\4k_E86EwGT_c2M.mp4"
+    ],
+    "decode_exitcode": 0,
+    "decode_error_bytes": 0,
+    "bytes": 324633315,
+    "duration": "154.774000",
+    "seconds": 111.89
+  }
+]

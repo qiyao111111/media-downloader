@@ -1,0 +1,18 @@
+{
+  "light": {
+    "text": 15.59,
+    "secondary": 6.3,
+    "primary_button": 5.55,
+    "success_badge": 5.17,
+    "warning_badge": 5.05,
+    "danger_badge": 5.78
+  },
+  "dark": {
+    "text": 12.73,
+    "secondary": 7.72,
+    "primary_button": 7.22,
+    "success_badge": 6.89,
+    "warning_badge": 7.37,
+    "danger_badge": 6.0
+  }
+}

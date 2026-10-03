@@ -1,0 +1,15 @@
+{
+  "exitcode": 0,
+  "isolated_PATH": "C:\\WINDOWS\\System32;C:\\WINDOWS",
+  "cookie_authenticated": true,
+  "proxy_requests": {
+    "http": 7,
+    "socks5": 7,
+    "socks5h": 7
+  },
+  "proxy_auth": {
+    "http": true,
+    "socks5": true,
+    "socks5h": true
+  }
+}

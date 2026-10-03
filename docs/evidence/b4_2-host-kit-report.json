@@ -1,0 +1,197 @@
+{
+  "TimestampUtc": "2026-10-02T06:43:08.4056930Z",
+  "ComputerName": "PC",
+  "Windows": "Microsoft Windows 11 \u4e13\u4e1a\u7248",
+  "Version": "10.0.26200",
+  "Architecture": "64 \u4f4d",
+  "PowerShellVersion": "5.1.26100.9444",
+  "PATH": "C:\\Users\\thang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\thang\\.codex\\tmp\\arg0\\codex-arg0uqgfOq;C:\\Users\\thang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin;C:\\Users\\thang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\jxrlib\\jxrlib\\bin;C:\\Users\\thang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin;C:\\Users\\thang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\Git\\cmd;D:\\Git LFS;D:\\DouK-Downloader_V5.7_Windows_X64\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\GitHub CLI\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\;C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\;C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\thang\\.local\\bin;D:\\Scripts\\;D:\\;C:\\Users\\thang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\thang\\AppData\\Local\\Microsoft\\WindowsApps;D:\\VSCode\\Microsoft VS Code\\bin;C:\\Users\\thang\\AppData\\Roaming\\npm;C:\\Users\\thang\\AppData\\Local\\Python\\bin;D:\\ffmpeg\\bin;C:\\Users\\thang\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ar51an.iPerf3_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\thang\\.dotnet\\tools;C:\\Users\\thang\\.agent-reach-venv\\Scripts;C:\\Users\\thang\\.agent-reach\\tools\\gh;C:\\Users\\thang\\.agent-reach\\npm\\node_modules\\.bin;C:\\Users\\thang\\AppData\\Local\\Microsoft\\WinGet\\Packages\\NextTrace.NextTrace.Core_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Program Files\\codeusagemonit;C:\\Users\\thang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback;C:\\Users\\thang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin;C:\\Users\\thang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd;C:\\Users\\thang\\AppData\\Local\\OpenAI\\Codex\\bin\\5cb96978b0b525f8;C:\\Users\\thang\\AppData\\Local\\OpenAI\\Codex\\bin\\de8a38d2100ae498",
+  "IndependentEnvironment": "NOT VERIFIED - tester must establish independent guest/PC",
+  "CleanMachine": "NOT TESTED - functional checklist is separate",
+  "SystemChanges": "NONE",
+  "Dependencies": {
+    "python": {
+      "Command": "where.exe python",
+      "ExitCode": 0,
+      "Result": "PATH ENTRY FOUND - not executed; may be an alias",
+      "Paths": [
+        "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "C:\\Users\\thang\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
+        "C:\\Users\\thang\\AppData\\Local\\Python\\bin\\python.exe",
+        "C:\\Users\\thang\\.agent-reach-venv\\Scripts\\python.exe"
+      ]
+    },
+    "py": {
+      "Command": "where.exe py",
+      "ExitCode": 0,
+      "Result": "PATH ENTRY FOUND - not executed; may be an alias",
+      "Paths": [
+        "C:\\Windows\\py.exe",
+        "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Launcher\\py.exe",
+        "C:\\Users\\thang\\AppData\\Local\\Microsoft\\WindowsApps\\py.exe"
+      ]
+    },
+    "yt-dlp": {
+      "Command": "where.exe yt-dlp",
+      "ExitCode": 0,
+      "Result": "PATH ENTRY FOUND - not executed; may be an alias",
+      "Paths": [
+        "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\yt-dlp.exe",
+        "C:\\Users\\thang\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\yt-dlp.exe",
+        "C:\\Users\\thang\\.agent-reach-venv\\Scripts\\yt-dlp.exe"
+      ]
+    },
+    "ffmpeg": {
+      "Command": "where.exe ffmpeg",
+      "ExitCode": 0,
+      "Result": "PATH ENTRY FOUND - not executed; may be an alias",
+      "Paths": [
+        "D:\\DouK-Downloader_V5.7_Windows_X64\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin\\ffmpeg.exe",
+        "D:\\ffmpeg\\bin\\ffmpeg.exe"
+      ]
+    },
+    "ffprobe": {
+      "Command": "where.exe ffprobe",
+      "ExitCode": 0,
+      "Result": "PATH ENTRY FOUND - not executed; may be an alias",
+      "Paths": [
+        "D:\\DouK-Downloader_V5.7_Windows_X64\\ffmpeg-8.0-essentials_build\\ffmpeg-8.0-essentials_build\\bin\\ffprobe.exe",
+        "D:\\ffmpeg\\bin\\ffprobe.exe"
+      ]
+    },
+    "deno": {
+      "Command": "where.exe deno",
+      "ExitCode": 1,
+      "Result": "NOT FOUND",
+      "Paths": []
+    }
+  },
+  "ArtifactChecksums": [
+    {
+      "File": "MediaDownloader-Portable.zip",
+      "Expected": "a85cc87f55149ed112aa6a974e48e2e8f0f2e85046f238f95b3e8ebec96a12c9",
+      "Actual": "A85CC87F55149ED112AA6A974E48E2E8F0F2E85046F238F95B3E8EBEC96A12C9",
+      "Match": true
+    },
+    {
+      "File": "MediaDownloader-Setup.exe",
+      "Expected": "7f2331714b7d352abaeddee585587d4b7a7d26c9f80845014c8ecc5bef679ccc",
+      "Actual": "7F2331714B7D352ABAEDDEE585587D4B7A7D26C9F80845014C8ECC5BEF679CCC",
+      "Match": true
+    }
+  ],
+  "RuntimeDiagnostics": [
+    {
+      "Mode": "portable",
+      "Root": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable",
+      "Executable": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\MediaDownloader.exe",
+      "Status": "DIAGNOSTICS COLLECTED - not functional PASS",
+      "PathsWithinRoot": {
+        "ffmpeg": true,
+        "ffprobe": true,
+        "deno": true
+      },
+      "ExitCode": 0,
+      "Health": {
+        "application": {
+          "status": "READY",
+          "version": "0.9.0rc1",
+          "mode": "portable",
+          "os": "Windows-11-10.0.26200-SP0",
+          "architecture": "AMD64"
+        },
+        "yt-dlp": {
+          "status": "READY",
+          "version": "2026.8.19",
+          "strategy": "bundled Python package"
+        },
+        "ffmpeg": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\bin\\ffmpeg.exe",
+          "status": "READY",
+          "version": "n8.1.3-14-g330caae0c1-20261001"
+        },
+        "ffprobe": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\bin\\ffprobe.exe",
+          "status": "READY",
+          "version": "n8.1.3-14-g330caae0c1-20261001"
+        },
+        "deno": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\bin\\runtime\\deno.exe",
+          "status": "READY",
+          "version": "2.9.7"
+        },
+        "config": {
+          "status": "READY",
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\config"
+        },
+        "download": {
+          "status": "READY",
+          "path": "C:\\Users\\thang\\Downloads\\MediaDownloader"
+        },
+        "temp": {
+          "status": "READY",
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\temp"
+        }
+      },
+      "ModeMatches": true,
+      "EmbeddedYtDlp": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\MediaDownloader.exe!PYZ.pyz/yt_dlp (package presence must be confirmed against payload inventory)"
+    },
+    {
+      "Mode": "installed",
+      "Root": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1",
+      "Executable": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\MediaDownloader.exe",
+      "Status": "DIAGNOSTICS COLLECTED - not functional PASS",
+      "PathsWithinRoot": {
+        "ffmpeg": true,
+        "ffprobe": true,
+        "deno": true
+      },
+      "ExitCode": 0,
+      "Health": {
+        "application": {
+          "status": "READY",
+          "version": "0.9.0rc1",
+          "mode": "installed",
+          "os": "Windows-11-10.0.26200-SP0",
+          "architecture": "AMD64"
+        },
+        "yt-dlp": {
+          "status": "READY",
+          "version": "2026.8.19",
+          "strategy": "bundled Python package"
+        },
+        "ffmpeg": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\bin\\ffmpeg.exe",
+          "status": "READY",
+          "version": "n8.1.3-14-g330caae0c1-20261001"
+        },
+        "ffprobe": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\bin\\ffprobe.exe",
+          "status": "READY",
+          "version": "n8.1.3-14-g330caae0c1-20261001"
+        },
+        "deno": {
+          "path": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\bin\\runtime\\deno.exe",
+          "status": "READY",
+          "version": "2.9.7"
+        },
+        "config": {
+          "status": "READY",
+          "path": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\config"
+        },
+        "download": {
+          "status": "READY",
+          "path": "C:\\Users\\thang\\Downloads\\MediaDownloader"
+        },
+        "temp": {
+          "status": "READY",
+          "path": "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\temp"
+        }
+      },
+      "ModeMatches": true,
+      "EmbeddedYtDlp": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_2 Installed \u9a8c\u8bc1\\MediaDownloader.exe!PYZ.pyz/yt_dlp (package presence must be confirmed against payload inventory)"
+    }
+  ],
+  "ObservedProcesses": []
+}

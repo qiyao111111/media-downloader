@@ -1,0 +1,58 @@
+{
+  "health": {
+    "application": {
+      "status": "READY",
+      "version": "0.9.0-rc1",
+      "mode": "source",
+      "os": "Windows-11-10.0.26200-SP0",
+      "architecture": "AMD64"
+    },
+    "yt-dlp": {
+      "status": "READY",
+      "version": "2026.8.19",
+      "strategy": "bundled Python package"
+    },
+    "ffmpeg": {
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\bin\\ffmpeg.exe",
+      "status": "READY",
+      "version": "8.1.3-g330caae0c1-md-b43-r2"
+    },
+    "ffprobe": {
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\bin\\ffprobe.exe",
+      "status": "READY",
+      "version": "8.1.3-g330caae0c1-md-b43-r2"
+    },
+    "quickjs": {
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\bin\\runtime\\qjs.exe",
+      "status": "READY",
+      "version": "0.17.0"
+    },
+    "config": {
+      "status": "READY",
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\configs"
+    },
+    "download": {
+      "status": "READY",
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp\\b51 final downloads"
+    },
+    "temp": {
+      "status": "READY",
+      "path": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp"
+    }
+  },
+  "paths": {
+    "mode": "source",
+    "application_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui",
+    "resources_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui",
+    "runtime_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\bin",
+    "config_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\configs",
+    "data_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\data",
+    "logs_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\logs",
+    "download_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\video",
+    "temp_dir": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\temp"
+  },
+  "children": 0,
+  "max_tick_gap": 0.6622519000000011,
+  "cases": 6,
+  "history": 8
+}

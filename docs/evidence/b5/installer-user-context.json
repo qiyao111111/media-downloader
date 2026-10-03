@@ -1,0 +1,17 @@
+{
+  "CurrentProcessElevated": false,
+  "Shortcuts": [
+    {
+      "Path": "C:\\Users\\thang\\Desktop\\Media Downloader.lnk",
+      "Target": "D:\\下载测试\\YouTube视频\\B5 RC1 Installed 验证\\MediaDownloader.exe",
+      "Icon": ",0",
+      "Exists": true
+    },
+    {
+      "Path": "C:\\Users\\thang\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Media Downloader.lnk",
+      "Target": "D:\\下载测试\\YouTube视频\\B5 RC1 Installed 验证\\MediaDownloader.exe",
+      "Icon": ",0",
+      "Exists": true
+    }
+  ]
+}

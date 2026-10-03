@@ -1,0 +1,28 @@
+{
+  "result": "PASS (local technical scope)",
+  "branch": "codex/b5-1-ui-polish",
+  "ui_commit": "6b41f84595d9da00cc746eacb4b41f891e706496",
+  "build_commit": "af9949a35e53b1b27d4416010e639ac9187dd596",
+  "version": "0.9.0-rc2",
+  "previous_tests": 168,
+  "new_tests": 28,
+  "total_tests": 196,
+  "failed_tests": 0,
+  "qt_scale_factors": [
+    1,
+    1.25,
+    1.5
+  ],
+  "matrix_cases": 24,
+  "frozen_cases": 10,
+  "native_windows_dpi_setting_changes": "NOT TESTED",
+  "setup_fresh_installation": "NOT TESTED in this run; build/version/hash and installed-mode payload checked",
+  "clean_machine_gate": "NOT TESTED",
+  "public_distribution_gate": "NEEDS LEGAL REVIEW",
+  "p0": 0,
+  "p1_technical": 0,
+  "p1_distribution": 2,
+  "p2": 2,
+  "p3": 0,
+  "rc2_tag_created": false
+}

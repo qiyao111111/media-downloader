@@ -1,0 +1,20 @@
+[
+  {
+    "runtime": "deno",
+    "solvers_observed": [
+      "deno"
+    ],
+    "challenge_errors": 0,
+    "formats_count": 40,
+    "seconds": 9.879
+  },
+  {
+    "runtime": "quickjs",
+    "solvers_observed": [
+      "quickjs"
+    ],
+    "challenge_errors": 0,
+    "formats_count": 40,
+    "seconds": 15.54
+  }
+]

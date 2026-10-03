@@ -1,0 +1,17 @@
+{
+  "Scope": "DEVELOPMENT HOST AVAILABILITY ONLY - NOT CLEAN WINDOWS ACCEPTANCE",
+  "CapturedUtc": "2026-10-02T10:37:50.2336576Z",
+  "Windows": "Microsoft Windows 11 专业版",
+  "Version": "10.0.26200",
+  "Architecture": "64 位",
+  "SandboxExecutableExists": false,
+  "AvailableCommands": [],
+  "VmcomputeService": [],
+  "SandboxFeature": {
+    "Query": "Get-WindowsOptionalFeature -Online -FeatureName Containers-DisposableClientVM",
+    "State": "NOT VERIFIED",
+    "Error": "请求的操作需要提升。\r\n"
+  },
+  "IndependentEnvironment": "NOT AVAILABLE FOR THIS SESSION",
+  "CleanMachineGate": "NOT TESTED"
+}

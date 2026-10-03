@@ -1,0 +1,76 @@
+[
+  {
+    "test": "no-proxy-preview",
+    "title_present": true,
+    "format": "ba",
+    "proxy": ""
+  },
+  {
+    "test": "http",
+    "proxy_host": "127.0.0.1",
+    "proxy_port": 8511,
+    "preview_requests": 3,
+    "download_requests": 4,
+    "same_option_snapshot": true,
+    "all_auth_valid": true,
+    "address_types": [],
+    "cdn_download": true,
+    "status": "completed",
+    "failed_attempts": [],
+    "outputs_nonempty": true,
+    "active_children": 0
+  },
+  {
+    "test": "socks5",
+    "proxy_host": "127.0.0.1",
+    "proxy_port": 1847,
+    "preview_requests": 3,
+    "download_requests": 5,
+    "same_option_snapshot": true,
+    "all_auth_valid": true,
+    "address_types": [
+      3
+    ],
+    "cdn_download": true,
+    "status": "completed",
+    "failed_attempts": [],
+    "outputs_nonempty": true,
+    "active_children": 0
+  },
+  {
+    "test": "socks5h",
+    "proxy_host": "127.0.0.1",
+    "proxy_port": 4835,
+    "preview_requests": 3,
+    "download_requests": 4,
+    "same_option_snapshot": true,
+    "all_auth_valid": true,
+    "address_types": [
+      3
+    ],
+    "cdn_download": true,
+    "status": "completed",
+    "failed_attempts": [],
+    "outputs_nonempty": true,
+    "active_children": 0
+  },
+  {
+    "test": "cookiefile",
+    "preview_authenticated": true,
+    "download_authenticated": true,
+    "user_agent_consistent": true,
+    "status": "completed",
+    "active_children": 0
+  },
+  {
+    "test": "download-failure",
+    "status": "failed",
+    "active_children": 0
+  },
+  {
+    "test": "missing-ffmpeg",
+    "status": "failed",
+    "output_count": 0,
+    "active_children": 0
+  }
+]

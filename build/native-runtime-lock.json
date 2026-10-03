@@ -1,0 +1,100 @@
+{
+  "sources": [
+    {
+      "component": "dav1d",
+      "revision": "54706fc6bc0cdecab7e9593974a4039cc038fca7",
+      "archive": "dav1d.tar.gz",
+      "url": "https://api.github.com/repos/videolan/dav1d/tarball/54706fc6bc0cdecab7e9593974a4039cc038fca7",
+      "sha256": "88d59558d030c83b8d428ff282fc83ed237d75087eb8ab36900ea6ab3367f9f2"
+    },
+    {
+      "component": "opus",
+      "revision": "22244de5a79bd1d6d623c32e72bf1954b56235be",
+      "archive": "opus.tar.gz",
+      "url": "https://api.github.com/repos/xiph/opus/tarball/22244de5a79bd1d6d623c32e72bf1954b56235be",
+      "sha256": "37fec263f86239ca0117907bc481083d5163fbac9fde14e1860389fe9b453964"
+    },
+    {
+      "component": "zlib",
+      "revision": "51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf",
+      "archive": "zlib.tar.gz",
+      "url": "https://api.github.com/repos/madler/zlib/tarball/v1.3.1",
+      "sha256": "2c547ae1e001c09db5d0a9d0e157f75dc55151757923cc611a08630391af81bc",
+      "tag_object": "925af44f3cde53c6b076611c297850091b5dc7bb"
+    },
+    {
+      "component": "lame",
+      "version": "3.100",
+      "archive": "lame-3.100.tar.gz",
+      "url": "https://downloads.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz",
+      "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e"
+    },
+    {
+      "component": "ffmpeg",
+      "revision": "330caae0c1acccd2222edc52a05940c574561ce5",
+      "archive": "FFmpeg-330caae0c1acccd2222edc52a05940c574561ce5.tar.gz",
+      "url": "https://api.github.com/repos/FFmpeg/FFmpeg/tarball/330caae0c1acccd2222edc52a05940c574561ce5",
+      "sha256": "485bfaa6cdce46ba8e61b2866133d7118fc07f65d790a6295c31e6f0e2a62e71"
+    },
+    {
+      "component": "quickjs",
+      "revision": "6d46d07d04041b40f4f49eaa7fdebe44c314c699",
+      "version": "0.17.0",
+      "archive": "quickjs-ng-0.17.0.tar.gz",
+      "url": "https://api.github.com/repos/quickjs-ng/quickjs/tarball/6d46d07d04041b40f4f49eaa7fdebe44c314c699",
+      "sha256": "92212ea9a257a387a35abca50505d59ad9edddba4580e064929d396511b89dcf"
+    },
+    {
+      "component": "openh264",
+      "version": "2.6.0",
+      "revision": "652bdb7719f30b52b08e506645a7322ff1b2cc6f",
+      "archive": "openh264-2.6.0.tar.gz",
+      "url": "https://api.github.com/repos/cisco/openh264/tarball/652bdb7719f30b52b08e506645a7322ff1b2cc6f",
+      "sha256": "73bfd632206983c4c1e550011386556a92c21e19c1d1a4b6580c4980d2111aa8"
+    },
+    {
+      "component": "vpx",
+      "version": "1.15.2",
+      "revision": "d168454ecd099805c675d4a98c66f4891373302a",
+      "archive": "vpx-1.15.2.tar.gz",
+      "url": "https://api.github.com/repos/webmproject/libvpx/tarball/d168454ecd099805c675d4a98c66f4891373302a",
+      "sha256": "cd597b926004ef3afbf1d24b6a8da9d86ef0ddd7485a5f8d4e8136af450d7cfc"
+    },
+    {
+      "component": "webp",
+      "version": "1.6.0",
+      "revision": "4fa21912338357f89e4fd51cf2368325b59e9bd9",
+      "archive": "webp-1.6.0.tar.gz",
+      "url": "https://api.github.com/repos/webmproject/libwebp/tarball/4fa21912338357f89e4fd51cf2368325b59e9bd9",
+      "sha256": "ab43f8100ee5cc645dfc7980420dee4f93170aac8ef8f18dd3f03e84b7bc3106"
+    }
+  ],
+  "toolchains": [
+    {
+      "archive": "llvm-mingw-20260922-ucrt-x86_64.zip",
+      "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20260922/llvm-mingw-20260922-ucrt-x86_64.zip",
+      "sha256": "e3ad77d117a4bea19a7a3b333341824d79a5a371004a10e25b8504e7b3047666",
+      "compiler": "Clang 23.1.2",
+      "compiler_revision": "85ac560262434c9ccfc0c183ec22d4138ed647fb",
+      "mingw_revision": "57b595039040eaa15bece85b7cc71d952281b269"
+    },
+    {
+      "archive": "msys2-base-x86_64-20260927.tar.xz",
+      "url": "https://github.com/msys2/msys2-installer/releases/download/2026-09-27/msys2-base-x86_64-20260927.tar.xz",
+      "sha256": "ea2f31a0b6ade63914ce441ffb022f0f6aa96982bfefa2326460a26d5fb01322"
+    }
+  ],
+  "python_build_tools": {
+    "cmake": "4.4.3",
+    "meson": "1.12.1",
+    "ninja": "1.13.2"
+  },
+  "source_modifications": "No local FFmpeg or dependency source patches. Upstream CMake generates/renames zlib headers during configuration.",
+  "msys_build_tools": {
+    "make": "4.4.1-3",
+    "nasm": "3.02-1",
+    "pkgconf": "3.0.7-1",
+    "diffutils": "3.12-1",
+    "perl": "5.42.3-2"
+  }
+}

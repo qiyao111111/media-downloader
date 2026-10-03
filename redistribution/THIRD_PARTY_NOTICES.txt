@@ -1,0 +1,119 @@
+Media Downloader @VERSION@ — UNSIGNED INTERNAL RELEASE CANDIDATE
+PUBLIC DISTRIBUTION NEEDS LEGAL REVIEW: final Qt/shared-library and Microsoft
+downstream terms require professional review. This notice is not clearance
+to publish. Native source/build/notice materials accompany this internal RC.
+
+Original Plutoeat/yt-dlp-gui: MIT. Copyright (c) 2023 Gaius Pluto.
+The original grant, conditions and disclaimer are retained in
+licenses/Original-Project-MIT.txt. Application changes are project changes;
+no change to the third-party runtime libraries is asserted.
+
+yt-dlp 2026.8.19: Unlicense, bundled Python package.
+yt-dlp-ejs 0.8.0: Unlicense. The actual solver also contains Meriyah 6.1.4
+(ISC, Copyright 2019 and later KFlash and others) and Astring 1.9.0
+(MIT, Copyright 2015 David Bonnet). Full original grant/disclaimer notices
+remain in lib.min.js and licenses/EJS-Meriyah-Astring-NOTICES.txt.
+
+Python 3.13.13: PSF-2.0 and historical Python grants. No runtime modification.
+licenses/Python-LICENSE.txt retains the PSF copyright and Windows conditions.
+The exact source release and its incorporated-software acknowledgements are
+provided in licenses/source-code and licenses/source-notices.
+Bundled OpenSSL 3.0.19: Apache-2.0; full license and upstream acknowledgements
+are retained separately. SQLite 3.50.4 is public domain. Expat 2.7.5 uses MIT;
+zlib 1.3.1, libbzip2 1.0.8 and libffi are separately attributed in the source
+and Python incorporated-software notices, not relicensed as PSF-only software.
+
+Qt / PySide6 / Shiboken 6.11.2: use the applicable open-source grants,
+including LGPL-3.0-only for the selected shared-library bindings/modules,
+and separate third-party terms. No commercial Qt entitlement is represented.
+DLLs/plugins remain individually replaceable. Debugging modifications and
+reverse engineering for that purpose are not prohibited by this application.
+Exact QtBase, QtSvg, QtImageFormats and PySide source archives, original
+license texts and source attribution records accompany the binaries.
+Only qtbase_zh_CN.qm standard-dialog translations from this same PySide6
+wheel are included. QtTranslations 6.11.2 source and original license texts
+are retained in licenses/source-code and licenses/source-notices.
+Other compiled Qt .qm translation files, unused QtPdf/VirtualKeyboard/QML/Quick
+modules and the optional opengl32sw.dll software renderer are not in this
+bundle. This QWidget/raster application creates no OpenGL widgets/contexts.
+No separate Mesa/LLVM renderer is distributed. The old B4.1 renderer was
+identified as the wheel's exact file, not merely a string-scanner finding.
+Selected Windows-module source attributions and their referenced full notice
+texts are retained; unshipped example/test/platform notices are not collected
+as independent runtime component licenses. Complete source snapshots retain
+their original source-only files and notices.
+
+Microsoft VC runtime DLLs: retain Microsoft copyright and original files.
+NEEDS LEGAL REVIEW: Python's Additional Conditions for this Windows binary
+build require downstream terms protecting Distributable Code. The installed
+Python license contains those conditions; the current application's MIT-only
+installer agreement has not been established to meet all referenced Microsoft
+redistribution conditions. No Visual Studio license entitlement is asserted.
+
+FFmpeg / FFprobe: 8.1.3-g330caae0c1-md-b43-r2, locally built from official
+revision 330caae0c1acccd2222edc52a05940c574561ce5. Actual -L declares
+LGPL version 2.1 or later. Build flags explicitly disable GPL, nonfree and
+version3 features. Six FFmpeg libraries are separate shared DLLs. No ffplay,
+Chromaprint, FFTW, GPL-only external encoder, or old BtbN binary is distributed.
+The complete exact source archives, configuration, commands, generated
+headers, build recipe, object files and static archives are in SOURCES.
+No local source-code patches. This software is based in part on the work of
+the Independent JPEG Group; original incorporated source notices are retained.
+
+The new FFmpeg DLLs incorporate these pinned static dependencies:
+- dav1d 1.5.4: BSD-2-Clause; original COPYING and assembly notices retained.
+- Opus 1.6.1: BSD-3-Clause; original COPYING including patent references retained.
+- LAME 3.100: LGPL-2.0-or-later; original COPYRIGHT/grants in COPYING,
+  LICENSE, README and source notices. Project: https://lame.sourceforge.io/.
+- zlib 1.3.1: zlib license; README and source notice retained.
+- OpenH264 2.6.0: BSD-2-Clause; official source built locally. This is not a
+  Cisco-distributed binary; no Cisco binary patent-license coverage is claimed.
+- libvpx 1.15.2: BSD-3-Clause; LICENSE, AUTHORS, PATENTS and incorporated
+  x86inc assembly ISC notice retained. External libyuv is not linked.
+- libwebp / SharpYUV 1.6.0: BSD-3-Clause; COPYING, AUTHORS and PATENTS retained.
+Only enabled functionality is compiled/linked. These static dependencies
+retain their own original licenses; they are not relicensed by FFmpeg.
+
+QuickJS-NG 0.17.0: MIT; official revision
+6d46d07d04041b40f4f49eaa7fdebe44c314c699, built locally as qjs.exe without
+mimalloc. Full original LICENSE and the compiled source copyright/MIT
+headers accompany the binary. QuickJS is the separate JavaScript runtime;
+yt-dlp-ejs remains the independent, unchanged challenge solver package.
+Deno is not distributed. An explicit developer runtime override is unsupported
+for first-version product use and does not create a bundled Deno component.
+
+LLVM-MinGW compiler runtime code: LLVM 85ac560262434c9ccfc0c183ec22d4138ed647fb,
+MinGW-w64 57b595039040eaa15bece85b7cc71d952281b269, toolchain release 20260922.
+Compiled startup/CRT and static C++/unwind/Winpthreads portions accompany
+these native programs/libraries. MinGW-w64 runtime and Winpthreads original
+notices plus LLVM Apache-2.0 WITH LLVM-exception/historical grants are in
+licenses. The compiler/MSYS build tools are not application runtimes.
+Windows UCRT/API-set DLLs imported from Windows are not shipped in bin.
+This compiler-runtime LLVM code is separate from the excluded Mesa renderer.
+
+PyInstaller 6.22.3: compiled bootloader/loader under GPL-2.0-or-later with
+the original distribution exception. Standalone runtime hooks and
+_pyi_rth_utils use Apache-2.0. Original COPYING and hook copyright headers
+are retained. PyInstaller analysis/building packages and yt-dlp's build hook
+are excluded from this executable; the bootloader exception is not applied
+to unshipped GPL analysis modules.
+
+Inno Setup 6.7.3: generated Setup/uninstaller engine, not the ISCC compiler.
+Copyright (C) 1997-2026 Jordan Russell; portions Copyright (C) 2000-2026
+Martijn Laan. The exact build-tool package grant is retained in
+licenses/Inno-Setup-LICENSE.txt. No installer engine source modification is
+claimed. Its binary notice-retention scope remains part of legal review;
+custom application version resources alone are not proof of complete retention.
+
+Other bundled Python components are enumerated from the executable in
+licenses/bundled-package-versions.json and licenses/bundle-file-inventory.json.
+Their original distribution LICENSE/COPYING/NOTICE files are retained.
+Setuptools/packaging/altgraph/pefile/win32ctypes analysis dependencies are not
+part of this final runtime payload; they are not listed as redistributed
+runtime components or assigned runtime source obligations.
+
+Source access/replacement instructions and the professional review boundary are in source-offer/README.txt. That file is not a three-year written
+offer and does not fabricate an offeror, contact address or future undertaking.
+Source archive provenance and SHA256 are in licenses/source-provenance.json.
+Every final bundled file and embedded module is inventoried; inventory presence
+does not by itself establish statutory or license compliance.

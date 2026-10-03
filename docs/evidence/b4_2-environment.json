@@ -1,0 +1,20 @@
+{
+  "WindowsSandboxExecutable": false,
+  "SystemChanges": "NONE",
+  "IndependentEnvironmentTest": "NOT TESTED",
+  "IndependentEnvironmentProvided": false,
+  "HostWindows": {
+    "Caption": "Microsoft Windows 11 专业版",
+    "Version": "10.0.26200",
+    "OSArchitecture": "64 位"
+  },
+  "SandboxFeature": {
+    "Name": "Containers-DisposableClientVM",
+    "InstallState": 2
+  },
+  "VirtualizationCommands": {
+    "Get-VM": false,
+    "VBoxManage": false,
+    "vmrun": false
+  }
+}

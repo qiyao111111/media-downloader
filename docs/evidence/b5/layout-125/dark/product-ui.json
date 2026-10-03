@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "language": "en",
+      "navigation": [
+        "Download",
+        "Queue",
+        "History",
+        "Settings",
+        "Logs"
+      ],
+      "quality_labels": [
+        "Best Quality (Recommended)",
+        "8640P · 60 FPS · AV1 · HDR10 · mp4"
+      ],
+      "selection_unchanged": true,
+      "download_visible": true,
+      "logical_size": [
+        1072,
+        554
+      ],
+      "device_pixel_ratio": 1.25
+    },
+    {
+      "language": "zh",
+      "navigation": [
+        "下载",
+        "队列",
+        "历史记录",
+        "设置",
+        "日志"
+      ],
+      "quality_labels": [
+        "最高画质（推荐）",
+        "8640P · 60 FPS · AV1 · HDR10 · mp4"
+      ],
+      "selection_unchanged": true,
+      "download_visible": true,
+      "logical_size": [
+        1072,
+        554
+      ],
+      "device_pixel_ratio": 1.25
+    }
+  ],
+  "missing_keys": []
+}

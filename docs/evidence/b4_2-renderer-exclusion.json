@@ -1,0 +1,9 @@
+{
+  "b4_1_file": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_1 Portable \u9a8c\u8bc1\\MediaDownloader-Portable\\_internal\\PySide6\\opengl32sw.dll",
+  "wheel_origin": "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\yt-dlp-gui\\.venv\\Lib\\site-packages\\PySide6\\opengl32sw.dll",
+  "same_sha256": true,
+  "sha256": "34b444c016289b560662ff896deceb7f4b2c0723aed3d319ae167c9186ce42b3",
+  "final_bundle_absent": true,
+  "final_installed_absent": true,
+  "scope": "optional Qt software-renderer DLL only; not a claim about opaque FFmpeg/Deno internals"
+}

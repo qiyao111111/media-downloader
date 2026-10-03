@@ -1,0 +1,17 @@
+{
+  "branch": "codex/b5-1-ui-polish",
+  "baseline_commit": "0f2ab397470a86e08287db9bcb3a51680c1c4c9c",
+  "cherry_pick_commit": "dbd429367bc82db4d33fb4219a9496c23740b86d",
+  "original_stash": "d25e88f3bfae0e4dfc06996c5ce160a2ab19021d",
+  "recovery_stash_popped": "33d39a56981d1f837b9e5d164aae1cbff48fa36f",
+  "retained_backup_ref": "refs/b5-1/ui-draft-backup",
+  "preserved_file_blobs": 21,
+  "lost_files": 0,
+  "previous_tests_pass": 167,
+  "new_tests_pass": 1,
+  "total_tests_pass": 168,
+  "failures": 0,
+  "ui_visual_validation_continued": false,
+  "rc1_tag": "e9f7d023cf90970b55ebcdfa34f6f376f9f1af9e",
+  "rc2_tag_created": false
+}

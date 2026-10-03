@@ -1,0 +1,18 @@
+{
+  "mode": "installed",
+  "history_before": 55,
+  "settings_saved": true,
+  "first_observed_start_seconds": 0.482,
+  "warm_start_seconds": 0.999,
+  "forced_termination": true,
+  "settings_restart": true,
+  "history_restart": true,
+  "history_all_terminal": true,
+  "long_path": {
+    "length": 218,
+    "exists": true,
+    "size": 17241501
+  },
+  "missing_js_optional": true,
+  "startup_scope": "first observed / warm on an existing Windows installation; not an OS cold-cache benchmark"
+}

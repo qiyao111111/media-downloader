@@ -1,0 +1,7 @@
+test_actual_health_with_utf8_build_configuration (test_b4_3_distribution.DistributionSimplificationTests.test_actual_health_with_utf8_build_configuration) ... ok
+test_native_runtime_and_sources_match_pins (test_b4_3_distribution.DistributionSimplificationTests.test_native_runtime_and_sources_match_pins) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.217s
+
+OK

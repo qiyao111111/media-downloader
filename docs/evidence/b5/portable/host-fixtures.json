@@ -1,0 +1,14 @@
+{
+  "scope": "LOCAL DEVELOPER HOST; independent clean Windows NOT TESTED",
+  "exitcode": 0,
+  "cases": 10,
+  "full_1080_decode": true,
+  "cookie_authenticated": true,
+  "proxy_auth": {
+    "http": true,
+    "socks5": true,
+    "socks5h": true
+  },
+  "cancel_retry": true,
+  "restart_persistence": true
+}

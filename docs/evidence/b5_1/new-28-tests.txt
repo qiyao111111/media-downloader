@@ -1,0 +1,33 @@
+test_8k60_hdr_chips (test_b5_1_visual.VisualPolishTests.test_8k60_hdr_chips) ... ok
+test_about_version_and_icon (test_b5_1_visual.VisualPolishTests.test_about_version_and_icon) ... ok
+test_analyzed_selection_not_changed_by_theme (test_b5_1_visual.VisualPolishTests.test_analyzed_selection_not_changed_by_theme) ... ok
+test_analyzing_feedback (test_b5_1_visual.VisualPolishTests.test_analyzing_feedback) ... ok
+test_best_quality_recommended (test_b5_1_visual.VisualPolishTests.test_best_quality_recommended) ... ok
+test_chip_geometry_consistent (test_b5_1_visual.VisualPolishTests.test_chip_geometry_consistent) ... ok
+test_completed_action_and_status (test_b5_1_visual.VisualPolishTests.test_completed_action_and_status) ... ok
+test_cookie_badges_and_masked_proxy (test_b5_1_visual.VisualPolishTests.test_cookie_badges_and_masked_proxy) ... ok
+test_dark_render_and_palette (test_b5_1_visual.VisualPolishTests.test_dark_render_and_palette) ... ok
+test_design_token_contract (test_b5_1_visual.VisualPolishTests.test_design_token_contract) ... ok
+test_downloader_idle_controls (test_b5_1_visual.VisualPolishTests.test_downloader_idle_controls) ... ok
+test_empty_queue_and_history_icons (test_b5_1_visual.VisualPolishTests.test_empty_queue_and_history_icons) ... ok
+test_en_render (test_b5_1_visual.VisualPolishTests.test_en_render) ... ok
+test_history_terminal_badge_without_data_mutation (test_b5_1_visual.VisualPolishTests.test_history_terminal_badge_without_data_mutation) ... ok
+test_inline_errors_and_retry_action (test_b5_1_visual.VisualPolishTests.test_inline_errors_and_retry_action) ... ok
+test_light_render_and_palette (test_b5_1_visual.VisualPolishTests.test_light_render_and_palette) ... ok
+test_logs_empty_and_clear_transition (test_b5_1_visual.VisualPolishTests.test_logs_empty_and_clear_transition) ... ok
+test_long_title_and_path_keep_geometry (test_b5_1_visual.VisualPolishTests.test_long_title_and_path_keep_geometry) ... ok
+test_new_translation_keys_complete (test_b5_1_visual.VisualPolishTests.test_new_translation_keys_complete) ... ok
+test_popup_follows_theme (test_b5_1_visual.VisualPolishTests.test_popup_follows_theme) ... ok
+test_queue_downloading_presentation (test_b5_1_visual.VisualPolishTests.test_queue_downloading_presentation) ... ok
+test_queue_failed_retry_and_danger (test_b5_1_visual.VisualPolishTests.test_queue_failed_retry_and_danger) ... ok
+test_responsive_action_and_scroll_geometry (test_b5_1_visual.VisualPolishTests.test_responsive_action_and_scroll_geometry) ... ok
+test_runtime_rows_include_version_and_ready (test_b5_1_visual.VisualPolishTests.test_runtime_rows_include_version_and_ready) ... ok
+test_settings_category_values_preserved (test_b5_1_visual.VisualPolishTests.test_settings_category_values_preserved) ... ok
+test_sidebar_selected_icons_and_focus (test_b5_1_visual.VisualPolishTests.test_sidebar_selected_icons_and_focus) ... ok
+test_unknown_range_not_mislabeled (test_b5_1_visual.VisualPolishTests.test_unknown_range_not_mislabeled) ... ok
+test_zh_render (test_b5_1_visual.VisualPolishTests.test_zh_render) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 13.376s
+
+OK

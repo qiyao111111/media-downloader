@@ -1,0 +1,23 @@
+{
+  "install_directory": "D:\\\u4e0b\u8f7d\u6d4b\u8bd5\\YouTube\u89c6\u9891\\B4_3 \u5b89\u88c5\u76ee\u5f55",
+  "files": {
+    "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\config\\app_settings.json": "d409836c0410cecb6e25536326f2fe8dd07fc9ac5d13e85ac966512e5d6ce313",
+    "C:\\Users\\thang\\AppData\\Local\\MediaDownloader\\data\\download_history.json": "2cb11838a91113f554febc3b33efc2baea86ea5f35e94fb783823b763666ddff",
+    "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\installer-verified\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\installed-1080_E86EwGT_c2M.mp4": "0d45a417c2c283d8199eaacbf2563c5e5903fc7b047403e5066b2795c91b1719",
+    "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\installer-verified\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\installed-audio_E86EwGT_c2M.mp3": "6d1fce4f07861726f5137b593bf91c43701cff3013d68c609a287d4a64301606",
+    "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\installer-verified\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\installed-cookie_fixture.mp4": "45a670cdbf9df133dafa859ac925dc0c060fccdd78bbd2bfe29ac380127a4ee8",
+    "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\installer-verified\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\installed-http_E86EwGT_c2M.webm": "db358e90d39ca60bac7b775523ab21e44959b8919af47673ce7e50209c597b2a",
+    "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\installer-verified\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\installed-socks5_E86EwGT_c2M.webm": "db358e90d39ca60bac7b775523ab21e44959b8919af47673ce7e50209c597b2a",
+    "D:\\YouTube\u89c6\u9891\u4e0b\u8f7d\\B4_3 evidence\\installer-verified\\\u4e0b\u8f7d\u8f93\u51fa \u4e2d\u6587 spaces\\installed-socks5h_E86EwGT_c2M.webm": "db358e90d39ca60bac7b775523ab21e44959b8919af47673ce7e50209c597b2a"
+  },
+  "current_user_install": true,
+  "normal_process_elevated": false,
+  "scope": "Local normal-user installed RC; clean independent Windows NOT TESTED",
+  "result": "PASS",
+  "program_directory_removed": true,
+  "start_shortcut_removed": true,
+  "desktop_shortcut_removed": true,
+  "uninstall_entry_removed": true,
+  "user_configuration_intentionally_preserved": true,
+  "download_hashes_preserved": true
+}

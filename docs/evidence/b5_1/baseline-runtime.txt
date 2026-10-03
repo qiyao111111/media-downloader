@@ -1,0 +1,28 @@
+test_actual_health_with_utf8_build_configuration (test_b4_3_distribution.DistributionSimplificationTests.test_actual_health_with_utf8_build_configuration) ... FAIL
+test_native_runtime_and_sources_match_pins (test_b4_3_distribution.DistributionSimplificationTests.test_native_runtime_and_sources_match_pins) ... FAIL
+
+======================================================================
+FAIL: test_actual_health_with_utf8_build_configuration (test_b4_3_distribution.DistributionSimplificationTests.test_actual_health_with_utf8_build_configuration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\YouTube��Ƶ����\yt-dlp-gui\tests\test_b4_3_distribution.py", line 48, in test_actual_health_with_utf8_build_configuration
+    self.assertIn('8.1.3-g330caae0c1-md-b43-r1',version('ffmpeg',str(BUNDLE/'bin')))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '8.1.3-g330caae0c1-md-b43-r1' not found in 'ffmpeg version 8.1.3-g330caae0c1-md-b43-r2 Copyright (c) 2000-2026 the FFmpeg developers'
+
+======================================================================
+FAIL: test_native_runtime_and_sources_match_pins (test_b4_3_distribution.DistributionSimplificationTests.test_native_runtime_and_sources_match_pins)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\YouTube��Ƶ����\yt-dlp-gui\tests\test_b4_3_distribution.py", line 68, in test_native_runtime_and_sources_match_pins
+    self.assertEqual(hashlib.file_digest(stream, 'sha256').hexdigest(), expected, name)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'ed2983fbeed3925b69181692c574dbe386f21ae403dac1ae57ec47f3d2f26937' != 'c0ef153d97aae81b06f0506e6781c9e8b73cef07ef3a7d62714961f81334828b'
+- ed2983fbeed3925b69181692c574dbe386f21ae403dac1ae57ec47f3d2f26937
++ c0ef153d97aae81b06f0506e6781c9e8b73cef07ef3a7d62714961f81334828b
+ : avcodec-62.dll
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.130s
+
+FAILED (failures=2)

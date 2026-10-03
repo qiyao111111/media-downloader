@@ -1,0 +1,66 @@
+{
+  "MediaDownloader.exe": {
+    "strings": {
+      "CompanyName": "Media Downloader Contributors",
+      "FileDescription": "Media Downloader",
+      "FileVersion": "0.9.0-rc1",
+      "ProductName": "Media Downloader",
+      "ProductVersion": "0.9.0-rc1",
+      "LegalCopyright": "Original project © 2023 Gaius Pluto; contributors",
+      "OriginalFilename": "MediaDownloader.exe"
+    },
+    "subsystem": "WINDOWS_GUI",
+    "icon_resources": true,
+    "numeric_version": [
+      0,
+      9,
+      0,
+      1
+    ]
+  },
+  "MediaDownloader-Setup.exe": {
+    "strings": {
+      "Comments": "This installation was built with Inno Setup.",
+      "CompanyName": "Media Downloader Contributors",
+      "FileDescription": "Media Downloader Setup",
+      "FileVersion": "0.9.0.1",
+      "LegalCopyright": "",
+      "OriginalFileName": "",
+      "ProductName": "Media Downloader",
+      "ProductVersion": "0.9.0-rc1"
+    },
+    "subsystem": "WINDOWS_GUI",
+    "icon_resources": true,
+    "numeric_version": [
+      0,
+      9,
+      0,
+      1
+    ]
+  },
+  "native_runtime_hashes_unchanged": true,
+  "kit_identical": true,
+  "upstream_language_exact": true,
+  "icon_pixels": [
+    [
+      16,
+      16,
+      "4b6323399c7d91b630a1bbc387fc5de2e3591afcbb63d24777b202b9bd6e40d8"
+    ],
+    [
+      32,
+      32,
+      "74c52bf0859201f99845efd2c22e4e3881b489c3a2a7c9ce4f2523bdd9d02763"
+    ],
+    [
+      48,
+      48,
+      "16481c1b19ae4d3b7e46c88f1bf779401c24eee331f1bad43688f42aef8f34c4"
+    ],
+    [
+      256,
+      256,
+      "2227e42cc4aad132c6865b7e8beef0fda88d58a3ba8aca0aab0179532e4bd68a"
+    ]
+  ]
+}
