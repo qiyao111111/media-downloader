@@ -15,7 +15,7 @@ from models.errors import FFmpegError, DownloadError
 
 class RuntimePackagingTests(unittest.TestCase):
     def setUp(self):
-        self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)
+        self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name).resolve()
         self.paths=RuntimePaths.resolve(source=self.root)
         self.file=self.root/'settings.json'
     def tearDown(self):self.tmp.cleanup()

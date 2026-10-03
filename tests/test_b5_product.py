@@ -21,7 +21,7 @@ class ProductPolishTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):cls.app=QApplication.instance() or QApplication([])
     def setUp(self):
-        self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)
+        self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name).resolve()
         self.settings=AppSettings(str(self.root/'settings.json'));self.settings.set('download_path',str(self.root))
         self.history=HistoryService(str(self.root/'history.json'))
         self.patches=[patch('gui.main_window.AppSettings',return_value=self.settings),patch('gui.main_window.DownloadHistory',return_value=self.history)]
