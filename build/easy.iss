@@ -43,7 +43,10 @@ begin
     Result := True
   else begin
     Result := False;
-    if not Exec(ExpandConstant('{srcexe}'), '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART', '', SW_HIDE, ewNoWait, ExitCode) then
+    if FileExists(ExpandConstant('{localappdata}\MediaDownloader-Easy\MediaDownloader.exe')) then begin
+      if not Exec(ExpandConstant('{localappdata}\MediaDownloader-Easy\MediaDownloader.exe'), '', '', SW_SHOWNORMAL, ewNoWait, ExitCode) then
+        MsgBox('无法启动，请把文件保存到电脑后重新双击。', mbError, MB_OK);
+    end else if not Exec(ExpandConstant('{srcexe}'), '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART', '', SW_HIDE, ewWaitUntilTerminated, ExitCode) then
       MsgBox('无法启动，请把文件保存到电脑后重新双击。', mbError, MB_OK);
   end;
 end;

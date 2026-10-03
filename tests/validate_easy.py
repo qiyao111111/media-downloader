@@ -22,7 +22,7 @@ query = "Get-CimInstance Win32_Process | Where-Object { $_.ExecutablePath -eq (J
 def running():
     return {int(value) for value in subprocess.check_output([str(powershell), '-NoProfile', '-Command', query], text=True).split() if value.isdigit()}
 previous = running()
-subprocess.run([str(asset)], env=env, timeout=30)
+launcher = subprocess.Popen([str(asset)], env=env)
 created = set()
 try:
     for attempt in range(60):
