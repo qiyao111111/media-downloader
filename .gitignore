@@ -10,6 +10,8 @@ build/
 build/*
 !build/MediaDownloader.spec
 !build/installer.iss
+!build/easy.iss
+!build/easy-defaults.json
 !build/runtime-lock.json
 !build/README.txt
 !build/runtime_hook.py

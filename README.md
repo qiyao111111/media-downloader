@@ -4,11 +4,23 @@
 
 ![下载页面](docs/screenshots/b5_1/downloader-light.png)
 
+## 普通用户：下载后双击就用
+
+**Windows 10（19045+）/ Windows 11，64 位：**
+
+[下载一键启动版（EXE）](https://github.com/qiyao111111/media-downloader/releases/download/v0.9.0-rc2-easy/MediaDownloader-Easy-Windows-x64.exe)
+
+下载完成后双击这个文件，等待自动展开并打开软件。**无需解压、选择安装目录、安装 Python/FFmpeg 或配置环境**。首次使用默认中文、最高源画质，保存到自己的“下载/MediaDownloader”文件夹。
+
+使用时：**粘贴链接 → 解析 → 下载**。程序会自动展开到 `%LOCALAPPDATA%\MediaDownloader-Easy`；以后也可直接启动其中的 `MediaDownloader.exe`。
+
+当前文件未签名，Windows 可能出现安全提示。它是候选版，独立干净 Windows 验收与分发许可复核仍待完成；部分网站仍可能需要你自己的登录状态或网络代理。
+
 ## 项目状态
 
 当前版本 **0.9.0-rc2**。这是基于 [Plutoeat/yt-dlp-gui](https://github.com/Plutoeat/yt-dlp-gui) 继续开发的独立项目，保留原作者 MIT 许可。本仓库公开源码、构建脚本、测试和开发记录。
 
-现有 Windows 安装包为未签名内部候选版，独立干净 Windows 验收尚未完成，第三方二进制分发条款仍待复核，因此暂不提供公开二进制下载。开发者可以按下方步骤运行源码。详见 [RC2 说明](RELEASE_NOTES_0.9.0-rc2.md)。历史报告中的本机路径和阶段结论仅用于开发记录。
+Windows 一键启动包为未签名候选版；独立干净 Windows 验收与第三方二进制分发条款复核尚未完成。普通用户使用上面的下载入口，开发者可按下方步骤运行源码。详见 [RC2 说明](RELEASE_NOTES_0.9.0-rc2.md)。历史报告中的本机路径和阶段结论仅用于开发记录。
 
 ## 功能
 
@@ -79,3 +91,13 @@ docs/        架构、验证记录和截图
 项目源码使用 [MIT License](LICENSE)。第三方组件保留各自许可；项目 MIT 不替代 Qt/PySide6、FFmpeg 等组件的分发义务。只下载你有权保存和使用的内容。
 
 欢迎在 [Issues](https://github.com/qiyao111111/media-downloader/issues) 提交脱敏后的复现步骤。请参阅 [贡献说明](CONTRIBUTING.md)。
+
+## 构建一键启动包
+
+先按 Windows 构建流程准备 `dist/MediaDownloader/`（包含原生运行时及许可/对应源码材料），再执行：
+
+```powershell
+.tools\inno\ISCC.exe /DAppVersion=0.9.0-rc2 /DWindowsVersion=0.9.0.2 build/easy.iss
+```
+
+输出 `dist/release/MediaDownloader-Easy-Windows-x64.exe`。它自动展开到当前用户目录后启动；不会提升权限、修改 PATH 或创建卸载项。`build/easy-defaults.json` 只在用户没有设置文件时写入，保留已有设置和下载历史。
