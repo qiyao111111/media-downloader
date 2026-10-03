@@ -16,6 +16,8 @@
 
 当前文件未签名，Windows 可能出现安全提示。它是候选版，独立干净 Windows 验收与分发许可复核仍待完成；部分网站仍可能需要你自己的登录状态或网络代理。
 
+代码签名尚未完成。[签名状态与接入步骤](docs/WINDOWS_SIGNING.md) 说明如何为 GitHub EXE 加入可信签名；签名也不能保证新版本立即没有 SmartScreen 提示。
+
 ## 项目状态
 
 当前版本 **0.9.0-rc2**。这是基于 [Plutoeat/yt-dlp-gui](https://github.com/Plutoeat/yt-dlp-gui) 继续开发的独立项目，保留原作者 MIT 许可。本仓库公开源码、构建脚本、测试和开发记录。

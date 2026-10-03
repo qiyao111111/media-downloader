@@ -76,3 +76,5 @@ logs/
 .env.*
 *.pem
 *.key
+*.pfx
+*.p12
